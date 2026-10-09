@@ -16,8 +16,8 @@ Las clases se componen en atributos y métodos, allows subclases
 class Algo {
     
     // atributos
-    bool esAlgo = true;
-    int cuantoAlgo = 1;
+    bool esAlgo;
+    int cuantoAlgo;
 
     // metodos
     void algo();
@@ -31,13 +31,45 @@ class Algo {
 
 - Brightness ranges from 0 to 255
 
-- "Estos parámetros (brillo) se definen según el umbral" &larr; no entiendo esto, no entiendo a qué se refieren con "umbral"
+- Se define según el umbral (&uarr; on / &darr; off)
 
 - Can parpadear, pero depende del tiempo
 
+Eg. `LuzNavidad = Lucecita[100];`
+
 - Colores RGB (rojo, verde, azul)
 
+- Botón &harr; Lucecita &harr; Usuario &harr; Botón (cíclico)
+
 [Pinout LED RGB](./imagenes/rgbled-pinout.jpg)
+
+```cpp
+class EspantaCuco {
+
+int precio;
+Lucecita espantadora; // instancia
+Sensor luminico;
+
+} 
+```
+
+```cpp
+class Helado {
+
+int precio;
+cremosidad;
+vegano;
+
+}
+```
+
+---
+
+- OOP &rarr; **O**bject-**O**riented **P**rogramming
+
+- `.h` &rarr; son declaraciones (dice qué hace)
+
+- `.cpp` &rarr; son definiciones (cómo lo hace lo que dice hacer ¿¿¿)
 
 ## encargos
 
