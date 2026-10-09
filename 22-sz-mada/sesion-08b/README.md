@@ -4,6 +4,6 @@
 
 ## apuntes sesión
 
-## encargos
+Debido a que ha llovido torrencialmente durante toda la semana, trabajaremos modalidad remota :skullemoji:
 
-## lectura
+## encargos
