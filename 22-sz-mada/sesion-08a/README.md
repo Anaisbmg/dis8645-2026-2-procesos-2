@@ -1,6 +1,43 @@
 # sesion-08a
 
+2026.10.06
+
 ## apuntes sesión
+
+No asistí a esta clase, así que los apuntes son basados en los repos de mis compañeres jiji
+
+---
+
+### Clase repaso
+
+Las clases se componen en atributos y métodos, allows subclases
+
+```cpp
+class Algo {
+    
+    // atributos
+    bool esAlgo = true;
+    int cuantoAlgo = 1;
+
+    // metodos
+    void algo();
+
+}
+```
+
+### Clase LED
+
+- Dos estados de encendido para la luz: si o no
+
+- Brightness ranges from 0 to 255
+
+- "Estos parámetros (brillo) se definen según el umbral" &larr; no entiendo esto, no entiendo a qué se refieren con "umbral"
+
+- Can parpadear, pero depende del tiempo
+
+- Colores RGB (rojo, verde, azul)
+
+[Pinout LED RGB](./imagenes/rgbled-pinout.jpg)
 
 ## encargos
 
