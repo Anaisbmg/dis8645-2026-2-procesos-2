@@ -2,6 +2,32 @@
 
 ## apuntes sesión
 
+En esta sesión se le dio el foco a repasar y despejar dudas en relación a las clases en C++. 
+
+De este repaso la verdad rescato:
+
+- Detallar a futuro...
+
+<br>
+
+Pero la verdad, en este repaso general no me enfoque porque eran elementos que ya comprendía, por lo que mi atención estuvo en terminar un proyecto personal.
+
+Este proyecto consta de 4 osciladores de onda cuadrada, estos funcionan en base a compuertas NAND retroalimentadas. Por lo que se denomina **soNANDo**
+
+![NAND](./imagenes/vco-4pasos-v-1-0-iso.png)
+![NAND](./imagenes/vco-4pasos-v-1-0-vs.png)
+![NAND](./imagenes/vco-4pasos-v-1-0-vi.png)
+
+Llevo trabajando en un repositorio donde explicar de mejor manera todo este proyecto
+
+>[!NOTE]
+>
+>El repositorio se ubica en https://github.com/Estrabismx/vco_4step
+
+<br>
+
+Igualmente, mientras realizaba este proyecto se me ocurrio la idea de buscar una manera de conectar el proyecto de taller, es decir, el sampler secuenciador con sintetizadores analogos
+
 ## encargos
 
 encargo-08a:
