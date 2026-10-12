@@ -71,14 +71,6 @@ encargo-08a:
 <br>
 
 <div align="center">
-  <img src="imagenes/mouse.jpeg" width="30%">
-  <img src="imagenes/parlante.jpeg" width="30%">
-  <img src="imagenes/radio.jpeg" width="30%">
-</div>
-
-<br>
-
-<div align="center">
   <img src="imagenes/tableta.jpeg" width="30%">
   <img src="imagenes/teclado.jpeg" width="30%">
 </div>
