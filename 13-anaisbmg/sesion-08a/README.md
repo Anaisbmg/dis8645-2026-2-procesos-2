@@ -2,7 +2,19 @@
 
 ## apuntes sesión
 
-Clase-
+Clase - Atributos - Metodos
+
+Led puede ser una clase con variables:
+* Encendido o Apagado
+* Parpadeo
+* Umbral
+* Brillo
+
+**OOP**: *Programación orientada a objetos (Object oriented programming)*
+
+Archivos 
+* **h** para saber qué hace
+* **cpp** saber cómo lo hace
 
 ## encargos
 
