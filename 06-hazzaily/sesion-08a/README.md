@@ -71,6 +71,51 @@ encargo-08a:
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
+
+**Perillas:**
+
+Foto de la perilla de una guitarra de mi papá.
+
+![](./imagenes/)
+
+Foto de la perrilla del microondas de mi casa.
+
+ - En este caso la perilla funciona como timer, por ende, mientras que se devuelve a su posición original es cuando funciona el microondas.
+
+![](./imagenes/)
+
+Foto de la perilla de mi equipo de música.
+
+![](./imagenes/)
+
+**Botones:**
+
+Foto de
+
+![](./imagenes/)
+
+Foto de
+
+![](./imagenes/)
+
+Foto de
+
+![](./imagenes/)
+
+**Luces:**
+
+Foto de
+
+![](./imagenes/)
+
+Foto de
+
+![](./imagenes/)
+
+Foto de
+
+![](./imagenes/)
+
 ## lectura
 
 Citas:
