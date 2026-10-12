@@ -65,13 +65,51 @@ encargo-08a:
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
 
+
+![titulo](./imagenes/perilla1.jpeg)
+
+**perilla 1:** parlante de mi casa, la cual sirve con un mínimo y un máximo para intensificar el eco y el volumen del micrófono conectado al parlante mediante cable.
+
+![titulo](./imagenes/perilla2.jpeg)
+
+**perilla 2:** microondas, la primera regula tiempo en la cual la comida se calienta dentro del microondas y la segunda tiene distintas funciones, en donde la flecha indica en que función se encuentra actualmente (función alta para calentar comida).
+
+![titulo](./imagenes/perilla3.jpeg)
+
+**perilla 3:** perilla de una radio y parlante, las cuales moderan encendido y apagado de esta + volumen y función, si deseas escuchar radio AM FM o mp3.
+
+![titulo](./imagenes/boton1.jpeg)
+
+**botón 1:** botones de lavadora que tienen dos funciones, encendido y apagado de esta e inicio o pausa de la carga de ropa dentro de esta.
+
+![titulo](./imagenes/boton2.jpeg)
+
+**botón 2:** botones los cuales cumplen la función de dirigir la pantalla de la televisión, ya sea arriba, abajo, al lado, "ok", volumen, etc.
+
+![titulo](./imagenes/boton3.jpeg)
+
+**botón 3:** botones los cuales al presionarlos regulan temperatura y tiempo del calientacamas.
+
+![titulo](./imagenes/luz1.gif)
+
+**luz 1:** luz que parpadea, ya que el computador se encuentra en un estado de pantalla apagada pero de igual forma encendido (suspendido).
+
+![titulo](./imagenes/luz2.gif)
+
+**luz 2:** luz la cual se guía por el ritmo de la música que suena actualmente en el parlante.
+
+![titulo](./imagenes/luz3.gif)
+
+**luz 3:** luz del semáforo, la cual una parpadea para advertir a los peatones el no cruzar, porque cambiará de color y dejará pasar a los autos que vienen, y la segunda que se muestra en el gif es la del cambio de color del semáforo de los autos, que funciona como un símbolo de advertencia, próximo al rojo para detenerse.
+
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
-1. Una tonelada de fotos, mínimo 3, perillas, botones, luces, descripciones textuales.
-2. Tomar las clases que se hicieron hoy y lograr que parpadeen.
-
 <https://wokwi.com/projects/477140774861255681>
-   
+
+**wokwi nuevo**
+
+<https://wokwi.com/projects/477358360928893953>
+
 ## lectura
 - hoy realicé la lectura de un nuevo capítulo llamado ""
 

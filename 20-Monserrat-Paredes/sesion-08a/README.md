@@ -1,35 +1,91 @@
-# sesion-08a 
-
-06/10/26
+# sesion-08a →  06/10/26
 
 ## apuntes sesión
 
-Revisar encargo 07a
+```cpp
 
-Clase Lucecita
+class Algo {
 
-encendido ( si o no)
+ // atributos[]
 
-brillo (255-0)
+bool
+int
 
-parpadeo (tiempo)
+ // metodos()
 
-color (rojo-verde-azul)
+}
 
+```
 
+### Ejemplo de clase Led:
 
-ejemplo:
+```
+clase Lucecita {
 
-LuzNavidad = Lucecita [100]
+```
+¿Cómo describimos la luz?
 
+Variables:
+
+Encendido - si
+
+Apagado - no
+
+Brillo = puede variar entre
+
+por ejemplo: 
+
+0 - 255
+
+Umbral = hacia arriba (on), hacia abajo (off).
+
+Parpadeo - tiempo
+
+Por ejemplo:
+
+```cpp
+LuzNavidad =  Lucecita[100];
+```
+
+Color = existen LEDs con 4 patitas para controlar el color que tiene el LED.
+
+Por ejemplo: rojo, verde, azul
+
+Ejemplo:
+
+```cpp
+clase EspantaCuco {
+
+ int precio;
+ Lucecita espantadora;
+ Sensor luminoso;
+}
+```
 
 ## encargos
 
 encargo-08a:
 
-1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
+1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README
+como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
 
-2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+---
+
+### Registro Perillas
+...
+
+### Registro botones 
+...
+
+
+### Registro luces
+...
+
+
+
+---
+
+3. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
 ## lectura
 

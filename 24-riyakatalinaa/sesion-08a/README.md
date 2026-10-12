@@ -164,6 +164,76 @@ encargo-08a:
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
+
+### tomar fotos a 3 elementos vistos en clases: perrillas, botones y luces
+
+1. perilla
+
+**perilla 1**
+
+![perilla microondas casa](imagenes/perilla-microondas.jpeg)
+
+descripción: es la perilla del microondas de mi casa, tiene una multifunción en el microondas (tiempo, peso, auto y menu)
+
+**perilla 2**
+
+![perilla lavadora](imagenes/perilla-lavadora.jpeg)
+
+descripción: es la perilla de mi lavadora tiene la pantallita al costado, en donde si la perrilla de la lavadora se gira en la pantallita se muestra las diferentes funciones de lavado (ropa de cama, ropa de bebé, lavado rápido, algodón, lavado y secado, entre otros)
+
+**perilla 3**
+
+![perilla microondas trabajo](imagenes/perilla-microondas-blanco.jpeg)
+
+descripción: en esta imagen hay 2 perillas giratorias del microondas que esta en el taller de mi práctica. La perilla superior regula el nivel de potencia (baja - descongelar- media-baja - media - alta) y la inferior ajusta el tiempo de funcionamiento o peso a descongelar
+
+2. botones
+
+**botón 1**
+
+![botón de interruptor congelador](imagenes/boton-congelador.jpeg)
+
+descripción: botón interruptor de los congeladores que estamos haciendo en mi practica, consiste en el encendido y apagado del congelador es de color verde y cuenta con luz interna, la cual se enciende cuando el equipo está en función/encendido
+
+**botón 2**
+
+![botón de ascensor](imagenes/boton-ascensor.jpeg)
+
+descripción: botón de ascensor para seleccionar piso o función (en este caso el botón que esta en funcionamiento es el botón de abrir puertas), es de acero inoxidable(creo) con lectura táctil en braille, también cuenta con iluminación que se enciende de color rojo al ser presionado/activado
+
+**botón 3**
+
+![botón de reja metalica](imagenes/boton-reja-metalica.jpeg)
+
+descripción: es una botonera triple de control para cortinas o rejas metálicas enrollables, la verdad nunca los he visto en funcionamiento pero el conserje del edificio me explico que contiene los 3 botones y cada uno con símbolos diferentes, están las flechas para controlar el movimiento de abrir/subir y cerrar/bajar las cortinas metálicas (botones amarillos) y el de detener las cortinas metálicas (el botón rojo)
+
+3. luces
+
+**lucecita 1**
+
+![luz led metro](imagenes/luz-metro.jpeg)
+
+descripción: la lucecita es un LED amarillo naranjazo según mi vista (no confíen uso lentes :)) ubicada en la ruta que hace la línea 2 del metro de Santiago. Su función es más visual y ayuda al estado del viaje mediante cambios de frecuencia? en palabras simples, parpadeo luminoso (al ir a la siguiente estación comienza a parpadear, ejemplo: yo estaba en Santa Ana, la siguiente estación Los Héroes comenzó a parpadear ya que íbamos en camino a esa estación)
+
+**lucecita 2**
+
+![luces led de televisión](imagenes/luces-led-television.jpeg)
+
+descripción: los luce LED que se encuentran en  mi tele (venían ya incorporadas en esta al comprarla), según yo cuenta con el sistema de iluminación LED RGB ubicada en la parte posterior de los costados del televisor. Su función es proyectar luz sobre la pared para extender los colores de la pantalla en tiempo real y mejorar la experiencia visual, en pocas palabras para ambientar (que elegancia)
+
+
+**lucecita 3**
+
+![luces led de tocador/vanity](imagenes/luces-led-vanity.jpeg)
+
+descripción: son luces LED de mi vanity, es una especie de cadena en la cual vienen 10 lucecitas (LED), cuenta con 3 tonos de iluminación frío, cálido y neutra, también conectado en serie a través de un cableado transparente, y cuenta con un LED por foco
+
+
+
+### intento de luces parpadeantes
+
+la verdad no tuve tiempo de hacer esta parte del encargo, estuve con muchas cosas en la práctica y se me olvido hacerlo :(, y la verdad no quiero recurrir a la IA para solo entregarlo y tener el "7" o el punto completo en este encargo
+
 ## lectura
 nos dejaron elegir un libro para leer durante el semestre en el cual debemos dejar 2 citas por clase y leer mínimo 100 paginas durante el semestre
 
