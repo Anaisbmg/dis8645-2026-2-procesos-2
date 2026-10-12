@@ -75,15 +75,50 @@ encargo-08a:
   <img src="imagenes/teclado.jpeg" width="30%">
 </div>
 
-**Foto 1 Interruptor luz:** 
+Foto 1 Interruptor luz: 
 
-* Descripción y funcionamiento: es el interruptor de mi pieza de estudio que solo enciende y apaga la luz.   
-* Estado: encendido (1) y apagado (0)
+Descripción y funcionamiento: es el interruptor de mi pieza de estudio que solo enciende y apaga la luz. 
+Estado: encendido (1) y apagado (0)
 
-**Foto 2 moledora de café:** 
+Foto 2 moledora de café: 
 
-* Descripción y funcionamiento: este molesto café tiene una perilla que ayuda a cuan molido quieres que esté el café, ya que no todos los cafés se hacen con el mismo molido, ayuda a la intensidad, etc.   
-* Estado: Va girando y se detiene en el número que tu escojas.
+Descripción y funcionamiento: este molesto café tiene una perilla que ayuda a cuan molido quieres que esté el café, ya que no todos los cafés se hacen con el mismo molido, ayuda a la intensidad, etc. 
+Estado: Va girando y se detiene en el número que tu escojas.
+
+Foto 3 citofono:
+
+Descripción y funcionamiento: El botón inferior es para abrir el portón, pero el superior nunca lo utilizamos.
+Estado: este tiene 3 estados (el del portón) porque puede abrir o cerrar el portón pero a su vez puede detener su movimiento independiente del lugar o sentido en el que esté. 
+
+
+
+Foto 4 perillas cocina
+
+Descripción y funcionamiento:Esta perilla ayuda a encender el fuego más pequeño de la cocina. 
+Estado: si vas para el lado izquierdo, la llama aumenta y tiene un punto de tope de cuán grande puede ser la llama y viceversa hasta llegar de nuevo al punto principal el cual apaga la llama. Pero no tan solo tiene esa función, si no que al presionar, sacar gas y acercar fuego, enciende la llama, O sea, lo que hace es encender la llama y controlarla. 
+
+Foto 5 guitarra colo-colo 
+
+*¿Por qué tengo una guitarra del colo colo? un día mi tata llegó con ella y me la regalo jaja
+
+Descripción y funcionamiento: son 6 perillas que ayudan a la tensión de cada cuerda y así afinarla. 
+Estado: existen varios estados dependiendo la afinación que busques. 
+
+Foto 6 módem de internet
+
+Descripción y funcionamiento: luces verdes que indican los estado de cada funcionamiento(?
+Estado: estas pueden ser constantes, parpadear o no estar encendidas dependiendo de la estabilidad. 
+
+Foto 7 tableta
+
+Descripción y funcionamiento: además de indicar con la luz si está encendida, apagada o sin corriente al apretar el botón lo enciendes, encendiendose (amarillo) o apagas. 
+Estado: Encendido (verde), apagado (rojo), encendiendose (amarillo) o desconectado (sin luz) el botón se retrae y vuelve a su estado cada vez que lo precionas. 
+
+Foto 8 teclado
+
+Descripción y funcionamiento: sirve para cada vez que digites una glifo aparece en la pantalla, pero solo uno a la vez
+Estado: presionado y no presionado. 
+
 
 
 3. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
