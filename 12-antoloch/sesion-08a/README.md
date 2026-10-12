@@ -2,6 +2,45 @@
 
 ## apuntes sesión
 
+**Nota personal:** No asistí a clases, pero isipm08 me compartió sus apuntes.  
+
+- Se revisaron conceptos vistos en clases anteriores.  
+- Tema central: **Lógica de las clases** en programación orientada a objetos (OOP).  
+
+- **Clases y personas:**  
+  - Aunque hablamos de “personas”, en este contexto se modela a Isi como una clase.  
+  - Una clase es una **aproximación simplificada de la realidad**.  
+
+- **Crear y clasificar:**  
+  - A las clases se les asignan **atributos** (ej. forma) y **métodos** (funciones).  
+  - El **constructor** permite crear objetos a partir de la clase.  
+
+
+##  Wokwi
+Durante la clase se trabajó un ejemplo práctico:  
+- Programar un **botón + perilla + luz**.  
+- Proyecto: [Wokwi – botón, perilla y luz](https://wokwi.com/projects/477140774861255681)  
+
+**Material complementario:**  
+- [Repositorio Perilla](https://github.com/piruetasxyz/Perilla)  
+- [Repositorio Botón](https://github.com/piruetasxyz/Boton)  
+
+
+- **OOP (Programación Orientada a Objetos):** base conceptual de la sesión.  
+- **WikiData:** se mencionó como ejemplo de base de datos vinculada a Wikipedia.  
+- **Promesas en H:** idea de cómo se cumplen funciones.  
+- **C++:** cómo implementa lo que promete.  
+- **ADC:** resolución de 12 bits (0–4095) → valores de potenciómetro en binario.  
+
+
+## “Caja Negra”
+- Se explicó que una **caja negra** es cualquier sistema cuyo funcionamiento interno se desconoce.  
+- Lo importante es lo que entra (**input**) y lo que sale (**output**).  
+- Se mencionó la **filosofía de las cajas negras** y se compartió un texto relacionado:  
+  - [Vilém Flusser – Hacia una filosofía de la fotografía](https://monoskop.org/images/8/8d/Flusser_Vilem_Hacia_una_filosofia_de_la_fotografia.pdf)  
+
+- [Marc Augé – Los no lugares](https://designblog.uniandes.edu.co/blogs/dise2609/files/2009/03/marc-auge-los-no-lugares.pdf)  
+
 ## encargos
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
