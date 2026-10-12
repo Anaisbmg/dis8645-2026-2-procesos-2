@@ -2,10 +2,12 @@
 
 ## apuntes sesión
 
+Clase-
+
 ## encargos
 
 encargo-08a:
-
+#### Parte 1
 |Tipo|Objeto|Foto|Características|
 |-|-|-|-|
 |Perilla|Maquina overlock|![](./imagenes/01.jpeg)|Perilla con un inicio y un fin, cada uno identifica a cual hilo pertenece, está pensado para ser utilizada de frente|
@@ -17,7 +19,64 @@ encargo-08a:
 |Luz|Tele|![](./imagenes/07.jpeg)|Luz que identifica si la tele está apagada, se ve la luz en color rojo|
 |Luz|Computador|![](./imagenes/08.jpeg)|Luz que identifica si el computador está prendido|
 
+#### Parte 2
+En base al [Wokwi de clase](https://wokwi.com/projects/477140774861255681) que trabajamos en clases: 
 
-2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+  Le pregunté a Claude que me ayudará a agregar una luz, además especifique que me gustaría que con la perilla se defina el periodo de tiempo en ms, logrando esto:
+
+1) En lucecita.h se agrega
+   
+```cpp
+void alternar();   // para poder dar la acción de parpadear
+```
+
+2) En Lucesita.cpp se agrega
+   
+```cpp
+void Lucecita::alternar() {
+
+  // estado prendida se apaga
+  // estado apagada se prende
+  // gracias al if y else hace este cambio
+  if (Lucecita::prendida) {
+    Lucecita::apagar();
+  } else {
+    Lucecita::prender();
+  }
+```
+
+3) En el main.cpp reemplazar el while (true)
+
+```cpp
+  while (true) {
+
+
+    // leer perilla parpadeo
+    parpadeo.leer();
+
+
+    // la perilla va de 0 a 4095
+    // periodo entre 50 y 1000 ms
+    // izquierda período menor osea rapido, derecha periodo mayor osea lento
+    uint32_t periodo = 50 + (parpadeo.posicion * 950) / 4095;
+
+
+    // cuantos más lleva el programa corriendo
+    uint32_t ahora = to_ms_since_boot(get_absolute_time());
+
+
+    // si ya pasó el periodo, cambiar de estado
+    if (ahora - ultimoCambio >= periodo) {
+      ultimoCambio = ahora;
+      luz.alternar();
+      printf("periodo: %d ms\n", periodo);
+    }
+
+    // mini pausa
+    sleep_ms(1);
+```
+
+quedando así [Wokwi de tarea](https://wokwi.com/projects/477711490516125697)
+
 
 ## lectura
