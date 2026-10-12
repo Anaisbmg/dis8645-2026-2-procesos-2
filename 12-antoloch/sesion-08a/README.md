@@ -71,6 +71,6 @@ Las luces amarillas y blancas muestran la actividad del equipo.
 </p>
 
 
-Lo que más me gustó de Making Pictures with GANs fueron las imágenes. No se sienten solo como resultados técnicos, sino como algo con fuerza estética, que mezcla lo digital con lo poético. Mucha gente se asusta con estas cosas, porque piensan que las máquinas van a reemplazar al artista, pero yo siento que ya son parte de nuestro mundo. En este libro me gustó la forma en que Reas lo trabaja: como una herramienta para imaginar distinto.
+Lo que más me gustó de Making Pictures with GANs fueron las imágenes. Mezcla lo digital con lo poético. Mucha gente se asusta con estas cosas, porque piensan que las máquinas van a reemplazar al artista, pero yo siento que ya son parte de nuestro mundo. En este libro me gustó la forma en que Reas lo trabaja: como una herramienta para imaginar distinto.
 
 Al final, cuando aparece la parte biográfica de Casey Reas, con frases como “Reas’ work ranges from small works on paper to urban-scale installations” y “Processing is an open-source programming language and environment focused on the visual arts”, sentí que era un buen cierre. Me recordó que detrás de todo este trabajo con algoritmos hay un artista que lleva años explorando cómo el código puede ser arte. Esa mezcla entre lo personal y lo técnico le da al libro un sentido completo.
