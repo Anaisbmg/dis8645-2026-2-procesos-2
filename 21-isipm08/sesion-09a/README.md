@@ -20,6 +20,7 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 11. diagrama software
 12. diagrama hardware
 13. prototipar wokwi
+14. máquinas tributo a un cierto computador antiguo
 
 ### criterios
 **individuales**
@@ -49,6 +50,9 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 - E -- propiedades
 - L -- etiquetas de red
 - R -- resistencia
+
+1. resistores -- resistencia
+2. capacitores -- capacitancias
 
 <https://github.com/disenoUDP/mi-primer-esquematico>
 
