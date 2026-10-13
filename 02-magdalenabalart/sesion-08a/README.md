@@ -2,6 +2,38 @@
 
 ## apuntes sesión
 
+# Programación orientada a objetos (POO)
+
+### Clases y objetos
+
+La programación orientada a objetos sirve para ordenar el código y evitar repetir instrucciones. Por ejemplo, si tenemos varios botones que hacen cosas parecidas, podemos crear una clase `Boton` y usarla varias veces. Si necesitamos cambiar algo de su funcionamiento, lo modificamos en la clase y no en cada botón por separado.
+
+- **Clase:** estructura que usamos para crear objetos.
+- **Objeto:** elemento que creamos a partir de una clase.
+- **Atributos:** características de un objeto, como su estado o posición.
+- **Métodos:** acciones que puede realizar, como `encender()` o `apagar()`.
+- **Constructor:** se ejecuta al crear un objeto y permite definir sus valores iniciales.
+- **Subclase:** clase que hereda características y métodos de otra.
+
+Por ejemplo, podemos crear una clase `Boton` y después tener `boton1` y `boton2`. Los dos comparten la misma estructura, pero pueden estar conectados a pines distintos y realizar acciones diferentes.
+
+### Archivos .h y .cpp
+
+- `.h`: declara los atributos y métodos de una clase, es decir, qué tiene y qué puede hacer.
+- `.cpp`: contiene el código que define cómo funcionan esos métodos.
+
+### ADC
+
+El ADC (convertidor analógico a digital) transforma una señal analógica en un valor digital. Por ejemplo, permite leer la posición de un potenciómetro y convertirla en un número.
+
+Con una resolución de 12 bits, los valores van desde 0 hasta 4095.
+
+### Caja negra
+
+Una caja negra es un sistema del que conocemos lo que entra (*input*) y lo que sale (*output*), pero no necesariamente cómo funciona por dentro.
+
+`INPUT → CAJA NEGRA → OUTPUT`
+
 ## encargos
 
 encargo-08a:
