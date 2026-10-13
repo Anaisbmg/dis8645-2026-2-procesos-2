@@ -198,13 +198,103 @@ El interruptor permite controlar el paso de corriente eléctrica hacia un dispos
 
 El teclado mecánico utiliza interruptores individuales (*switches*) debajo de cada tecla para registrar las pulsaciones. Al presionar una tecla, su interruptor se acciona y envía una señal al computador, que interpreta la entrada como una letra, número, símbolo o comando. Al soltar la tecla, el mecanismo vuelve a su posición inicial y queda preparado para una nueva pulsación. Además, incorpora iluminación LED violeta que permite visualizar las teclas en condiciones de poca luz.
 
-## Registro fotográfico de botones
+### Registro fotográfico de botones
 
 | Control remoto RGB | Interruptor eléctrico | Teclado mecánico |
 |:---:|:---:|:---:|
 | ![Control remoto RGB](imagenes/control-remoto.jpeg) | ![Interruptor eléctrico](imagenes/interruptor.jpeg) | ![Teclado mecánico](imagenes/teclado-mecanico.jpeg) |
 
+# Registro y documentación de luces
+
+### 1. Ampolleta RGB reactiva al sonido
+
+Ampolleta LED que permite cambiar entre distintos colores y modificar sus efectos de iluminación según el sonido del entorno. Mediante un sensor o micrófono integrado, detecta variaciones en el sonido y las transforma en respuestas luminosas. De esta manera, la intensidad, el color o el ritmo de la iluminación pueden variar según la música o los sonidos que recibe.
+
+### 2. Iluminación LED de un teclado
+
+Sistema de iluminación integrado en un teclado que permite iluminar las teclas mediante luces LED. Al presionar una tecla, el teclado registra la pulsación y envía una señal al computador. Según la configuración del dispositivo, la iluminación puede permanecer constante, cambiar de color o activar efectos asociados a las pulsaciones.
+
+### 3. Indicador luminoso de un alargador eléctrico
+
+### Registro fotográfico de luces
+
+| Ampolleta RGB reactiva al sonido | Teclado retroiluminado | Indicador luminoso de un alargador |
+|:---:|:---:|:---:|
+| ![Ampolleta RGB](imagenes/ampolleta.gif) | ![Teclado retroiluminado](imagenes/teclado-luz.gif) | ![Indicador de alargador](imagenes/alargador.jpeg) |
+
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
 ## lectura
+
+
+##$ 1. Conceptos generales
+
+**Sistemas dinámicos:** sistemas que evolucionan mediante reglas matemáticas aplicadas sucesivamente.
+
+**Iteración:** repetición de una operación en la que el resultado anterior se utiliza para calcular el siguiente.
+
+**Caos matemático:** comportamiento complejo e impredecible que puede surgir de reglas deterministas y que presenta sensibilidad a las condiciones iniciales.
+
+**Condiciones iniciales:** valores de partida que determinan la evolución de un sistema.
+
+**Periodicidad:** comportamiento que se repite después de un intervalo determinado.
+
+**Aperiodicidad:** comportamiento que no presenta una repetición regular.
+
+**Cuasiperiodicidad:** superposición de oscilaciones con frecuencias inconmensurables, que genera patrones sin una repetición exacta.
+
+**Sistema no lineal:** sistema en el que los cambios de entrada y salida no mantienen una relación proporcional simple.
+
+**Parámetros:** valores que permiten modificar el comportamiento de una fórmula y los patrones que produce.
+
+### 2. Fórmula de Hénon-Lozi
+
+La fórmula de Hénon-Lozi describe un sistema dinámico bidimensional mediante iteraciones matemáticas. La propuesta de Lozi reemplaza el término cuadrático del modelo de Hénon por un valor absoluto, lo que facilita su análisis matemático.
+
+
+**Fórmula:**
+
+`xₙ₊₁ = 1 − r|xₙ| + yₙ`
+
+`yₙ₊₁ = b xₙ`
+
+La imagen generada muestra cómo las iteraciones producen estructuras complejas que cambian según los parámetros utilizados.
+
+### 3. Fórmula de Degn
+
+La fórmula de Degn demuestra que las perturbaciones periódicas pueden generar oscilaciones caóticas incluso en sistemas lineales perturbados.
+La idea principal es que una perturbación aplicada repetidamente puede producir un comportamiento complejo e inesperado.
+
+### 4. De cuasiperiodicidad a caos
+
+La cuasiperiodicidad se produce cuando se superponen oscilaciones con frecuencias inconmensurables. El resultado puede parecer ordenado, pero su evolución no repite exactamente el mismo patrón. En determinadas condiciones, un sistema cuasiperiódico puede experimentar una transición hacia el caos.
+
+### 5. Función tienda y traslación de Bernoulli
+
+La función tienda es una función matemática definida por tramos. Dependiendo de sus parámetros, puede generar distribuciones de valores o comportamientos periódicos.
+
+### 6. Conjunto de Mandelbrot
+
+El conjunto de Mandelbrot es una estructura fractal construida mediante la iteración de números complejos.
+
+**Fórmula principal:**
+
+`zₙ₊₁ = zₙ² + c`
+
+Donde `z` y `c` son números complejos.
+
+El conjunto se define a partir de los valores de `c` para los cuales la sucesión permanece acotada.
+
+### 7. Fórmula seno-cuadrado
+
+La fórmula seno-cuadrado utiliza una función trigonométrica para generar diferentes comportamientos visuales mediante la variación de sus parámetros.
+
+**Fórmula:**
+
+`xₙ₊₁ = b sin²(xₙ + r)`
+
+En el libro se relaciona con una aproximación matemática de ciertos fenómenos de cristales líquidos retroalimentados eléctricamente con retardo.
+
+
+
