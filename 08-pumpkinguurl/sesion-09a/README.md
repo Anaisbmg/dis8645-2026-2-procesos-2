@@ -74,7 +74,7 @@ Si existen las mentiras blancas, ¿existen las mentiras negras? ¿son iguales? �
 
 "La verdad no es la certeza" (p.19)
 
-## Persona 
+### Persona 
 
 "Persona es idea
 
