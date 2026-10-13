@@ -32,7 +32,7 @@ martes 2026-10-13
 
 los proyectos se deben grabar antes de hacer otro, ya que solo se puede tener un proyecto abierto a la vez
 
-**agregar precio y URL a las propiedades de los componentes**
+**IMPORTANTE: agregar precio y URL a las propiedades de los componentes**
 
 
 ### componentes
