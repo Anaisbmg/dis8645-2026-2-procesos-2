@@ -15,13 +15,12 @@
   - A las clases se les asignan **atributos** (ej. forma) y **métodos** (funciones).  
   - El **constructor** permite crear objetos a partir de la clase.  
 
-
-##  Wokwi
+##  wokwi
 Durante la clase se trabajó un ejemplo práctico:  
 - Programar un **botón + perilla + luz**.  
 - Proyecto: [Wokwi – botón, perilla y luz](https://wokwi.com/projects/477140774861255681)  
 
-**Material complementario:**  
+**material complementario:**  
 - [Repositorio Perilla](https://github.com/piruetasxyz/Perilla)  
 - [Repositorio Botón](https://github.com/piruetasxyz/Boton)  
 
@@ -33,7 +32,7 @@ Durante la clase se trabajó un ejemplo práctico:
 - **ADC:** resolución de 12 bits (0–4095) → valores de potenciómetro en binario.  
 
 
-## “Caja Negra”
+## “caja Negra”
 - Se explicó que una **caja negra** es cualquier sistema cuyo funcionamiento interno se desconoce.  
 - Lo importante es lo que entra (**input**) y lo que sale (**output**).  
 - Se mencionó la **filosofía de las cajas negras** y se compartió un texto relacionado:  
@@ -44,12 +43,12 @@ Durante la clase se trabajó un ejemplo práctico:
 ## encargos
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
-# 1. Perillas
+# 1. perillas
 
-**Foto 1: Perilla de potencia del microondas**  
+**Foto 1: perilla de potencia del microondas**  
 Esta perilla permite regular la potencia del microondas.  
 
-**Foto 2: Perilla de regulación**  
+**Foto 2: perilla de regulación**  
 La perilla del drill para uñas sirve para controlar la velocidad y la potencia del micromotor
 
 **Foto 3: DJ**  
@@ -63,7 +62,7 @@ El equipo de DJ tiene un control circular para manipular funciones musicales y t
 
 
 
-# 2. Botones
+# 2. botones
 
 **Foto 1: Control remoto**  
 El control remoto tiene varios botones para encender, cambiar canales y ajustar volumen.  
@@ -83,7 +82,7 @@ e encender/apagar un dispositivo; la luz roja indica que está encendido.
 
 
 
-# 3. Luces
+# 3. luces
 
 **Foto 1: Luces**   
 luces azules de un carrete, que parpadean y parpadean junto con la música tecno.  
@@ -101,6 +100,109 @@ Las luces amarillas y blancas muestran la actividad del equipo.
 </p>
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+
+### paso 01: Clase Lucecita
+En `Lucecita.h` agregué:
+
+```cpp
+void parpadear(int tiempoOn, int tiempoOff, int repeticiones);
+```
+
+En `Lucecita.cpp` implementé:
+
+```cpp
+#include "Lucecita.h"
+#include "pico/stdlib.h"
+#include <stdio.h>
+
+void Lucecita::prender() {
+  prendida = true;
+  gpio_put(patita, true);
+  printf("encendidito\n");
+}
+
+void Lucecita::apagar() {
+  prendida = false;
+  gpio_put(patita, false);
+}
+
+void Lucecita::parpadear(int tiempoOn, int tiempoOff, int repeticiones) {
+  for (int i = 0; i < repeticiones; i++) {
+    prender(); // imprime "encendidito"
+    sleep_ms(tiempoOn);
+    apagar();
+    sleep_ms(tiempoOff);
+  }
+}
+```
+
+
+
+### paso 02: Clase Boton
+```cpp
+#include "Boton.h"
+
+bool Boton::leer() {
+  presionado = gpio_get(patita);
+  return presionado;
+}
+```
+
+
+
+### paso 03: Clase Perilla
+```cpp
+#include "Perilla.h"
+
+void Perilla::leer() {
+  adc_select_input(patita - 26);
+  posicion = adc_read();
+}
+```
+
+
+
+### paso 04: main.cpp
+```cpp
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "Boton.h"
+#include "Perilla.h"
+#include "Lucecita.h"
+
+int main() {
+  stdio_init_all();
+
+  Boton pulsador(7);     // botón en GP7
+  Perilla perilla(26);   // potenciómetro en GP26
+  Lucecita luz(6);       // LED en GP6
+
+  while (true) {
+    pulsador.leer();
+    perilla.leer();
+
+    int velocidad = perilla.posicion / 4 + 100;
+
+    if (pulsador.presionado) {
+      luz.parpadear(velocidad, velocidad, 5);
+    }
+
+    sleep_ms(100);
+  }
+}
+```
+
+
+- **Botón (GP7)** → activa el parpadeo.  
+- **Perilla (GP26)** → ajusta la velocidad del parpadeo.  
+- **LED (GP6)** → se enciende y muestra `"encendidito"` en consola cada vez que prende.  
+
+con apoyo de chatpgt, ya que no entendia muchopipipi
+
+voy aprendiendo de apoco, me pierdo constantemente.
+
+ https://wokwi.com/projects/477726088341796865 
+
 
 ## lectura
 <p align="center">
