@@ -1,7 +1,13 @@
 # sesion-08b
 
+2026.10.09
+
 ## apuntes sesión
 
-## encargos
+Debido a que ha llovido torrencialmente durante toda la semana, trabajaremos modalidad remota :skullemoji:
 
-## lectura
+---
+
+Botón LATCH &rarr; se mantiene en el estado en el que se presiona
+
+## encargos

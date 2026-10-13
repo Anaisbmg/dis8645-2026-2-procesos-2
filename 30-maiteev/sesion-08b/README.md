@@ -2,15 +2,37 @@
 
 ## apuntes sesión (clase online)
 
-Debido a los terribles sucesos ocurridos debido a las lluvias que desmoronaron Santiago, nuestra clase es en zoom.
+2026/10/09
+- ffast.cl (revisar)
 
-Se revisan los encargos de imágenes de botones, perillas y luces.
+**ejercicio lucecita**
 
-Luego el intento de código para hacer parpadear una luz led.
+ ```cpp
+//main.c
+ ```
+- siempre definir primero en main.c 
+- umbral de tiempo presionado 
+- 2 estados: noPresionado- estaSiendoPresionado
+- instanciar la luz (numero de donde esta)
+ ```cpp
+int patita;
+int prendida= false;
+ ```
+- en métodos ademas de
+ ```cpp
+void prender();
+y
+ void apagar();
+ ```
+- ponemos  
+ ```cpp
+void rampear ();
+ ```
+- vamos a leer el mundo 
 
-Revisamos el repo de https://github.com/piruetasxyz/Boton y https://github.com/piruetasxyz/Perilla
 
-Empezamos a probar el código para lograr el parpadeo de la luz.
+- wokwi ejercicio: https://wokwi.com/projects/477413398813766657 
+
 
 ## encargos
 
