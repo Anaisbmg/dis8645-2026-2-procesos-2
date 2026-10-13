@@ -5,7 +5,7 @@
   "parts": [
     { "type": "wokwi-breadboard", "id": "bb2", "top": 227.4, "left": -150.8, "attrs": {} },
     {
-      "type": "wokwi-pi-pico",
+      "type": "wokwi-pi-pico-2",
       "id": "pico",
       "top": 0,
       "left": 0,

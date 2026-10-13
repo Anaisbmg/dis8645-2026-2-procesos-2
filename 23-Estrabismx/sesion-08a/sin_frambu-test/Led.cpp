@@ -52,7 +52,8 @@ if(encendido == true) {
 }
 
 if (tiempoActual - ultimoCambio >= tiempoDeEspera) {
-  gpio_put(conexionLed, !encendido);
+    encendido = !encendido;
+    gpio_put(conexionLed, encendido);
     
     ultimoCambio = tiempoActual;
   }
