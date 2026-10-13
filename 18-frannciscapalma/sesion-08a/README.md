@@ -174,7 +174,7 @@ este semáforo ubicado en república controla el paso peatonal cada 20 segundos,
 ![farol repu](./imagenes/l-farol.jpeg)
 este farol ubicado en las calles de republica está programado para a cierta hora, 6pm aprox se enciende para iluminar en la oscuridad de la noche y se apaga a las 6am aprox.
 
-![semaforo advertencia](./imagenes/l-calle.mp4)
+![semaforo advertencia](./imagenes/l-naranja.jpeg)
 este semáforo de advertencia, parpadea su luz cada 1 segundo para advertir a los conductores 
 
 
