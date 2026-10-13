@@ -39,40 +39,54 @@ en lucecita.h vamos a tener que agregar mas métodos, vamos a tener que hacer un
 
 en el main agregamos 
 
+```cpp
 #Lucecita.h
+```
 
 instanciar una luz que es de la clase lucecita
 
+```cpp
 Lucecita luz (7);
+```
 
 en el h ya no tenemos solo que prender y apagar, agregamos
 
+```cpp
 void rampear();
+```
 
 ir de mínimo a máximo 
 
 ahora vamos al cpp para hacernos cargo de esa promesa
 
+```cpp
 void Lucecita::rampear(){
+```
 
 aquí tenemos un problema, la luz no sabe que tan prendida/apagada esta
 
 en h agregamos 
 
+```cpp
 int intensidad = 0;
+```
 
 la intensidad de la luz cuando parte es 0
 
 cpp
 
+```cpp
 void Lucecita::rampear() {
  Lucecita::intensidad = Lucecita::intensidad + 1;
+```
 
 esto permite que va a subir de a poco
 
 main.c
 
+```cpp
 luz.rampear(); 
+```
 
 y va a rampear
 
@@ -80,14 +94,17 @@ el problema que tiene esto es que ira subiendo infinitamente, debemos agregar un
 
 en Lucecita.h agregamos
 
+```cpp
 int minIntensidad = 0;
 int maxIntensidad = 1024;
+```
 
 en cpp
 
+```cpp
 if (Lucecita::intensidad > Lucecita::maxIntensidad) { 
   Lucecita::intensidad = Lucecita::maxIntensidad;
-
+```
 Pausa para prestar atención solamente y luego revisar la grabación
 
 Necesito poder grabar mis pensamientos sobre lo que entiendo y lo que no porque escribirlos hace que me pierda de la explicación y esto es como si pestañeas pierdes y termino perdiéndome 
@@ -96,13 +113,15 @@ Se olvida la idea de rampear. Vamos a hacer void morsePunto y void morseRaya
 
 morsePunto y morseRaya son iguales, lo único que cambia es la duración de cada uno
 
+```cpp
 int duracionPunto = 200;
 
 int duracionRaya: 1000;
+``
 
-en raspi se usa sleep_ms que en Arduino es equivalente a delay()
+En raspi se usa sleep_ms que en Arduino es equivalente a delay()
 
-para usarlo debemos agregar una biblioteca #include pico/stdlib.h
+Para usarlo debemos agregar una biblioteca #include pico/stdlib.h
 
 hay que agregar otro int de la separación de los caracteres
 
