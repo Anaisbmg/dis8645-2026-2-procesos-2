@@ -76,25 +76,34 @@ encargo-08a:
 
 Foto de la perilla de una guitarra de mi papá.
 
+ - 2 de sus perillas son para regular los altos (tono y volumen), y los otros dos los graves (tono y volumen).
+
 ![](./imagenes/)
 
-Foto de la perrilla del microondas de mi casa.
+Foto de las perrillas del microondas de mi casa.
 
- - En este caso la perilla funciona como timer, por ende, mientras que se devuelve a su posición original es cuando funciona el microondas.
+ - En este caso la perilla de abajo funciona como timer, por ende, mientras que se devuelve a su posición original es cuando funciona el microondas.
+ - La de arriba, en cambio, es la que regula la temperatura del microondas.
 
 ![](./imagenes/)
 
 Foto de la perilla de mi equipo de música.
 
+ - Regula el volumen de lo que se está reproduciendo.
+
 ![](./imagenes/)
 
 **Botones:**
 
-Foto de
+Foto de los botones internos de mi mouse.
+
+ - Tiene una carcasa que presiona los botones, por ende, sin la carcasa no funciona.
 
 ![](./imagenes/)
 
-Foto de
+Foto del teclado de mi computador.
+
+ - Cada tecla llama a un caracter/símbolo/acción distinto, al igual que cuando se combinan, que generan distintas operaciones.
 
 ![](./imagenes/)
 
