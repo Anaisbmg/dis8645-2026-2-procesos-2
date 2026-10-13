@@ -160,6 +160,10 @@ De manera similar, un microcontrolador recibe señales y genera respuestas a par
 
 ## encargos
 
+
+1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
+
+
 ### 1. Rueda de un mouse
 
 Control giratorio de pequeño tamaño, integrado en la parte superior de un mouse. Su movimiento rotatorio permite desplazarse verticalmente por documentos y páginas digitales. Dependiendo del modelo, también puede funcionar como un botón al presionarla.
@@ -174,15 +178,32 @@ Mecanismo de control de acceso compuesto por una estructura metálica y brazos h
 
 se presenta una credencial, el sistema verifica la autorización y, cuando corresponde, permite el giro del mecanismo para habilitar el paso.
 
-## Registro fotográfico de perillas
+### Registro fotográfico de perillas
 
 | Rueda de mouse | Perillas de máquina de coser | Torniquete de acceso |
 |:---:|:---:|:---:|
-| ![Rueda de mouse](imagenes/rueda-mouse.jpg) | ![Perillas de máquina de coser](imagenes/perillas-maquina.jpg) | ![Torniquete de acceso](imagenes/torniquete.jpg) |
+| ![Rueda de mouse](imagenes/rueda-mause.jpeg) | ![Perillas de máquina de coser](imagenes/perillas-maquina.jpeg) | ![Torniquete de acceso](imagenes/torniquete.jpeg) |
 
-encargo-08a:
+# Registro y documentación de botones
 
-1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
+### 1. Botones de un control remoto RGB
+
+Los botones permiten enviar instrucciones a una luminaria. Al presionarlos, el control envía una señal al receptor de la luz, que interpreta la instrucción y ejecuta una acción. Permite encender o apagar, seleccionar colores y activar efectos de iluminación, como destellos, cambios de color y transiciones. Cada botón cumple una función específica según la instrucción que transmite.
+
+### 2. Interruptor eléctrico de encendido y apagado
+
+El interruptor permite controlar el paso de corriente eléctrica hacia un dispositivo. Al presionarlo, cambia la posición de su mecanismo interno y alterna entre dos estados: encendido y apagado. Cuando está encendido, permite el paso de corriente; cuando está apagado, interrumpe el circuito. 
+
+### 3. Teclado mecánico 
+
+El teclado mecánico utiliza interruptores individuales (*switches*) debajo de cada tecla para registrar las pulsaciones. Al presionar una tecla, su interruptor se acciona y envía una señal al computador, que interpreta la entrada como una letra, número, símbolo o comando. Al soltar la tecla, el mecanismo vuelve a su posición inicial y queda preparado para una nueva pulsación. Además, incorpora iluminación LED violeta que permite visualizar las teclas en condiciones de poca luz.
+
+## Registro fotográfico de botones
+
+| Control remoto RGB | Interruptor eléctrico | Teclado mecánico |
+|:---:|:---:|:---:|
+| ![Control remoto RGB](imagenes/control-remoto.jpeg) | ![Interruptor eléctrico](imagenes/interruptor.jpeg) | ![Teclado mecánico](imagenes/teclado-mecanico.jpeg) |
+
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
