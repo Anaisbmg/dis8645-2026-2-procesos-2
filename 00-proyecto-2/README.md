@@ -23,55 +23,55 @@ crit-03: grupal, documentación del código del proyecto, con énfasis en coment
 
 ### grupo-01
 
-cami
-bianka
-daya
+- cami
+- bianka
+- daya
 
 ### grupo-02
 
-anto loch
-carla
-anais
-hugo
+- anto loch
+- carla
+- anais
+- hugo
 
 ### grupo-03
 
-magda b
-yaira
-cata
-marce
+- magda b
+- yaira
+- cata
+- marce
 
 ### grupo-04
 
-emi
-kata
-monse
-kris
+- emi
+- kata
+- monse
+- kris
 
 ### grupo-05
 
-fran
-santi
-nico
-tomascatri
+- fran
+- santi
+- nico
+- tomascatri
 
 ### grupo-06
 
-martina
-belen
-maite
-nacha
+- martina
+- belen
+- maite
+- nacha
 
 ### grupo-07
 
-natallia
-isi diaz
-carlo
-natalia pilar
+- natallia
+- isi diaz
+- carlo
+- natalia pilar
 
 ### grupo-08
 
-isi p
-vane
-narely
-ángel
+- isi p
+- vane
+- narely
+- ángel
