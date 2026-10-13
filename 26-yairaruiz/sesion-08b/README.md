@@ -38,7 +38,37 @@ La idea es que, aunque un botón tenga dos estados básicos —presionado y no p
 
 Esto permite crear comportamientos más complejos a partir de información sencilla, combinando estados y condiciones dentro del código
 
++ Latch
 
+Es un interruptor que recuerda su estado. Se presiona una vez para activarlo y otra vez para desactivarlo, sin necesidad de mantenerlo presionado. Este comportamiento también se puede programar con un botón común.
+
++ DIP Switch
+
+Es un conjunto de pequeños interruptores dentro de un mismo encapsulado, que se pueden activar o desactivar de forma independiente.
+
+### Tamaño y función
+
+El tamaño y la forma de un componente pueden relacionarse con su función. Los colores también comunican información, por ejemplo, rojo para alertas, verde para indicar que todo está bien y azul para señalar que algo está encendido o tiene corriente.
+
+### Potenciómetro con switch
+
+Permite regular una variable y encender o apagar un dispositivo con el mismo componente. Un ejemplo es el Otamatone, que se enciende al subir el volumen.
+
+### Componentes y conceptos
+
+Multiplexer (MUX): recibe varias señales y selecciona una para enviarla a una única salida. El demultiplexer hace lo contrario.
+
+CD4051: permite seleccionar entre 8 canales utilizando 3 entradas selectoras.
+
+MAX7219: sirve para controlar matrices de LED o displays.
+
+PWM: permite regular la intensidad de una luz variando el tiempo que la señal permanece encendida y apagada.
+
+PWM slice: es parte del hardware que genera señales PWM en microcontroladores como el RP2040.
+
+Rising edge: es el cambio de una señal de 0 a 1, que permite detectar eventos como la activación de un botón.
+
+CD4016: es un circuito integrado con cuatro interruptores electrónicos independientes, que permiten conectar o desconectar señales.
 
 ## encargos
 
