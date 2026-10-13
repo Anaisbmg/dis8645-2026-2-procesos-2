@@ -95,7 +95,7 @@ encargo-08a:
 
 ![Botón 2](./imagenes/boton2.jpg)
 
-&uarr; **Botón 2**:
+&uarr; **Botón 2**: Control remoto de TV. Los botones de volumen y cambio de canal están conectados por una membrana¿¿, físicamente si es posible presionar ambos botones a la vez (+ y - volumen, o &uarr; y &darr; canal), pero el control solo registra el primer botón que hizo contacto
 
 ![Botón 3](./imagenes/boton3.jpg)
 
