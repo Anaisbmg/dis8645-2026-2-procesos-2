@@ -92,3 +92,9 @@ quedando así [Wokwi de tarea](https://wokwi.com/projects/477711490516125697)
 
 
 ## lectura
+
+Estas citas hablan sobre lo principal y abarca la idea principal del texto, la identidad de artista y docente esta en la practica, pero cuando esta se forma no se reconoce en la totalidad, hasta puede ser cuestionada, cerrando sobre como funciona fuera de Chile y ahora abarca que pasa en Chile. Las marchas de la fecha van de la mano con la empleabilidad de estas carreras, además que tener un título no te hace artista, la educación no define si es o no un artista, ser interpretes y no solo tener que reproducir objetos
+
+“El programa más importante que se ejecuta actualmente es el Artist Teacher Scheme (ATS) que, desde 1999, imparte diversos talleres, cursos y maestrías que se desarrollan en diversas galerías e institutos universitarios del país. De esta manera se busca promover el trabajo creativo de los/as artistas, que puedan enriquecer y beneficiar sus experiencias pedagógicas en las escuelas.” p.45
+
+“La formación de artistas en Chile se inicia con la creación de academias en las que se impartió dibujo, escultura y pintura a fines del siglo xix, las cuales, más tarde, pasarían a formar parte de la Universidad de Chile. Se reconoce que en la formación de la nación los ideales ilustrados tuvieron una gran influencia.” p.46
