@@ -107,7 +107,7 @@ encargo-08a:
 
 ![Luz 2](./imagenes/luces2.jpg)
 
-&uarr; **Luces 2**: Router de wi-fi de mi casa. Tiene cuatro luces que varían entre azul y rojo. Cuando se reinicia el router, las luces parpadean por un momento antes de permanecer encendidas
+&uarr; **Luces 2**: Router de wi-fi de mi casa. Tiene cuatro luces que varían entre azul y rojo. Cuando se reinicia el router, las luces parpadean por un momento antes de permanecer encendidas. Cuando todo funciona como debe, las cuatro luces aparecen azules
 
 ![Luz 3](./imagenes/luces3.jpg)
 
