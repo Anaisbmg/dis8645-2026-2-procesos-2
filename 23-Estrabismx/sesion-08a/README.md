@@ -26,7 +26,11 @@ Llevo trabajando en un repositorio donde explicar de mejor manera todo este proy
 
 <br>
 
-Igualmente, mientras realizaba este proyecto se me ocurrio la idea de buscar una manera de conectar el proyecto de taller, es decir, el sampler secuenciador con sintetizadores analogos
+Igualmente, mientras realizaba este proyecto se me ocurrio la idea de buscar una manera de conectar el proyecto de taller, es decir, el sampler secuenciador con sintetizadores análogos. Por lo que investigaré como lograr conexiones entre este módulo con el futuro peoyecto...
+
+<br>
+
+
 
 ## encargos
 
@@ -68,4 +72,41 @@ Realizando el ejercicio me percaté y no supe como definir un Joystick, ya que p
 
 Me fui en volá https://wokwi.com/projects/477369782983665665
 
+<br>
+
 ## lectura
+
+Antes de comenzar con información sobre la lectura, voy a comentar 2 ideas que he rondado sobre este ejercicio.
+
+1. Me percaté que en la semana de receso al no leer, _perdí el hilo_ sobre el libro. Por lo que me hace pensar en como estructurar mi dia a dia para seguir ejercitando este hábito, pensaba en incluso volver a libros que ya he leido. Por ejemplo, cada cierto tiempo leo libros que a mis 12 - 14 años me llamaron la atención, solo por el ejercicio de leer y ver las cosas con una perspectiva diferente. 
+
+2. Este libro me ha costado leer por la barrera del idioma, ya que normalmente me toma 1 a 2 semanas un libro de este tipo, con lenguaje medianamente técnico, no tan extenso y relacionado directamente a temas de mi interés. Considero que poseo un nivel medio de íngles pero me percaté que en contextos poco formales, esto por aprenderlo mediante convivir en internet, por ende quiero ampliar mi dominio de este idioma y especialmente en el áreas relacionadas al diseño, es por esto que aprovechando que en "_Computers that made the world_" no se utiliza lenguaje excesivamente complejo, me enfocaré en entender y comprender cada parrafo. Esto tomará tiempo y no podré leer todo el libro, pero si es necesario volver a leer cada cápitulo, hasta que tenga interiorizado y no requiera de un diccionario por una palabra desconocida en cada oración.
+
+>[!NOTE]
+>
+> Quiero destacar que todos los apuntes fueron realizados durante mi estadia en un campamento scout, por lo que no fueron muy extenos, pero me enfoque en entender lo que leí (como se explica antes) y reflexionar las ideas ya mencionadas
+
+### Vocabulario
+
+- Sowing: sembrar
+- Grab crane: grua cuchra 
+- WardRobe: ropero
+- straight forward: directo
+
+### Zuse Z3
+
+Konrad Zuse recibió un juego mecánico modular, esto fue la piedra inicial para la primera computadora binaria electromecánica.
+
+Esta fue posible gracias que la ayuda de su familia y amigos, ya que las empresas y universidades no confiaron en su proyecto.
+
+Esta máquina competia de igual a igual contra sus contemporáneos. Lo malo es que en Berlin no hubo tanto énfasis en estas tecnologías y diversas personas consideran que si hubiera surgido en UK o USA tendría la misma fama que la máquina de Turing o la ENIAC
+
+Volviendo a su juventud, llego a realizar una grua cuchara que manejaba sobre su ropero, esto fue una clara muestra de su obsesión con la resolución mecánica a problemas. Sumado a esto, poseia una gran habilidad con el dibujo, es por esto que poseia diversas opciones de carreras universitarias:
+
+- Urbanismo
+- Ingeneria
+- Arquitectura
+
+Lastimosamente eligio ingeneria, pero como dicen los lolos, soltó tremendo facto _"Doric and Ionic columns left me cold"_
+
+> Leer "The Computer - My Life"
