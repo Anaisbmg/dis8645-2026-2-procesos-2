@@ -41,7 +41,7 @@ Eg. `LuzNavidad = Lucecita[100];`
 
 - Botón &harr; Lucecita &harr; Usuario &harr; Botón (cíclico)
 
-[Pinout LED RGB](./imagenes/rgbled-pinout.jpg)
+![Pinout LED RGB](./imagenes/rgbled-pinout.png)
 
 ```cpp
 class EspantaCuco {
