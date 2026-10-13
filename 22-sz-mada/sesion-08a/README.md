@@ -79,7 +79,7 @@ encargo-08a:
 
 ![Perilla 1](./imagenes/perilla1.jpg)
 
-&uarr; **Perilla 1**: Horno tradicional de mi casa. Regula la temperatura dentro del horno, aunque no tiene ninguna indicación de cuáles son dichas temperaturas lol. Se puede rotar hacia la izquierda en un arco de casi 270° 
+&uarr; **Perilla 1**: Horno tradicional de mi casa. Regula la temperatura dentro del horno, aunque no tiene ninguna indicación de cuáles son dichas temperaturas lol. Se puede rotar hacia la izquierda en un arco de casi 270°
 
 ![Perilla 2](./imagenes/perilla2.jpg)
 
@@ -91,15 +91,27 @@ encargo-08a:
 
 ![Botón 1](./imagenes/boton1.jpg)
 
+&uarr; **Botón 1**: Estufa eléctrica en mi casa. Como contexto, la estufa enciende una luz que simula la imagen de una estufa a leña. El primer (izquierda) switch enciende esta luz y la estufa en sí, pero no genera calor; el segundo switch comienza a generar calor, y el tercer switch aumenta la intensidad del calor generado. Cabe mencionar que el último switch depende del segundo, es decir no hace nada si ese está apagado. También se puede apreciar una perilla pero no le encuentro el uso ya que nunca he logrado notar una diferencia al rotarla, solo que apaga la estufa si la giro completamente a la izquierda
+
 ![Botón 2](./imagenes/boton2.jpg)
+
+&uarr; **Botón 2**:
 
 ![Botón 3](./imagenes/boton3.jpg)
 
+&uarr; **Botón 3**:
+
 ![Luz 1](./imagenes/luces1.jpg)
+
+&uarr; **Luces 1**: Teclado de mi notebook. Tiene la misma intensidad y color a lo largo de todo el teclado. No se puede cambiar el color (que yo sepa), pero si se pueden apagar o atenuar un poco
 
 ![Luz 2](./imagenes/luces2.jpg)
 
+&uarr; **Luces 2**: Router de wi-fi de mi casa. Tiene cuatro luces que varían entre azul y rojo. Cuando se reinicia el router, las luces parpadean por un momento antes de permanecer encendidas
+
 ![Luz 3](./imagenes/luces3.jpg)
+
+&uarr; **Luces 3**: Luces de un escenario en Matucana 100. Esta es una foto que tenía desde antes, así que no puedo recordar cuando explicaron las especificaciones en sí, pero creí que aún así valdría la pena incluir aquí
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
