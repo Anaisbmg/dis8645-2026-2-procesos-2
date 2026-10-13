@@ -6,7 +6,7 @@
 
 Con los cuatro que habíamos en la sala, Aarón definió? que el mejor momento para evaluar la ""solemne"" es la semana subsiguiente i think
 
-### Bloque 9:00 - ??:??
+### Bloque 9:00 - 11:00
 
 Para el proyecto 02 hay que conformar grupos de cuatro, aunque va a haber un (1) grupo de tres anyway
 
