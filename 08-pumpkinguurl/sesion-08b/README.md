@@ -3,7 +3,7 @@
 ## apuntes sesión
 Clase vía zoom
 
-###Primera parte
+### Primera parte
 
 Revisión de encargos
 
@@ -12,7 +12,7 @@ Perillas, botones y luces
 Parpadeo led wokwi
 
 
-###Segunda parte
+### Segunda parte
 
 
 partimos con un psuedo código
