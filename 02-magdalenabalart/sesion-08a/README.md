@@ -2,11 +2,55 @@
 
 ## apuntes sesión
 
+# Programación orientada a objetos (POO)
+
+### Clases y objetos
+
+La programación orientada a objetos sirve para ordenar el código y evitar repetir instrucciones. Por ejemplo, si tenemos varios botones que hacen cosas parecidas, podemos crear una clase `Boton` y usarla varias veces. Si necesitamos cambiar algo de su funcionamiento, lo modificamos en la clase y no en cada botón por separado.
+
+- **Clase:** estructura que usamos para crear objetos.
+- **Objeto:** elemento que creamos a partir de una clase.
+- **Atributos:** características de un objeto, como su estado o posición.
+- **Métodos:** acciones que puede realizar, como `encender()` o `apagar()`.
+- **Constructor:** se ejecuta al crear un objeto y permite definir sus valores iniciales.
+- **Subclase:** clase que hereda características y métodos de otra.
+
+Por ejemplo, podemos crear una clase `Boton` y después tener `boton1` y `boton2`. Los dos comparten la misma estructura, pero pueden estar conectados a pines distintos y realizar acciones diferentes.
+
+### Archivos .h y .cpp
+
+- `.h`: declara los atributos y métodos de una clase, es decir, qué tiene y qué puede hacer.
+- `.cpp`: contiene el código que define cómo funcionan esos métodos.
+
+### ADC
+
+El ADC (convertidor analógico a digital) transforma una señal analógica en un valor digital. Por ejemplo, permite leer la posición de un potenciómetro y convertirla en un número.
+
+Con una resolución de 12 bits, los valores van desde 0 hasta 4095.
+
+### Caja negra
+
+Una caja negra es un sistema del que conocemos lo que entra (*input*) y lo que sale (*output*), pero no necesariamente cómo funciona por dentro.
+
+`INPUT → CAJA NEGRA → OUTPUT`
+
 ## encargos
 
 encargo-08a:
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
+
+### 1. Botón tipo switch – Tocadiscos
+Este botón es de un tocadiscos y sirve para encender o detener el motor que hace girar el vinilo. Es un botón de tipo switch, que funciona como un interruptor, permitiendo abrir o cerrar el paso de corriente eléctrica. A diferencia de un pulsador, que solo se activa mientras lo mantenemos apretado, este botón mantiene su estado hasta que se vuelve a presionar. Tiene dos estados, encendido y apagado (1 y 0), por lo que funciona como una entrada digital.
+![botón](imagenes/boton.jpg) 
+    
+### 2. Potenciómetro – Equipo de música
+Este potenciómetro está en un equipo de música JVC y se usa para controlar el volumen de los audífonos. Funciona girando una perilla que va cambiando la resistencia eléctrica, lo que permite subir o bajar el volumen. A diferencia de un botón, que tiene dos estados, el potenciómetro permite regular distintos niveles de forma gradual, desde el mínimo hasta el máximo.
+![potenciómetro](imagenes/potenciometro.jpg)
+
+### 3. LED – Extractor de aire
+Este LED rojo está en un extractor de aire del baño y se usa para indicar cuando está encendido. Es un componente de salida que funciona emitiendo luz cuando pasa corriente eléctrica por él. En este caso, la luz roja permite saber si el extractor está encendido o apagado sin tener que fijarse directamente en el ventilador.
+![led](imagenes/led.jpg)
 
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
@@ -96,6 +140,6 @@ Terminé con dos luces que funcionan de manera independiente:
 - **LED 1 (GP6):** parpadea con tiempos de 500 ms y se prende o apaga usando el botón.
 - **LED 2 (GP5):** parpadea con tiempos de 250 ms cuando la perilla está entre 2000 y 3000. Fuera de ese rango se apaga.
 
-
+![wokwi](imagenes/encargo08.jpg)
 
 ## lectura
