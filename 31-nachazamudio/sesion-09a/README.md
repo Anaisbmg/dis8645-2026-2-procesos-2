@@ -26,6 +26,24 @@ INTERFAZ: velato - material - usabilidad - factura¿
 PRESENTACIÓN: organizar temas y tiempo 
 BITÁCORA: 
 
+----------
+
+KiCad: sirve para diseñar esquemáticos.
+
+crear nuevo proyeto, usar el .sch
+
+Boton a la derecha, forma de triangulo hacia la derecha: incluir símbolos. 
+
+Potenciometro: R_potenciometer en carpeta device
+
+3V3: carpeta power
+
+resistor: R, carpeta device
+
+LED: 
+
+---------
+
 ## encargos
 
 ## lectura
