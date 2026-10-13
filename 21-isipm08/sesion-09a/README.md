@@ -30,6 +30,9 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 - interfaz (relato material, usabilidad, factura)
 - código (clases, comentarios, uso, orden)
 - docs (README, diagramas flujo, bibliografía, prompts)
+
+### KICAD
+- vimos con más profunidad KICAD
   
 <https://misaaaaaa.github.io/imagen-talvez/magos.html>
 
