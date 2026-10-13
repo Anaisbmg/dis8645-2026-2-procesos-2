@@ -244,7 +244,7 @@ Me imagino que podría ser algo como: si la perilla se gira, cambia el volumen, 
 
 **Mouse**
 
-<img src="./imagenes/mouse-boton.jpg" alt="" width="300">
+<img src="./imagenes/mouse.jpeg" alt="" width="300">
 
 El mouse tiene botones que sirven para seleccionar, abrir o realizar distintas acciones dependiendo de dónde se haga clic.
 
@@ -267,7 +267,7 @@ Me imagino que podría funcionar con una condición muy básica: si el aparato e
 
 **Alargador**
 
-<img src="./imagenes/calientacamas.jpeg" alt="" width="300">
+<img src="./imagenes/alargador.jpeg" alt="" width="300">
 
 El alargador también tiene una luz que indica cuando está encendido y conectado.
 
@@ -276,14 +276,41 @@ Podría programarse de una forma parecida al calientacamas: si está activado, l
 
 **Router**
 
-<img src="./imagenes/router-luces.jpg" alt="" width="300">
+<img src="./imagenes/router.jpeg" alt="" width="300">
 
 El router tiene varias luces que muestran diferentes estados de la conexión. Dependiendo de lo que esté pasando, una luz puede parpadear, ponerse roja o apagarse.
 
 Este fue el que me pareció más interesante para pensar cómo programarlo. Podría imaginarlo con distintas condiciones: si hay conexión, una luz queda encendida; si está intentando conectarse, parpadea; y si hay algún problema, se pone roja o se apaga.
 
 
+
+
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+
+
+**parpadeo paramétrico**
+
+Partí del ejemplo de la clase y agregué el parpadeo, manteniendo el código y los comentarios que ya estaban.
+
+**Lucecita.h**
+
+Agregué `parpadear(int tiempo)`. Aquí dejamos declarado que la lucecita puede parpadear y que recibe un tiempo para hacerlo.
+
+**Lucecita.cpp**
+
+Agregué los pasos del parpadeo: prender, esperar, apagar y esperar de nuevo. Para eso usé `prender()` y `apagar()`, que ya existían.
+
+También agregué `pico/stdlib.h` para usar `sleep_ms`, que permite esperar en milisegundos (1000 milisegundos son un segundo).
+
+**main.cpp**
+
+Usé la posición de la perilla para calcular el tiempo con `parpadeo.posicion / 8 + 100`. Dividir por 8 permite que la espera sea más corta.
+
+Después le pasé ese valor a la luz con `luz.parpadear(tiempo)`.
+
+Me di cuenta de que recién empieza a parpadear desde 2048, porque mantuve la condición del ejemplo. Antes de eso queda apagada y después la perilla cambia la velocidad.
+
+El parpadeo es paramétrico porque recibe un tiempo que puede cambiar. Mientras más tiempo espera, más lento parpadea.
 
 
 
