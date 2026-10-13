@@ -258,7 +258,7 @@ De forma muy básica, podría programarse para que al detectar que el botón est
 
 **Calientacamas**
 
-<img src="./imagenes/calientacamas-luz.jpg" alt="" width="300">
+<img src="./imagenes/calientacamas.jpeg" alt="" width="300">
 
 El calientacamas tiene una luz que indica que está encendido y conectado. Es una luz bastante simple porque sirve principalmente para mostrar su estado.
 
