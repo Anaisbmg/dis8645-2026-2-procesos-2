@@ -79,9 +79,15 @@ encargo-08a:
 
 ![Perilla 1](./imagenes/perilla1.jpg)
 
-![Perilla 2](./imagenes/perilla1.jpg)
+&uarr; **Perilla 1**: Horno tradicional de mi casa. Regula la temperatura dentro del horno, aunque no tiene ninguna indicación de cuáles son dichas temperaturas lol. Se puede rotar hacia la izquierda en un arco de casi 270° 
 
-![Perilla 3](./imagenes/perilla1.jpg)
+![Perilla 2](./imagenes/perilla2.jpg)
+
+&uarr; **Perilla 2**: """Switch""" de luz en la casa de una amiga. Cambia la intensidad de la luz principal de la pieza, desde una luz tenue casi apagada, hasta un brillo completo. Se puede rotar 360° grados, pero se siente un tope en cada extremo (oscuridad vs. iluminado)
+
+![Perilla 3](./imagenes/perilla3.jpg)
+
+&uarr; **Perilla 3**: Tostador en la casa de una amiga. Regula el tiempo que se mantiene encendido. Solo puede rotarse hacia un lado (derecha), although asumo que técnicamente si se puede rotar de vuelta, pero quizás dañe el mecanismo del "reloj" interno
 
 ![Botón 1](./imagenes/boton1.jpg)
 
