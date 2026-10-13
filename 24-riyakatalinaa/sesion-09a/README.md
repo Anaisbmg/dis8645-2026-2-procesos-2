@@ -4,6 +4,29 @@ martes 2026-10-13
 
 ## apuntes sesión
 
+### proyecto-02
+
+- grupos de 4 (solo un grupo de 3)
+- cada grupo escribe 1 class (perrilla o botón)
+- cada grupo comparte su class
+- 2 perillas y2 botones pulsadores (opcional más botones a elección)
+- máquinas computacionales cartón o impresión 3D
+- controlar luz/sonido/pantalla
+- referentes a algún PC pre 2010
+- cuidar lenguaje, materiales, colores
+- **interfásica** (Mónica Jacobo, Gui Bonsiepe)
+
+### criterios de proyecto-02
+- 3 criterios grupales
+    - interfaz (relato, material, usabilidad, factura)
+    - código (clases, comentarios, uso, orden)
+    - domentación (README, diagramas de flujo, bibliografía, promts)
+ 
+- 3 criterios individuales
+    - presentación oral
+    - bitácoras
+    - bitácoras
+
 ## encargos
 
 ## lectura
