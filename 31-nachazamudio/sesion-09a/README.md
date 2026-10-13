@@ -68,6 +68,15 @@ Etiquetas: L
 
 -----------
 
+Buenos modeles, orden de kiCad:
+
+para tener menos cables y mas orden, se usan etiquetas
+
+x en todas la entradas que no estén en uso
+
+---------
+
+kiCad permite abrir un archivo a la vez, guardar antes de abrir otro archivo para no tener problemas
 
 
 
