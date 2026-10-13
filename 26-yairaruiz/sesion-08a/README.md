@@ -123,5 +123,12 @@ Este es un panel eléctrico de una biblioteca y es una estructura rectangular de
 
 ## lectura
 
+En esta parte se habla de cómo el urbanismo moderno está transformando las ciudades y afectando la forma en que las personas viven y se relacionan.
 
+- La ciudad se organiza cada vez más en función del automóvil, las autopistas y el consumo, provocando que los espacios urbanos se dispersen y pierdan sus relaciones sociales.
+Algo que me llamó la atención es que el autor plantea que la ciudad y el campo no están superando sus diferencias, sino que ambos se están deteriorando y mezclando de forma desordenada. También critica que las personas pierdan el control sobre los espacios que habitan y sobre cómo se organiza su propia vida.
+
+- “La dictadura del automóvil, producto-piloto de la primera fase de la abundancia mercantil, se ha inscrito en el terreno con la dominación de la autopista”.
+  
+- “La mayor idea revolucionaria referente al urbanismo no es ella misma urbanística, tecnológica o estética. Es la decisión de reconstruir íntegramente el territorio”.
 
