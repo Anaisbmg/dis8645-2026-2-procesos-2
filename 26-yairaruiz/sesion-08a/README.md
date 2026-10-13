@@ -120,6 +120,10 @@ Es un microondas que cuenta con dos perillas que se giran, ubicadas en el panel 
 Este es un panel eléctrico de una biblioteca y es una estructura rectangular de color gris. En la parte superior indica “Computación”, acompañado de tres lED luminosos circulares de color rojo, que se encuentran encendidos. Al lado se encuentra una sección identificada como “Emergencia” y esta en rojo, también tiene tres LED encendidos de color rojo. Abajo dice "normal" y también cuenta con 3 LED de color rojo encendidos. El panel también incluye un cartel de advertencia con forma triangular, con un símbolo de un rayo y el texto “Peligro electricidad”, indicando riesgo eléctrico.
 
 3. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+  
++ El botón controla si la luz funciona o no, mientras que la perilla determina qué tan rápido parpadea. Para conseguirlo, utilizamos un período que se calcula de forma paramétrica y una función que controla el cambio entre encendido y apagado según el tiempo transcurrido.
+
+https://wokwi.com/projects/477771685557963777
 
 ## lectura
 
