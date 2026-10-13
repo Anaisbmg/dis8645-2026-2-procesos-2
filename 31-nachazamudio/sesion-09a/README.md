@@ -42,7 +42,34 @@ resistor: R, carpeta device
 
 LED: 
 
----------
+--------
+
+Los componentes no se agrandan
+
+Mover componentes: seleccionar + m 
+
+Referencia(R): instancia de clase  R, nombre. No se cambia
+
+Valor(R): cantidad, atributo. Este si se cambia
+
+--------
+
+Mover componentes conectados:  apretar G - así mantiene la conexión
+
+Nombrar a los potenciómetros
+
+botones: colocar la medida en valor, ej: 6x6
+
+si sale un cuadrado al final de las conexiones significa que está mal conectado, se pasó el cable
+
+los cables tambien se pueden acomodar con G
+
+Etiquetas: L
+
+-----------
+
+
+
 
 ## encargos
 
