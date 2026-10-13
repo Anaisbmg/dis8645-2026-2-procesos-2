@@ -99,7 +99,7 @@ encargo-08a:
 
 ![Botón 3](./imagenes/boton3.jpg)
 
-&uarr; **Botón 3**:
+&uarr; **Botón 3**: Botones del ascensor de un mall. Estos botones necesitan más presión de lo que uno cree para registrar que fueron presionados. Vi mucha gente "presionar" los botones para esperar el ascensor, pero no utilizaron suficiente presión así que no sucedía nada. Al parecer hay que apretarlos completamente hasta el fondo¿, lo cual causa que se encienda una luz detrás del botón que muestra que fue activado
 
 ![Luz 1](./imagenes/luces1.jpg)
 
