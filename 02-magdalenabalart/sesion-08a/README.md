@@ -8,6 +8,18 @@ encargo-08a:
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
 
+### 1. Botón tipo switch – Tocadiscos
+Este botón es de un tocadiscos y sirve para encender o detener el motor que hace girar el vinilo. Es un botón de tipo switch, que funciona como un interruptor, permitiendo abrir o cerrar el paso de corriente eléctrica. A diferencia de un pulsador, que solo se activa mientras lo mantenemos apretado, este botón mantiene su estado hasta que se vuelve a presionar. Tiene dos estados, encendido y apagado (1 y 0), por lo que funciona como una entrada digital.
+![botón](imagenes/boton.jpg) 
+    
+### 2. Potenciómetro – Equipo de música
+Este potenciómetro está en un equipo de música JVC y se usa para controlar el volumen de los audífonos. Funciona girando una perilla que va cambiando la resistencia eléctrica, lo que permite subir o bajar el volumen. A diferencia de un botón, que tiene dos estados, el potenciómetro permite regular distintos niveles de forma gradual, desde el mínimo hasta el máximo.
+![potenciómetro](imagenes/potenciometro.jpg)
+
+### 3. LED – Extractor de aire
+Este LED rojo está en un extractor de aire del baño y se usa para indicar cuando está encendido. Es un componente de salida que funciona emitiendo luz cuando pasa corriente eléctrica por él. En este caso, la luz roja permite saber si el extractor está encendido o apagado sin tener que fijarse directamente en el ventilador.
+![led](imagenes/led.jpg)
+
 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 
 https://wokwi.com/projects/477403274082177025
@@ -96,6 +108,6 @@ Terminé con dos luces que funcionan de manera independiente:
 - **LED 1 (GP6):** parpadea con tiempos de 500 ms y se prende o apaga usando el botón.
 - **LED 2 (GP5):** parpadea con tiempos de 250 ms cuando la perilla está entre 2000 y 3000. Fuera de ese rango se apaga.
 
-
+![wokwi](imagenes/encargo08.jpg)
 
 ## lectura
