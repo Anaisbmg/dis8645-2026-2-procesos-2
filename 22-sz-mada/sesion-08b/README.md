@@ -10,4 +10,8 @@ Debido a que ha llovido torrencialmente durante toda la semana, trabajaremos mod
 
 Botón LATCH &rarr; se mantiene en el estado en el que se presiona
 
+### &darr; RECORDATORIO A MI MISMO &darr;
+
+ver el video de la clase y tomar apuntes bien, pq claramente no escribí nada lol
+
 ## encargos
