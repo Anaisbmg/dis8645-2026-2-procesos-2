@@ -45,6 +45,10 @@ los esquemáticos (.sch) son solo para indicar dónde se encuentran las conexion
 
 (.pcb) no lo ocuparemos pero a estos si les importa el diseño de nuestro esquemático de una manera más visual, organizacional, y comprendiéndolo desde lo físico, aquí vemos desde el tamaño y forma de la pcb hasta cada conexión de cobre.
 
+mi-primer-kicad ya existe en el semestre pasado, entonces lo llamé mi-segundo-kicad y tiene compañía de un arbolito navideño explosivo de capacitores porque ya se siente la víspera, totalmente necesario
+
+![kicad](./imagenes/mi-segundo-kicad.png)
+
 ## encargos
 
 ## lectura
