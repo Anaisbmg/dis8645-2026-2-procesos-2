@@ -20,6 +20,7 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 11. diagrama software
 12. diagrama hardware
 13. prototipar wokwi
+14. máquinas tributo a un cierto computador antiguo
 
 ### criterios
 **individuales**
@@ -33,6 +34,25 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 
 ### KICAD
 - vimos con más profunidad KICAD
+- ```.sch``` indicar dónde se encuentran las conexiones y sus valores (no importa diseño ni visualidad)
+- ```.pcb``` acá si importa el diseño de el esquema
+- nunca olvidar grabar
+- agregar precios y URL (propiedades componentes)
+- cad: diseño asistido por computadora
+- Module:RaspberryPi_Pico_Common_Unspecified = raspberry pi pico (no chip solo)
+- SW_Push = botón pulsador
+- D_LED = diodo LED
+- A -- agregar símbolos, escribir, buscar componentes 
+- M -- mover
+- T -- texto (incluir documentación)
+- V -- valor
+- G -- tomar y mover
+- E -- propiedades
+- L -- etiquetas de red
+- R -- resistencia
+
+1. resistores -- resistencia
+2. capacitores -- capacitancias
 
 <https://github.com/disenoUDP/mi-primer-esquematico>
 
@@ -48,6 +68,32 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 
 <https://dl.acm.org/doi/pdf/10.1145/2460625.2460711>
 
-## encargos
-
 ## lectura
+### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
+- hoy sigo realizando la misma lectura del capítulo llamado "Languajes for computers and for people"
+
+*apuntes lectura*
+- computadora como una herramienta flexible y potente para la exploración genuina y propia
+- relación entre programación y andamiento
+- programación para obtener una mejor comprensión de sus propias acciones
+- programación estructurada -- ayuda para el aprendizaje
+- geometría de tortugas -- agudizar sentido de sus cuerpos y movimientos físicos, comprensión geometría formal
+- programas estructurados -- nueva concreción y poder
+- cómo los buenos modelos computacionales pueden ayudar a construir procedimientos de personas, mejorando el rendimiento de habilidades y cómo la reflexión de estos procedimientos puede ayudarnos a aprender a programar
+
+```
+instrucción/ condición
+HAMBRE
+llevar a cabo acción
+COMER
+```
+- comando crea entidad autónoma dentro del sistema informático, la cual permanece inactiva hasta que se presenta un cierto tipo de evento y luego realizar acción
+- uso de conceptos de programación facilita la depuración
+- podemos aprender más tomando el control del proceso de aprendizaje, articulando y analizando nuestro comportamiento
+- los errores nos benefician, ya que nos llevan a estudiar lo que sucedió y a entender lo que sucedió mal para llevarlo a una solución 
+
+
+
+
+
+
