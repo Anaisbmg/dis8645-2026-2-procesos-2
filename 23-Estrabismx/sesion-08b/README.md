@@ -70,4 +70,8 @@ Este video se observa un sintetizador que posee "_botones_", es decir, 4 SPST. T
 
 ## encargos
 
+Me quise ir en volá xd, ya que sé que veremos KiCad y realizaremos el esquema y pcb del microcontrolador del raspi, descargue el repo [franbu](https://github.com/piruetasxyz/frambu) de [piruetas.xyz](https://github.com/piruetasxyz) donde hay una plantilla para trabajar con dicho chip.
+
+>Tarea propia, investigar sobre el chip y como se relaciona con la placa de desarrollo  
+
 ## lectura
