@@ -27,6 +27,10 @@ _puntaje individual_
 KICAD
 kicad sirve para diseñar esquemáticos
 usaremos el archivos SCH
+los componentes tienen una referencia y un valor
+- cuerpo = el ícono
+- referencia = instancia (generalmente no se cambia)
+- valor = cantidad, atributo (este si cambia) 
 
 ## encargos
 
