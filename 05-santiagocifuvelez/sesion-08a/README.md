@@ -17,9 +17,9 @@ Estuve revisando los repositorios de mis compañerxs junto al calendario del cur
 >`Archivos .cpp`
 >
 > 2. Tangibles:
->1. Botones
->2. Perillas
->3. Luces 
+>`Botones`
+>`Perillas`
+>`Luces` 
 
 # apuntes sesión
 
