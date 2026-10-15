@@ -27,6 +27,15 @@ Estuve revisando los repositorios de mis compañerxs junto al calendario del cur
 ## Programación orientada a objetos (POO)
 Es una forma de programar donde, en vez de escribir instrucciones sueltas, creas “cosas” (objetos) que tienen sus propias características y acciones. Sirve para ordenar el código y evitar repetir instrucciones. Es como armar un programa con piezas de Lego.
 
+**Conceptos básicos:**
+
+`Clase:` el molde o plano. Define cómo será algo (por ejemplo, “cómo es un auto”).  
+`Objeto:` una cosa concreta hecha con ese molde (mi auto rojo).  
+`Atributos:` lo que el objeto tiene (color, velocidad).  
+`Métodos:` lo que el objeto hace (acelerar, frenar).  
+`Constructor:` se ejecuta al crear el objeto y le da sus valores iniciales.  
+`Herencia:` una clase puede copiar lo de otra y agregarle cosas nuevas (Camioneta hereda de auto).  
+
 ## Conceptos básicos:
 
 # encargos
