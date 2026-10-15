@@ -35,7 +35,13 @@ Es una forma de programar donde, en vez de escribir instrucciones sueltas, creas
 `Métodos:` funciones dentro de la clase; lo que el objeto hace (acelerar, frenar).  
 `Constructor:` método con el mismo nombre de la clase; se ejecuta al crear el objeto y le da sus valores iniciales.  
 `public / private:` en C++ defines qué partes se pueden usar desde afuera (public) y cuáles quedan protegidas dentro de la clase (private).  
-`Herencia:` una clase puede tomar lo de otra y agregarle cosas nuevas (class Camioneta : public auto).    
+`Herencia:` una clase puede tomar lo de otra y agregarle cosas nuevas (class Camioneta : public auto).  
+
+**En resumen:**
+Se hace el molde una sola vez y creas todos los objetos que quieras, sin repetir código.
+
+**Ejemplo:**
+Una receta de galletas (la clase) y las galletas que salen (los objetos). Todas siguen la misma receta, pero cada una puede tener distinto sabor.
 
 ## Conceptos básicos:
 
