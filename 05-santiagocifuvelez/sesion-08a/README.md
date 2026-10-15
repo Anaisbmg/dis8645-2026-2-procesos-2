@@ -6,6 +6,14 @@ Gracias a ustedes por la flexibilidad y la compresión para con el proyecto. Aho
 
 Estuve revisando los repositorios de mis compañerxs junto al calendario del curso para guiarme en que etapa del semestre estamos (comparando temas con fechas), para poder ponerme al día. Y encontré que estamos viendo programación en C++ para chips RP2040. Así que comencemos.
 
+>[!NOTE]
+>
+>Para poder organizarme, clasifique los temas que se están viendo, en este orden:  
+>Tangibles:
+>1. Botones
+>2. Perillas
+>3. Luces 
+
 ## apuntes sesión
 
 ## encargos
