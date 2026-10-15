@@ -22,9 +22,9 @@ Estuve revisando los repositorios de mis compañerxs junto al calendario del cur
 >`Perillas`
 >`Luces` 
 
-# apuntes sesión
+# Apuntes sesión
 
-# Programación orientada a objetos (POO)
+## Programación orientada a objetos (POO)
 Es una forma de programar donde, en vez de escribir instrucciones sueltas, creas “cosas” (objetos) que tienen sus propias características y acciones. Sirve para ordenar el código y evitar repetir instrucciones. Es como armar un programa con piezas de Lego.
 
 ## Conceptos básicos:
