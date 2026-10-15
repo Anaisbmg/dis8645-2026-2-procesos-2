@@ -1,7 +1,7 @@
 # sesion-08a
 Hola Emi, profe Aarón, Misa y Sebas.  
 
-Luego de 2 meses intensos, logré culminar la primera etapa de mi anteproyecto de grado, junto con el profesor Aarón (en Chile oficial) y Gustavo (en Colombia oficial).
+Luego de 2 meses intensos, logré culminar la primera etapa de mi anteproyecto de grado, junto con la compañía y el apoyo del profesor Aarón (en Chile oficial) y Gustavo (en Colombia oficial).
 Gracias a ustedes por la flexibilidad y la compresión para con el proyecto. Ahora es momento de ponerme al día con el taller, motivo por el cual extendí mi estadía en el país.
 
 Estuve revisando los repositorios de mis compañerxs junto al calendario del curso para guiarme en que etapa del semestre estamos (comparando temas con fechas), para poder ponerme al día. Y encontré que estamos viendo programación en C++ para chips RP2040. Así que comencemos.
