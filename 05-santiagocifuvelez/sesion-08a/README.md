@@ -8,7 +8,14 @@ Estuve revisando los repositorios de mis compañerxs junto al calendario del cur
 
 >[!NOTE]
 >
->Para poder organizarme, clasifique los temas que se están viendo, en este orden:  
+>Para poder organizarme, clasifique los temas que se están viendo, en este orden para poder repasarlos y estudiarles:
+>
+> ## Programación orientada a objetos (POO)
+>Estructuras macro para los textos:
+>
+>`Archivos .h`
+>`Archivos .cpp`
+>
 >Tangibles:
 >1. Botones
 >2. Perillas
