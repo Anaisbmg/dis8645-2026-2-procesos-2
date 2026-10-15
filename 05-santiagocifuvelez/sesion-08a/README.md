@@ -11,12 +11,12 @@ Estuve revisando los repositorios de mis compañerxs junto al calendario del cur
 >Para poder organizarme, clasifique los temas que se están viendo, en este orden para poder repasarlos y estudiarles:
 >
 > ## Programación orientada a objetos (POO)
->Estructuras macro para los textos:
+> 1. Estructuras macro para los textos:
 >
 >`Archivos .h`
 >`Archivos .cpp`
 >
->Tangibles:
+> 2. Tangibles:
 >1. Botones
 >2. Perillas
 >3. Luces 
