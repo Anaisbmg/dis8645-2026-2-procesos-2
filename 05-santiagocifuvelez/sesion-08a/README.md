@@ -43,7 +43,88 @@ Se hace el molde una sola vez y creas todos los objetos que quieras, sin repetir
 **Ejemplo:**
 Una receta de galletas (la clase) y las galletas que salen (los objetos). Todas siguen la misma receta, pero cada una puede tener distinto sabor.
 
-## Conceptos básicos:
+
+## Clase vs. objeto
+*aquí use un ejemplo de galletas while working con claude para poder entender. Una metáfora*
+*también estoy estudiando con este ejemplo creado en clase con el profesor Aarón, periodo: [ejemplo en wokwi](https://wokwi.com/projects/477335809803977729)* 
+
+- **Clase**: el *molde de galletas* (o la receta). Define qué forma tiene y qué puede hacer. Todavía no es una galleta.
+- **Objeto**: una *galleta* hecha con ese molde. Cada galleta puede tener su propio sabor.
+
+En el código:
+
+```cpp
+Boton pulsador(7);     // un objeto "pulsador" hecho con el molde Boton, conectado al pin 7
+
+Lucecita luz(6);       // un LED en el pin 6
+Lucecita luzDos(5);    // otro LED en el pin 5
+```
+
+Con **un solo molde** (`Lucecita`) hacemos **dos objetos** (`luz` y `luzDos`).
+
+
+## ¿Por qué dos archivos por clase (`.h` y `.cpp`)? 
+Se puede escribir todo en un solo archivo, pero con muchos componentes se vuelve larguísimo y difícil de ordenar.
+
+La regla es simple: **cada cosa tiene su propio espacio**. Así `main.cpp` queda corto y solo dice **qué hacer**, no **cómo se hace**.
+
+| Archivo | Qué contiene | Analogía |
+|---|---|---|
+| `.h` (header / encabezado) | **Qué tiene y qué puede hacer** la clase (la lista) | La portada de una receta: nombre e ingredientes |
+| `.cpp` | **Cómo se hace** cada acción (el código real) | Los pasos de la receta |
+| `main.cpp` | **Usa** las clases | El cliente que pide la comida |
+
+Ejemplo: `Lucecita.h` solo dice "un LED tiene `prender()`, `apagar()` y `parpadear()`". Las instrucciones reales para prenderlo están en `Lucecita.cpp`.
+
+Y `main.cpp` escribe `#include "Lucecita.h"` para decir: "voy a usar LEDs, muéstrame qué pueden hacer".
+
+
+Estructura del proyecto
+
+Todos los archivos van en la misma carpeta, sin subcarpetas:
+
+```
+proyecto/
+├── main.cpp
+├── Boton.h
+├── Boton.cpp
+├── Perilla.h
+├── Perilla.cpp
+├── Lucecita.h
+├── Lucecita.cpp
+└── diagram.json
+```
+
+`diagram.json` es el archivo que le dice a Wokwi cómo está armado el circuito (Pico, LEDs, botón, perilla y cables). Sin él, el código no tiene nada que controlar.
+
+### Orden para escribir el código
+
+Para cada clase, siempre el mismo orden:
+
+1. Escribir el `.h` primero (decidir qué tiene la clase)
+2. Escribir el `.cpp` después (programar cómo funciona)
+3. Repetir para cada clase
+4. Al final, escribir `main.cpp` (usar todo)
+
+---
+
+## Esqueleto de un archivo `.h`
+
+Cada `.h` empieza y termina así (se llama *include guard*):
+
+```cpp
+#ifndef LUCECITA_H
+#define LUCECITA_H
+
+// aquí va la declaración de la clase
+
+#endif
+```
+
+Cambia el nombre según el archivo: `BOTON_H` en `Boton.h`, `PERILLA_H` en `Perilla.h`.
+
+> La explicación de para qué sirve el include guard viene en el paso 2.
+
 
 # encargos
 
