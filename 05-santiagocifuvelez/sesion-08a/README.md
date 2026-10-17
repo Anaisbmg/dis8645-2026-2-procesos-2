@@ -142,6 +142,9 @@ Cada `.h` empieza y termina así (se llama *include guard*):
 
 Cambia el nombre según el archivo: `BOTON_H` en `Boton.h`, `PERILLA_H` en `Perilla.h`.
 
+## Pinout de raspberry-pi-pico-2-w
+![]()
+
 
 # encargos
 
