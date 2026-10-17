@@ -43,6 +43,9 @@ Se hace el molde una sola vez y creas todos los objetos que quieras, sin repetir
 **Ejemplo:**
 Una receta de galletas (la clase) y las galletas que salen (los objetos). Todas siguen la misma receta, pero cada una puede tener distinto sabor.
 
+<br>
+<br>
+<br>
 
 ## Clase vs. objeto
 *aquí use un ejemplo de galletas while working con claude para poder entender. Una metáfora*
@@ -62,6 +65,9 @@ Lucecita luzDos(5);    // otro LED en el pin 5
 
 Con **un solo molde** (`Lucecita`) hacemos **dos objetos** (`luz` y `luzDos`).
 
+<br>
+<br>
+<br>
 
 ## ¿Por qué dos archivos por clase (`.h` y `.cpp`)? 
 Se puede escribir todo en un solo archivo, pero con muchos componentes se vuelve larguísimo y difícil de ordenar.
@@ -78,8 +84,11 @@ Ejemplo: `Lucecita.h` solo dice "un LED tiene `prender()`, `apagar()` y `parpade
 
 Y `main.cpp` escribe `#include "Lucecita.h"` para decir: "voy a usar LEDs, muéstrame qué pueden hacer".
 
+<br>
+<br>
+<br>
 
-Estructura del proyecto
+## Estructura del proyecto
 
 Todos los archivos van en la misma carpeta, sin subcarpetas:
 
@@ -95,7 +104,14 @@ proyecto/
 └── diagram.json
 ```
 
-`diagram.json` es el archivo que le dice a Wokwi cómo está armado el circuito (Pico, LEDs, botón, perilla y cables). Sin él, el código no tiene nada que controlar.
+`diagram.json` es el archivo que le dice a Wokwi cómo está armado el circuito (Pico, LEDs, botón, perilla y cables). Sin él, el código no tiene nada que controlar.  
+`diagram.json` es un archivo solo de Wokwi. Es el “plano del circuito” para el simulador (qué piezas hay y cómo están conectadas). No es parte del código C++.
+
+Si lo corres en una placa real, no necesitas `diagram.json`. En su lugar, armas el circuito físicamente (con protoboard, LEDs, resistencias, botón y potenciómetro).
+
+<br>
+<br>
+<br>
 
 ### Orden para escribir el código
 
