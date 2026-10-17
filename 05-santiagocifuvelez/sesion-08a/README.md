@@ -328,6 +328,50 @@ pasa esto:
 
 `pico/stdlib.h` se importa en el `.cpp` porque ahí vive `sleep_ms`.
 
+<br>
+<br>
+<br>
 
+## Parte C: el circuito (solo el LED)
+
+- 1 **LED**
+- 1 **Resistencia de 220 Ω**
+
+<br>
+<br>
+<br>
+
+## Parte D: `main.cpp`
+
+```cpp
+#include <stdio.h>
+#include "pico/stdlib.h"
+
+#include "Lucecita.h"
+
+int main() {
+  stdio_init_all();
+
+  // crear un objeto Lucecita llamado luz, en el pin 6
+  Lucecita luz(6);
+
+  while (true) {
+    luz.parpadear(500, 500);  //Con este valor se experimenta para la velocidad de parpadeo de la led.
+  }
+}
+```
+
+### Línea por línea
+
+| Código | Qué significa |
+|---|---|
+| `#include <stdio.h>` | Entrada y salida estándar (se necesita para `printf`). |
+| `#include "pico/stdlib.h"` | Funciones básicas de la Pico. |
+| `#include "Lucecita.h"` | **La línea clave**: dice "voy a usar la clase `Lucecita`". |
+| `int main() {` | El punto de partida del programa. Todo programa de C++ empieza aquí. |
+| `stdio_init_all();` | Enciende la comunicación con el computador (monitor serial). |
+| `Lucecita luz(6);` | **Crea el objeto**: un LED llamado `luz`, en el pin 6. Aquí corre el **constructor** solo. |
+| `while (true) {` | Ciclo infinito. La Pico nunca se detiene, repite para siempre. |
+| `luz.parpadear(500, 500);` | Llama al método: 500 ms prendida, 500 ms apagada. |
 
 ## lectura
