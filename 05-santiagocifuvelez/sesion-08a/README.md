@@ -158,7 +158,7 @@ Para este apartado estoy desglosando el ejercicio con la ayuda de claude, para p
 
 Partimos creando todos los documentos en wokwi, y partimos escribiendo Lucecita.h y Lucecita.cpp
 
-# La clase `Lucecita`
+## La clase `Lucecita`
 
 > Primero se escribe el `.h` (qué tiene y qué hace) y después el `.cpp` (cómo funciona).
 
