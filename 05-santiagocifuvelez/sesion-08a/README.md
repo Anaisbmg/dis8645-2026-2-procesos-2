@@ -182,7 +182,7 @@ Pregunta clave: **¿qué tiene y qué hace un LED?**
 #include "hardware/gpio.h"  //Trae las funciones para controlar pines (gpio_init, gpio_put...).
 
 class Lucecita {
-public //Todo lo de abajo se puede usar desde afuera (desde main.cpp).
+public: //Todo lo de abajo se puede usar desde afuera (desde main.cpp).
 
 
 
