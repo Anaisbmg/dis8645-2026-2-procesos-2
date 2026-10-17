@@ -122,7 +122,10 @@ Para cada clase, siempre el mismo orden:
 3. Repetir para cada clase
 4. Al final, escribir `main.cpp` (usar todo)
 
----
+<br>
+<br>
+<br>
+
 
 ## Esqueleto de un archivo `.h`
 
@@ -138,8 +141,6 @@ Cada `.h` empieza y termina así (se llama *include guard*):
 ```
 
 Cambia el nombre según el archivo: `BOTON_H` en `Boton.h`, `PERILLA_H` en `Perilla.h`.
-
-> La explicación de para qué sirve el include guard viene en el paso 2.
 
 
 # encargos
