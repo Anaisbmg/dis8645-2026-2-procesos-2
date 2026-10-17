@@ -143,7 +143,8 @@ Cada `.h` empieza y termina así (se llama *include guard*):
 Cambia el nombre según el archivo: `BOTON_H` en `Boton.h`, `PERILLA_H` en `Perilla.h`.
 
 ## Pinout de raspberry-pi-pico-2-w
-![]()
+![](./imagenes/pinout.jpeg)
+[Aquí esta el esquemático en la pagina oficial](https://pip-assets.raspberrypi.com/categories/1088-raspberry-pi-pico-2-w/documents/RP-008305-DS-1-pico-2-w-pinout.pdf)
 
 
 # encargos
