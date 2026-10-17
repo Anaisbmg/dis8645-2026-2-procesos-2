@@ -154,9 +154,9 @@ encargo-08a:
 # 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
 | Perillas | Botones | Luces |
 |---|---|---|
-| ![]() | ![]() | ![]() |
-| ![]() | ![]() | ![]() |
-| ![]() | ![]() | ![]() |
+| ![](./imagenes/perilla1.jpeg) | ![](./imagenes/boton1.jpeg) | ![](./imagenes/luz1.jpeg) |
+| ![](./imagenes/perilla2.jpeg) | ![](./imagenes/boton2.jpeg) | ![](./imagenes/luz2.jpeg) |
+| ![](./imagenes/perilla3.jpeg) | ![](./imagenes/boton3.jpeg) | ![](./imagenes/luz3.jpeg) |
 
 # 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
 Para este apartado estoy desglosando el ejercicio con la ayuda de claude, para poder entender el por qué y como funcionan las cosas.
