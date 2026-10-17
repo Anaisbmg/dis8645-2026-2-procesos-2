@@ -153,6 +153,87 @@ encargo-08a:
 
 1. tomar muchas fotos, mínimo 3 por cada uno de los 3 elementos que estudiamos hoy: perillas, botones, y luces. subir las fotos a su README como respuesta a este encargo, y describirlas textualmente, para con esa info complejizar nuestras clases programadas este viernes.
 
-2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+## 2. partir del ejemplo de hoy, que está subido en codigos/ de hoy, y hacer que las luces parpadeen. para eso, definir parpadeo de forma paramétrica.
+Para este apartado estoy desglosando el ejercicio con la ayuda de claude, para poder entender el por qué y como funcionan las cosas.
+
+Partimos creando todos los documentos en wokwi, y partimos escribiendo Lucecita.h y Lucecita.cpp
+
+# La clase `Lucecita`
+
+> Primero se escribe el `.h` (qué tiene y qué hace) y después el `.cpp` (cómo funciona).
+
+<br>
+<br>
+<br>
+
+## Parte A: `Lucecita.h`
+
+Pregunta clave: **¿qué tiene y qué hace un LED?**
+
+- **Tiene**: un pin donde está conectado y un estado (prendido o apagado).
+- **Hace**: prender, apagar y parpadear.
+
+```cpp
+#ifndef LUCECITA_H
+#define LUCECITA_H
+
+// GPIO = General Purpose Input Output
+// (pines que pueden ser entrada o salida de la raspy)
+#include "hardware/gpio.h"  //Trae las funciones para controlar pines (gpio_init, gpio_put...).
+
+class Lucecita {
+public //Todo lo de abajo se puede usar desde afuera (desde main.cpp).
+
+
+
+
+//atributos
+
+//vamos a escribir los atributos que tiene lucecita,
+//las variables dentro de la clase, y lo que el objeto tiene.
+
+  int patita;   //int es por el número entero, patita es el nombre de la variable. 
+                //Atributo: el número de pin. Cada LED guardará el suyo.
+  bool prendida = false;  //Atributo: true o false. Parte en false (apagada).  
+  
+
+
+
+
+//constructor
+Lucecita(int nuevaPatita);  //la clase + el nuevo nombre con el cual se podrá
+                            //identificar la lucecita. 
+
+
+
+
+//método (Funciones dentro de la clase; lo que el objeto hace)
+void prender(); //prenderse
+void apagar();  //apagarse
+void parpadear(int tiempoPrendido, int tiempoApagado); 
+
+};
+
+#endif
+//aquí solo declaramos. No hay ni una instrucción real todavía.
+```
+
+### Línea por línea
+
+| Código | Qué significa |
+|---|---|
+| `#ifndef / #define / #endif` | *Include guard*: evita que el archivo se cargue dos veces y cause errores. |
+| `#include "hardware/gpio.h"` | Trae las funciones para controlar pines (`gpio_init`, `gpio_put`...). |
+| `class Lucecita {` | Empieza el molde de galletas. |
+| `public:` | Todo lo de abajo se puede usar desde afuera (desde `main.cpp`). |
+| `int patita;` | Atributo: el número de pin. Cada LED guarda el suyo. |
+| `bool prendida = false;` | Atributo: `true` o `false`. Parte en `false` (apagada). |
+| `Lucecita(int nuevaPatita);` | **Constructor**: mismo nombre que la clase, sin `void`. |
+| `void prender();` | Método: una acción. `void` = no devuelve ningún valor. |
+| `void parpadear(int, int);` | Método que recibe dos números: tiempo prendida y tiempo apagada. |
+
+Detalles:
+
+- En el `.h` solo **declaramos**. No hay instrucciones reales todavía.
 
 ## lectura
