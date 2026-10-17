@@ -243,37 +243,49 @@ Detalles:
 ## parte b `Lucecita.cpp`
 
 ```cpp
-// importar el archivo header
+//Aquí sí escribimos cómo funciona cada cosa.
+
+//primero, importat el archivo .h (header)
 #include "Lucecita.h"
 #include "pico/stdlib.h"
 
-// constructor
+//constructor 
 Lucecita::Lucecita(int nuevaPatita) {
 
-  // guardar el valor
-  Lucecita::patita = nuevaPatita;
+//guardar el valor de nuevaPatita
+Lucecita::patita = nuevaPatita;
 
-  // inicializar la patita
-  gpio_init(Lucecita::patita);
+//inicializar la Patita
+gpio_init(Lucecita::patita);
 
-  // la patita es salida
-  gpio_set_dir(Lucecita::patita, GPIO_OUT);
+ // la patita es salida
+gpio_set_dir(Lucecita::patita, GPIO_OUT);
 
-  // partir apagada
-  Lucecita::apagar();
+//comenzar apagada
+Lucecita::apagar();
 }
 
-void Lucecita::prender() {
-  Lucecita::prendida = true;
+
+
+
+//metodos
+
+void Lucecita::prender(){
+//hacer true la variable interna
+  Lucecita::prendida = true; 
   gpio_put(Lucecita::patita, true);
 }
 
-void Lucecita::apagar() {
+void Lucecita::apagar(){
+//hacer false la varaible interna
   Lucecita::prendida = false;
   gpio_put(Lucecita::patita, false);
 }
 
-void Lucecita::parpadear(int tiempoPrendido, int tiempoApagado) {
+void Lucecita::parpadear(int tiempoPrendido, int tiempoApagado){
+  // dar valor de tiempo encendido y apagado
+  // tiempoPrendido utiliza el método de Lucecita::prender()
+  // tiempoApagado utiliza el método de Lucecita:apagar()
   prender();
   sleep_ms(tiempoPrendido);
   apagar();
