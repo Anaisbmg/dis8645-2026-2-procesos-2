@@ -236,4 +236,86 @@ Detalles:
 
 - En el `.h` solo **declaramos**. No hay instrucciones reales todavía.
 
+<br>
+<br>
+<br>
+
+## parte b `Lucecita.cpp`
+
+```cpp
+// importar el archivo header
+#include "Lucecita.h"
+#include "pico/stdlib.h"
+
+// constructor
+Lucecita::Lucecita(int nuevaPatita) {
+
+  // guardar el valor
+  Lucecita::patita = nuevaPatita;
+
+  // inicializar la patita
+  gpio_init(Lucecita::patita);
+
+  // la patita es salida
+  gpio_set_dir(Lucecita::patita, GPIO_OUT);
+
+  // partir apagada
+  Lucecita::apagar();
+}
+
+void Lucecita::prender() {
+  Lucecita::prendida = true;
+  gpio_put(Lucecita::patita, true);
+}
+
+void Lucecita::apagar() {
+  Lucecita::prendida = false;
+  gpio_put(Lucecita::patita, false);
+}
+
+void Lucecita::parpadear(int tiempoPrendido, int tiempoApagado) {
+  prender();
+  sleep_ms(tiempoPrendido);
+  apagar();
+  sleep_ms(tiempoApagado);
+}
+```
+
+### El prefijo `Lucecita::`
+
+Significa **"esta función pertenece a la clase Lucecita"**. Sin él, C++ pensaría que es una función suelta sin relación con el `.h`.
+
+### El constructor
+
+Es la **rutina de preparación** de un objeto. Se ejecuta **automáticamente y una sola vez**, en el momento en que se crea el objeto. No se llama después como los otros métodos.
+
+Cuando en `main.cpp` se escribe:
+
+```cpp
+Lucecita luz(6);
+```
+
+pasa esto:
+
+1. `nuevaPatita` recibe el valor `6`.
+2. `Lucecita::patita = nuevaPatita;` lo guarda dentro del objeto.
+3. `gpio_init(...)` le dice a la Pico: "voy a usar este pin".
+4. `gpio_set_dir(..., GPIO_OUT)` define el pin como **salida** (manda electricidad, no la lee).
+5. `Lucecita::apagar();` hace que el LED parta apagado.
+
+> **Ojo con la diferencia:** crear el objeto es la línea `Lucecita luz(6);` (la galleta). El constructor es la rutina de preparación que se ejecuta durante esa creación.
+
+### Los métodos
+
+| Función | Qué hace |
+|---|---|
+| `gpio_put(pin, true)` | Manda voltaje al pin: el LED se **prende**. |
+| `gpio_put(pin, false)` | Corta el voltaje: el LED se **apaga**. |
+| `sleep_ms(500)` | La Pico espera 500 milisegundos sin hacer nada más. |
+| `parpadear(...)` | Combina todo: prender, esperar, apagar, esperar. |
+
+`pico/stdlib.h` se importa en el `.cpp` porque ahí vive `sleep_ms`.
+
+
+
 ## lectura
