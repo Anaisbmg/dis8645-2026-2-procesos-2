@@ -374,4 +374,10 @@ int main() {
 | `while (true) {` | Ciclo infinito. La Pico nunca se detiene, repite para siempre. |
 | `luz.parpadear(500, 500);` | Llama al método: 500 ms prendida, 500 ms apagada. |
 
+
+
+## Resultado primera parte del ejercicio
+![](./imagenes/ejercicio-luz.jpeg)
+[Enlace a ejercicio](https://wokwi.com/projects/478133871902936065)
+
 ## lectura
