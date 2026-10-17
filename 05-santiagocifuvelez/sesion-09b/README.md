@@ -1,7 +1,3 @@
 # sesion-09b
-
-## apuntes sesión
-
-## encargos
-
-## lectura
+Este día hubo paro por parte de los estudiantes, y la clase..., no hubo clase.
+:(
