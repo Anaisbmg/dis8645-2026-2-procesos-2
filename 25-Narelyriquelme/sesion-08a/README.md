@@ -92,13 +92,13 @@ Flujo: input → caja negra → output
 | Perilla | Selladora de plástico | ![](./imagenes/encargo08a-01.jpg) | Perilla que regula el calor con que se sella la bolsa; va de 1 a 8. |
 | Perilla | Calefactor (perilla de intensidad) | ![](./imagenes/encargo08a-02.jpg) | Perilla que regula la intensidad, o sea la velocidad con que sale el calor, y también el encendido y apagado. |
 | Perilla | Calefactor (perilla de temperatura) | ![](./imagenes/encargo08a-03.jpg) | Otra perilla del mismo calefactor, que regula la temperatura. |
-| Botón | Tetera | ![](./imagenes/encargo08a-04.jpg) | Palanquita de los botones de la tetera; tiene un LED azul. |
+| Botón | Interruptor de la luz LED de la vitrina | ![](./imagenes/encargo08a-04.jpg) | 	Interruptor que prende y apaga la luz LED que alumbra una vitrina chica. |
 | Botón | Pistola lectora de códigos QR | ![](./imagenes/encargo08a-05.jpg) | Botón que, al apretarlo, prende el LED con el que se escanea el código. |
 | Botón | Gramera | ![](./imagenes/encargo08a-06.jpg) | Botones y números para manejar la gramera. |
 | Luz | Pistola lectora de códigos QR | ![](./imagenes/encargo08a-07.jpg) | LED que se prende cuando se aprieta el botón, para escanear. |
 | Luz | Tetera | ![](./imagenes/encargo08a-08.jpg) | LED azul asociado a la palanquita de los botones. |
 | Luz | Vitrina pequeña | ![](./imagenes/encargo08a-09.jpg) | Luz LED azul que alumbra una vitrina chica. |
-| Luz | Mini impresora térmica | ![](./imagenes/encargo08a-10.jpg) | LED que acompaña a los botones de la impresora. |
+
 
 
 ---
