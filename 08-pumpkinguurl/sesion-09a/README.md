@@ -1,6 +1,141 @@
 # sesion-09a
 
 ## apuntes sesión
+mood de hoy: xd
+
+prox semana clases empiezan a las 10
+
+Grupos de 4
+
+-Cada grupo escribe una clase (perilla o botón)
+
+-Cada grupo comparte su clase
+
+-2 perillas
+
+-2 botones pulsadores
+
+-pueden haber más botones pero no pueden ser pulsadores
+
+-Máq. comp cartón o impresión 3D
+
+-Controlar luz / sonido / pantalla
+
+-Ref a algún P.C. pre 2010
+
+-Cuidar lenguaje, materiales, colores 
+
+-Interfásica (Mónica Jacobo, Gui Bonsiepe - gentes con mucha teoría sobre interfásica)
+
+Puntos grupales:
+
+-Código {clases, comentarios, uso, orden
+
+-Interfaz {relato, material, usabilidad, factura
+
+-Docs {README, diagramas de flujo, bibliografía, prompts
+
+Puntos individuales:
+
+-Presentación oral
+
+-Bitácoras
+
+## KiCad
+
+sirve para diseñar esquemáticos
+
+representación de ideas
+
+crear mapas que interconectan cosas
+
+SCH schematic usaremos ese, no pcb
+
+archivo - nuevo proyecto
+
+símbolo de triangulo con patas y un - arriba y un + abajo
+
+agregar la raspi pico
+
+agregar un pote
+
+usar el R_Potentiometer
+
+
+agregar un tierra / ground GND a secas
+
+agregar un 3v3
+
+agregar un push SW_Push
+
+agregar un resistor R
+
+agregar un led LED
+
+los componentes no se pueden agrandar, tienen tamaños estándar
+
+documentación
+
+todos los componente tienen un cuerpo (parte roja) -> icono
+
+referencia (R1) -> instancia de la clase R, nombre del componente. Hay un molde que es R y este es uno de esos
+
+valor (R) -> cantidad, atributo
+
+si selecciono el componente conectado y lo quiero mover debo apretar G para moverlo
+
+si aprieto M se desconectan las conexiones 
+
+-----
+
+buenos modales compositivos
+
+input - cajas negras - output
+
+izquierda - centro - derecha
+
+lucecita a la der
+
+pote a la izq
+
+A con una raya abajo -> etiquetas
+
+las perillas son distintas
+
+se crea una etiqueta para cada una
+
+perilla_1
+
+perilla_2
+
+y se conectan a pines distintos con etiquetas con los nombres de las perillas
+
+como saber que las cosas funcionan? conectándolos a energía
+
+-x indicador de sin conexión
+
+las x son difíciles, ojala no se equivoquen
+
+
+cuando descargamos los zip de kicad, abrir el pro.
+
+como agregar símbolos
+
+creamos nuestra pantalla lcd 096
+
+i2c
+
+vcc
+
+gnd
+
+scl
+
+SDA
+
+primero debemos crear una nueva biblioteca y añadirla
+
+ver - paneles - árbol de biblioteca - seleccionar biblioteca - nuevo símbolo
 
 ## encargos
 
