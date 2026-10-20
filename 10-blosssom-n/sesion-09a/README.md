@@ -2,6 +2,69 @@
 
 ## apuntes sesión
 
+Vimos KiCad y cómo armar el esquemático del circuito.
+
+
+Es como un mapa de las conexiones, no de dónde van a estar físicamente las cosas.
+
+
+Trabajamos con la Raspberry Pi Pico, potenciómetros, botones, resistencias y LED.
+
+
+Primero poner todos los componentes y después conectarlos, para no enredarse tanto.
+
+
+
+Orden del esquema:
+
+entradas a la izquierda
+
+procesamiento al centro
+
+salidas a la derecha
+
+
+También vimos las etiquetas para ordenar las conexiones. (Solo funcionan para ordenarse en kicad, en la realidad se quedan solo como un sueño) Las dos perillas van a pines distintos, entonces cada una tiene su nombre:
+
+
+perilla_1
+
+perilla_2
+
+
+
+IMPORTANTE con mover las cosas:
+
+G = mover manteniendo las conexiones.
+
+M = mover el componente sin mantener los cables conectados.
+
+Ctrl + D = duplicar, también conserva las propiedades.
+
+
+Los símbolos tienen:
+
+referencia = nombre que identifica al componente, como R1.
+
+
+valor = valor o característica del componente.
+
+
+cuerpo = el dibujo.
+
+
+Hay que revisar que los cables lleguen al pin, no solamente que se vean cerca.
+
+
+Los pines que no usamos se marcan con una X de no conexión.
+
+
+Para documentar podemos separar los diagramas de flujo: lo que hace el usuario / lo que hace el hardware.
+
+
+Repo = carpeta con historial. Podemos revisar los cambios y volver a versiones anteriores.
+
+
 ## encargos
 
 ## lectura
