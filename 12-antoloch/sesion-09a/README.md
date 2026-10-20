@@ -59,4 +59,6 @@ Durante la clase vimos  KiCad para el desarrollo de esquemas electrónicos y dis
 - https://dl.acm.org/doi/pdf/10.1145/2460625.2460711
 
 ## lectura
+![fotoreas](./imagenes/fotoreas.png)
+![foto2](./imagenes/foto2.png)
 Después de terminar Making Pictures with GANs, me dieron ganas de seguir investigando a Casey Reas y encontré su página web https://reas.com . Me gustó porque permite ver muchos de sus proyectos y entender mejor cómo trabaja con la programación, las imágenes y los sistemas generativos. ha trabajado durante muchos años explorando distintas formas de crear arte con software. En la página aparecen proyectos muy variados que muestran su interés por los procesos, la experimentación y la tecnología. El que más me llamó la atención fue Ultraconcentrated, porque trabaja con muchísimas imágenes e información visual hasta que casi no se pueden reconocer. se pueden ver patrones de colores y formas que parecen señales digitales proyectadas en una pared.
