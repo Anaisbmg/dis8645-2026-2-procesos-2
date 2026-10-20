@@ -14,8 +14,6 @@ Además, como grupo encontramos importante mencionar la situación en la que nos
 
 Nos entregaron ciertos referentes en clase de donde podíamos comenzar a investigar y hacer un cover, pero decimos mencionar, utilizar y hacer un “cover” de algo que incluyera los requerimientos que son las perillas y botones, o sea, tanto cómo se escribía desde los teléfonos nokia 9000, a como se escribía en las consolas como la PS3. Delimitando así estos parámetros: 
 
-**Qué hará:**
-
 * Botón 1: borrar información   
     
 * Botón 2: presionar opción / presionar dos veces: segunda opción 
@@ -24,19 +22,18 @@ Nos entregaron ciertos referentes en clase de donde podíamos comenzar a investi
     
 * Perilla 2: recorrer el texto
 
-**Referentes**
+Referentes
 
-Nokia 9000 (1998) \- Contaba con un teclado alfanumérico integrado (qwerty).  
-PS1 (1997) \- En ciertos juegos o partidas permitía escribir palabras cortas, como nombres de usuario, esto era a través de las *analog stick* con el cual se pre seleccionaba el carácter y con el botón *x* se seleccionaba y se imprimía.
+Nokia 9000 (1998) - Contaba con un teclado alfanumérico integrado (qwerty).
+
+Nokia 3310 (2000) - Su teclado es multitap, lo que hace que en una tecla se encuentren varios caracteres que pueden ser seleccionados según la cantidad de veces que se presione el mismo botón.
+
+PS1 (1997) - En ciertos juegos o partidas permitía escribir palabras cortas, como nombres de usuario, esto era a través de las analog stick con el cual se pre seleccionaba el carácter y con el botón x se seleccionaba y se imprimía.
 
 (SCPH-1150 en Japón, SCPH-1180 en Estados Unidos y SCPH-1180e en Europa) 
 
-[https\://en.wikipedia.org/wiki/Dual\_Analog\_Controller](https://en.wikipedia.org/wiki/Dual_Analog_Controller)  
-[https\://es.wikipedia.org/wiki/DualAnalog](https://es.wikipedia.org/wiki/DualAnalog)
-
-* **Dual Analog Controller (SCPH-1150 / SCPH-1180):**  
-  * Lanzado en 1997\.  
-  * El predecesor del DualShock. Introdujo las dos palancas analógicas con diseño cóncavo/plano y un botón "Analog" con indicador luminoso, pero sin motores de vibración (en su versión estándar fuera de Japón).
+https://en.wikipedia.org/wiki/Dual_Analog_Controller
+https://es.wikipedia.org/wiki/DualAnalog
 
 **Código y clases**
 
