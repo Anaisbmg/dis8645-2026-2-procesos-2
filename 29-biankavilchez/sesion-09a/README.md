@@ -157,3 +157,22 @@ Para hacerlo:
 ## encargos
 
 ## lectura
+
+despues de muchas imagenes complejas llegamos al capitulo 8 
+
+Todo el capítulo muestra que el caos no es de un tema, es una forma de comportamiento que aparece cuando hay retroalimentación no lineal. Cambias un poco un parámetro y el sistema se vuelve impredecible.
+
+"Nótese la alta sensibilidad a los parámetros ('inestabilidad estructural') en la parte superior de la figura." pag 135
+
+En la figura α vs r, Beddington muestra que arriba, con un α o un r apenas más grande, el sistema pasa de ser estable a ser caótico total. Eso es inestabilidad estructural. Y lo interesante es que es un sistema biológico, no físico.
+
+"Sea xn​ el ángulo y yn​ la velocidad angular de una masa puntual que rota en un plano. La fuerza de roce actuando sobre esta masa está dada por γyn​, donde γ es el coeficiente de fricción. Además, sobre la masa actúan pulsos en forma de funciones delta con período T." pag 139 
+
+Aquí está la "retroalimentación no lineal" en un sistema físico puro. Tienes roce que te frena ( γyn​) y una patada periódica que te acelera ( Kf(xn​)). La competencia entre frenar y patear. Mismo mecanismo, tema totalmente distinto.
+
+8.1. Oscilador electrónico perturbado:  habla de una máquina electrónica que está tranquila, y de repente le dan golpes eléctricos. Como si fuera una campana que la tocas cada cierto tiempo. Si la dejas descansar entre golpe y golpe, puedes predecir cuánto se va a mover después de cada golpe y se puede ver reflejado en las imagenes. 
+
+8.2. Oscilaciones del músculo cardíaco: Dice que nuestro corazón recibe una chispa cada segundo del nodo sinoatrial, que es como su batería natural. Si esa batería se acelera mucho por enfermedad, el corazón no solo late rápido, sino que se vuelve loco y caótico.
+
+
+Idea clave que te menciona el libro: inestabilidad estructural. No es que el sistema sea caótico siempre, es que con un α un poco más alto, de estable pasa a caótico de golpe. 
