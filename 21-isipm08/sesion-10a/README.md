@@ -1,8 +1,7 @@
 # sesion-10a
 
 ## apuntes sesión
-
-## encargos
+- el día de hoy se realizó clase remota, la cual los profes fueron revisando a los grupos interesados sobre sus avances
 
 ## lectura
 ### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
