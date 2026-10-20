@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-PAROOO hubo asamblea a las 13:00 hrs y otras actividades 
+PAROOO hubo asamblea a las 13:00 hrs y otras actividades por la mañana.
 
 Quiero declarar de que yo y mi grupo estamos realizando nuestra práctica profesional, por lo que tenemos que asistir o conectarnos de manera online todos los días. Nos comentaron que era importante avisar esta situación por medio de las bitácoras.
 
