@@ -26,7 +26,7 @@ Para el proyecto 02 hay que conformar grupos de cuatro, aunque va a haber un (1)
 
 ---
 
-Versiones de software v X.Y.Z &rarr; lo que yo entiendo es X rompió el código anterior, Y agregó algo, y Z es bug fixing
+Versiones de software v X.Y.Z &rarr; lo que yo entiendo es: X big change que rompió el código anterior, Y agregó algo, y Z es bug fixing
 
 &uarr; esto se llama [SemVer](https://semver.org/) (semantic versioning)
 
