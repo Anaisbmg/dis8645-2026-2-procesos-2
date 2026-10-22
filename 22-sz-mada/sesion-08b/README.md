@@ -16,6 +16,12 @@ Encuentro curioso que cuando busco fotos del latching switch, me salen imagenes 
 
 &uarr; Latching switch
 
+vs.
+
+![Rocker switch](./imagenes/rocker-switch.jpg)
+
+&uarr; Rocker switch
+
 DIP 
 
 Revisamos el repo de piruetasxyz, específicamente el de [botones](https://github.com/piruetasxyz/Boton) y [perillas](https://github.com/piruetasxyz/Perilla)
