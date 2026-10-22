@@ -10,8 +10,14 @@ Debido a que ha llovido torrencialmente durante toda la semana, trabajaremos mod
 
 Botón LATCH &rarr; se mantiene en el estado en el que se presiona
 
-### &darr; RECORDATORIO A MI MISMO &darr;
+Encuentro curioso que cuando busco fotos del latching switch, me salen imagenes muy distintas a lo que yo recuerdo haber visto en la clase lol. Aparentemente el nombre del tipo de botón específico que recuerdo es "rocker switch" which makes sense given the shape, pero cabe en la definición del latching switch anyway
 
-ver el video de la clase y tomar apuntes bien, pq claramente no escribí nada lol
+![Latching switch](./imagenes/latching-switch.jpg)
 
-## encargos
+&uarr; Latching switch
+
+DIP 
+
+Revisamos el repo de piruetasxyz, específicamente el de [botones](https://github.com/piruetasxyz/Boton) y [perillas](https://github.com/piruetasxyz/Perilla)
+
+[Video de la clase de Wokwi](https://youtu.be/3rPzC8b9JSg)
