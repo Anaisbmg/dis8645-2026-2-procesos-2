@@ -22,8 +22,14 @@ vs.
 
 &uarr; Rocker switch
 
-DIP 
+DIP switch &rarr; conjunto de interruptores en una sola pieza
+
+![DIP switch](./imagenes/dip-switch.jpg)
+
+&uarr; DIP switch
 
 Revisamos el repo de piruetasxyz, específicamente el de [botones](https://github.com/piruetasxyz/Boton) y [perillas](https://github.com/piruetasxyz/Perilla)
 
 [Video de la clase de Wokwi](https://youtu.be/3rPzC8b9JSg)
+
+Algo muy random que aprendí escribiendo mis apuntes, tiendo a usar &rarr; &uarr; &darr; &larr; frecuentemente y siempre se me olvidaba cómo escribir cada flecha porque lo leía como una secuencia extraña de letras, pero en mi último googleo tratando de recordar cada código, noté que simplemente es primera letra dirección + arrow lol. &rarr; es **r**ight **arr**ow, &harr; es **h**orizontal **arr**ow, and so on
