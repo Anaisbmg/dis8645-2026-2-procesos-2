@@ -30,4 +30,14 @@ Se les pueden conectar X para las conexiones que no van.
 
 ## encargos
 
+Desde la Pág 61 Se explica cómo funcionan los bucles en Scratch, que dejan repetir una secuencia de instrucciones varias veces.
+
+El bloque "por siempre" repite las acciones sin detenerse, mientras que repetir 10 nos deja elegir cuántas veces se ejecutan, también se muestra cómo utilizar el bloque esperar para controlar el tiempo entre las acciones.
+
+Después se explican las variables, que sirven para guardar valores que pueden cambiar durante el programa.
+
+Se puede crear una variable llamada bucles que comienza en cero y va aumentando de a uno y se utiliza repetir hasta que para detener una secuencia cuando se cumple una condición. 
+
+y para la pág. 67 se muestran los operadores comparativos como =, < y >, y el bloque si entonces, que lo que hace es ejecutar instrucciones dependiendo de una condición.
+
 ## lectura
