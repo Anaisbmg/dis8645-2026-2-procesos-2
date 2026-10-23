@@ -26,11 +26,11 @@ public:
   // definimos constructor
 
   // a qué numero de pin está conectado
-  Boton(int pin)
+  Boton(int pin);
 
-      // definimos métodos
+  // definimos métodos
 
-      void leer();
+  void leer();
   void presionar();
   void soltar();
 }
