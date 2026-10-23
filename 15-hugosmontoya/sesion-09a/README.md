@@ -13,6 +13,9 @@ Es un buen hábito en kicad, primero poner todos los componentes que se van a ut
 
 PROYECTO 2:
 
+Hay que buscar investigar un ordenador antiguo (antes de 2010) y analizarlo como ha sido diseñado tanto su hardware como software para usarlo de referencia para hacer
+una máquina computacional nosotros usando solo 2 botones y 2 perillas, (se pueden usar más objetos, pero solo ese número de perillas y de botones), para ello tendremos que crear una clase de perillas que la compartiremos con otro grupo y ese grupo compartirá con nosotros una clase de botón que han hecho ellos, lo importante de esto es no solo como saber hacer una clase si no también es fundamental la comunicación y saber explicar que necesitamos para nuestro botón y que necesitan ellos para su clase de perilla. No es solo saber los conocimientos de programación si no también compartirlos.
+
 ## encargos
 
 ## lectura
