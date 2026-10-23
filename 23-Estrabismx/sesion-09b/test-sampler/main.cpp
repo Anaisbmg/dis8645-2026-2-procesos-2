@@ -4,7 +4,7 @@
 #include "pico/audio_i2s.h"
 
 // Incluimos tu partitura
-#include "sample.h"
+#include "Sample.h"
 
 #define PIN_I2S_DATA        28
 #define PIN_I2S_CLOCK_BASE  26

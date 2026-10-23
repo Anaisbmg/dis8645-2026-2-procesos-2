@@ -1,6 +1,25 @@
 # sesion-09a
 
 ## apuntes sesión
+2026/10/13 
+**Proyecto 2**
+
+grupos de a 4 
+- cada grupo tiene que escribir 1 clase y después compartirla con otro grupo  
+- 2 perillas y 2 botones pulsadores
+- maq.comp. cartón o impresión 3D (pre 2010)
+- referencia a algún pc (cuidar el lenguaje,material y colores) 
+- separar en capas el flujo (solo perilla,solo hardware,etc..) 
+- controlar luz/sonido/pantalla 
+- interfasica 
+- cuerpo (parte roja) — es el icono 
+- referencia R1— instancia de la clase, nombre 
+valor ®— cantidad, atributo 
+
+# kicad
+- sirve para diseñar esquemáticos
+- elesquematico 
+
 
 ## encargos
 
