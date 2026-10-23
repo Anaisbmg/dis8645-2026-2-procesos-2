@@ -9,6 +9,12 @@ Perilla::Perilla(int nuevoPin)
 // metodos
 //////////
 
+// decide cuantas opciones posibles
+void Perilla::definirOpciones(int numeroOpciones)
+{
+    Perilla::cantidadOpciones = numeroOpciones;
+}
+
 // obtiene el valor analógico del potenciómetro.
 void Perilla::leerValor()
 {

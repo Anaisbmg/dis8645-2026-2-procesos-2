@@ -30,18 +30,15 @@ public:
     // metodos
     //////////
 
+    // decide cuantas opciones posibles
+    void definirOpciones(int numeroOpciones);
+
     // obtiene el valor analógico del potenciómetro.
     void leerValor();
 
     // convierte el valor obtenido en una opción determinada
     void calcularOpcion();
 };
-
-// Instancias :
-
-// perilla_emociones : permite seleccionar una emoción.
-
-// perilla_navegacion : permite seleccionar una de las tres pantallas.
 
 //////
 // uso
