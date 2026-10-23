@@ -18,7 +18,7 @@ dudas a preguntar:
 
 ### trabajo online con mi grupo
 
-![captura de pantalla de llamada meet](imagenes/llamada-meet-grupo-04)
+![captura de pantalla de llamada meet](imagenes/llamada-meet-grupo-04.png)
 
 
 como nos toco trabajo online, nos conectamos después de hablar con los profes para poder definir bien lo que queremos hacer:
