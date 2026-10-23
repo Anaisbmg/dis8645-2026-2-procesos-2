@@ -22,14 +22,22 @@ vs.
 
 &uarr; Rocker switch
 
-DIP switch &rarr; conjunto de interruptores en una sola pieza
+DIP switch (**D**ual **I**n-line **P**ackage) &rarr; conjunto de interruptores en una sola pieza. Cada switch se puede activar o desactivar independientemente. Size, colour and shape comunica distintos usos
 
 ![DIP switch](./imagenes/dip-switch.jpg)
 
 &uarr; DIP switch
 
-Revisamos el repo de piruetasxyz, específicamente el de [botones](https://github.com/piruetasxyz/Boton) y [perillas](https://github.com/piruetasxyz/Perilla)
+Encoder &rarr; parece potenciómetro, pero no lo es (duh), rota infinitamente ya que no tiene un tope físico
+
+![Encoder](./imagenes/encoder.jpg)
+
+&uarr; Encoder
+
+[Wokwi que trabajamos en clase](https://wokwi.com/projects/477413398813766657)
 
 [Video de la clase de Wokwi](https://youtu.be/3rPzC8b9JSg)
+
+---
 
 Algo muy random que aprendí escribiendo mis apuntes, tiendo a usar &rarr; &uarr; &darr; &larr; frecuentemente y siempre se me olvidaba cómo escribir cada flecha porque lo leía como una secuencia extraña de letras, pero en mi último googleo tratando de recordar cada código, noté que simplemente es primera letra dirección + arrow lol. &rarr; es **r**ight **arr**ow, &harr; es **h**orizontal **arr**ow, and so on
