@@ -5,5 +5,3 @@
 ## apuntes sesión
 
 ## encargos
-
-## lectura
