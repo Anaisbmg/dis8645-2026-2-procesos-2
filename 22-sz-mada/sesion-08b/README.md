@@ -36,6 +36,16 @@ Encoder &rarr; parece potenciómetro, pero no lo es (duh), rota infinitamente ya
 
 [Wokwi que trabajamos en clase](https://wokwi.com/projects/477413398813766657)
 
+Primero definimos el pseudocódigo i.e. escribir en palabras comunes qué planeamos hacer en el código y el behaviour expected
+
+Aarón agregó el umbral de tiempo presionado (2 seg) por sugerencia de Misaa, en referencia al botón que vio alguien en un gimnasio (see: [isiidoraadiiaz sesion-08a](https://github.com/disenoUDP/dis8645-2026-2-procesos-2/tree/main/07-isiidoraadiiaz/sesion-08a))
+
+La idea es: hay un LED conectado a un botón, el LED no hace nada si no pasa nada. Entre los 0s y 2s de apretado (el botón), el LED prende de a poco; después de los 2s, el LED parpadea "HOLA" en código morse (. . . . / - - - / . - . . / . -)
+
+(Random fun fact about me: en el brazo izquierdo tengo tatuada una frase en código morse :cowboyemoji: , es una referencia cringe a una canción de una banda que me gusta)
+
+Necesitamos 3 versiones, la básica hace que el botón encienda y apague el LED, una que haga la rampa (la luz se prende de a poco), y otra que haga el HOLA en morse
+
 [Video de la clase de Wokwi](https://youtu.be/3rPzC8b9JSg)
 
 ---
