@@ -3,16 +3,37 @@
 
 class Perilla
 {
+
+    ////////////
     // atributos
-    // pin : identifica la entrada analógica.
-    // valor : almacena la posición actual.
-    // cantidad_opciones : define cuántas opciones puede seleccionar.
+    ////////////
 
+    // identifica la entrada analógica
+    int pin;
+
+    // almacena la posición actual
+    int valor = 0;
+
+    // define cuántas opciones puede seleccionar
+    int cantidadOpciones;
+
+    int opcionSeleccionada;
+
+    //////////////
     // constructor
+    //////////////
 
+    Perilla(int nuevoPin);
+
+    //////////
     // metodos
-    // leer_valor() : obtiene el valor analógico del potenciómetro.
-    // seleccionar_opcion() : convierte el valor obtenido en una opción determinada.
+    //////////
+
+    // obtiene el valor analógico del potenciómetro.
+    void leerValor();
+
+    // convierte el valor obtenido en una opción determinada
+    void seleccionarOpcion();
 };
 
 // Instancias :
