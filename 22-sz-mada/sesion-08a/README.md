@@ -69,7 +69,7 @@ vegano;
 
 - `.h` &rarr; son declaraciones (dice qué hace)
 
-- `.cpp` &rarr; son definiciones (cómo lo hace lo que dice hacer ¿¿¿)
+- `.cpp` &rarr; son definiciones (cómo hace lo que dice hacer ¿¿¿)
 
 ## encargos
 
