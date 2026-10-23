@@ -16,13 +16,12 @@ Avanzamos en el proyecto 2, definiendo mejor qué hace cada pantalla, perilla y 
 
 **PANTALLA 2**
 
-Pantalla 2: proyecta los caracteres: (a, b, c, d, e, f, g, h, i, j,k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, tab, enter) y en ella se recorren para seleccionarlos.
+ - Pantalla 2: proyecta los caracteres: (a, b, c, d, e, f, g, h, i, j,k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, tab, enter) y en ella se recorren para seleccionarlos.
 
-Perilla 2: debe recorrer los caracteres uno a uno para así poder seleccionar alguno, que el recorrido sea lento y que no se vaya todo de golpe de un extremo al otro. 
+ - Perilla 2: debe recorrer los caracteres uno a uno para así poder seleccionar alguno, que el recorrido sea lento y que no se vaya todo de golpe de un extremo al otro. 
 
-Botón 2: selecciona el carácter que se selecciona con la perilla 1, si se presiona una vez, la letra se imprime en minúscula, y si se presiona 2 veces se imprime en mayúscula.
+ - Botón 2: selecciona el carácter que se selecciona con la perilla 1, si se presiona una vez, la letra se imprime en minúscula, y si se presiona 2 veces se imprime en mayúscula.
 
- 
 ## encargos
 
 ## lectura
