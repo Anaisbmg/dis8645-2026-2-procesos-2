@@ -10,6 +10,7 @@
 
 // a continuación definimos la clase Boton
 class Boton{
+
   // la hacemos public
   public:
 
@@ -17,17 +18,22 @@ class Boton{
 
   // lugar que lee el Boton
   int pin;
-  
   // detecta si Boton está siendo presionado
   bool presionado = false;
-
   // por cuanto tiempo se mantiene presionado
   int duracionPresionado= 0;
 
   // definimos constructor
 
-  // definimos método
+  // a qué numero de pin está conectado
+  Boton (int pin)
+
+  // definimos métodos
+
+  void leer();
+  void presionar();
+  void soltar();
 
 }
 
-
+#endif
