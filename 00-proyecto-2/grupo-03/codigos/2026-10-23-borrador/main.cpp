@@ -3,16 +3,9 @@
 #include "pico/stdlib.h"
 
 // incluir mis bibliotecas
-// include Perilla
-// include Boton
+#include "MaquinaEmociones.h"
 
-// crear las instancias de perilla
-
-// perilla conectada a GP8, por ejemplo
-Perilla perillaEmociones(8);
-
-// perilla conectada a GP10, por ejemplo
-Perilla perillaNavegacion(10);
+MaquinaEmociones maquinita;
 
 int main()
 {
@@ -20,19 +13,25 @@ int main()
 
     // inicial
     // configurar las perillas
-    perillaEmociones.definirOpciones(5);
-    perillaNavegacion.definirOpciones(7);
+    // perillaEmociones.definirOpciones(5);
+    //  perillaNavegacion.definirOpciones(7);
 
     // dentro de while(true)
     // va todo lo que se repite
     while (true)
     {
-        // hacer las lecturas de sensores
-        perillaEmociones.leerValor();
-        perillaNavegacion.leerValor();
 
-        // tomar decisiones al respecto
+        // hacer las lecturas de sensores
+        maquinita.actualizar();
+
+   
+
+     // tomar decisiones al respecto
         // de las lecturas de sensores
+
+        if (maquinita.sad) {
+           maquinita.mostrarPantalla(emo);
+        }
 
         // hacer que actuadores
         // responden a lo calculado

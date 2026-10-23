@@ -20,11 +20,15 @@ public:
 
     int opcionSeleccionada;
 
+    // 0 de emocion
+    // 1 de navegacion
+    int tipo;
+
     //////////////
     // constructor
     //////////////
 
-    Perilla(int nuevoPin);
+    Perilla(int nuevoPin, int nuevoTipo);
 
     //////////
     // metodos

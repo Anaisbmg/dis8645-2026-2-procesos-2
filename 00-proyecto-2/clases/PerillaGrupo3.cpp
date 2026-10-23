@@ -1,8 +1,9 @@
 #include "PerillaGrupo3.h"
 
-Perilla::Perilla(int nuevoPin)
+Perilla::Perilla(int nuevoPin, int nuevoTipo)
 {
     Perilla::pin = nuevoPin;
+    Perilla::tipo = nuevoTipo;
 }
 
 //////////
