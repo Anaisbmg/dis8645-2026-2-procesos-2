@@ -10,6 +10,9 @@ En el diseño del esquemático, que es sin tener cuenta de la posición física 
 KiCad sirve para diseñar placas, primero se sabe que elementos tiene que tener un chip y luego como es en realidad.
 Un repositorio es una carpeta pero que tiene historial, entonces te permite ver y volver a diferentes versiones del repositorio.
 Es un buen hábito en kicad, primero poner todos los componentes que se van a utilizar y luego conectarlos entre ellos.
+
+PROYECTO 2:
+
 ## encargos
 
 ## lectura
