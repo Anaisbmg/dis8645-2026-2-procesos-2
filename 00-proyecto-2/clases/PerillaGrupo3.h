@@ -4,6 +4,7 @@
 class Perilla
 {
 
+public:
     ////////////
     // atributos
     ////////////
@@ -33,7 +34,7 @@ class Perilla
     void leerValor();
 
     // convierte el valor obtenido en una opción determinada
-    void seleccionarOpcion();
+    void calcularOpcion();
 };
 
 // Instancias :
@@ -41,5 +42,24 @@ class Perilla
 // perilla_emociones : permite seleccionar una emoción.
 
 // perilla_navegacion : permite seleccionar una de las tres pantallas.
+
+//////
+// uso
+//////
+
+///////////////////////////
+// esto ocurre al principio
+///////////////////////////
+
+// declara una instancia de la perilla
+// se configuran las opciones
+
+/////////////////
+// constantemente
+/////////////////
+
+// se hace la lectura analogica
+// y esto actualiza la opcion
+// luego puedo consultar la opcion
 
 #endif
