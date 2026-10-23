@@ -134,6 +134,193 @@ En las placas (eg. Arduino UNO R4), se ven que algunas salidas digitales son cap
 
 ![Salidas digitales en Arduino UNO R4](./imagenes/arduino-pwm.png)
 
+Pausamos el rampear porque era muy complicado lol así que pasamos a hacer el diccionario morse
+
+```cpp
+// en Lucecita.h
+void morsePunto();
+void morseRaya();
+```
+
+Hay que agregar un parámetro para cuánto tiempo permanece la luz encendida con el punto y la raya
+
+```cpp
+// parametros del morse
+int duracionPunto = 1000;
+int duracionRaya = 4000;
+```
+
+El máquina que es [FranUDP](https://github.com/FranUDP) ya había trabajado con morse el año pasado, así que nos basamos en su código
+
+```cpp
+// en Lucecita.cpp
+
+void Lucecita::morsePunto() {
+    // prender
+    gpio_put(Lucecita::patita, 1);
+    // mantener prendido
+    sleep_ms(Lucecita::duracionPunto);
+    // apagar
+    gpio_put(Lucecita::patita, 0);
+    // pausa entre caracteres
+    sleep_ms(Lucecita::duracionEntreCaracteres);
+    
+    // se añade int duracionEntreCaracteres = 500; en los parametros del morse
+}
+
+void Lucecita::morseRaya() {
+    gpio_put(Lucecita::patita, 1);
+    sleep_ms(Lucecita::duracionRaya);
+    gpio_put(Lucecita::patita, 0);
+    sleep_ms(Lucecita::duracionEntreCaracteres);
+}
+```
+
+```cpp
+// en Lucecita.h
+
+// sacamos luz.rampear(); porque esta en pausa
+
+// tomar decisiones
+luz.morsePunto();
+```
+
+Bc of `sleep_ms`, hay que agregar `#include "pico/stdlib.h"`
+
+Cambiamos la duración del punto y la raya a 200ms y 1000ms respectivamente porque la luz del punto duraba mucho
+
+```cpp
+// en main.cpp
+
+while (true) {
+    // H ....
+    luz.morsePunto();
+    luz.morsePunto();
+    luz.morsePunto();
+    luz.morsePunto();
+    luz.finLetra();
+
+    // O ---
+    luz.morseRaya();
+    luz.morseRaya();
+    luz.morseRaya();
+    luz.finLetra();
+
+    // L .-..
+    luz.morsePunto();
+    luz.morseRaya();
+    luz.morsePunto();
+    luz.morsePunto();
+    luz.finLetra();
+
+    // A .-
+    luz.morsePunto();
+    luz.morseRaya();
+    luz.finPalabra();
+}
+```
+
+Agregamos `finLetra` y `finPalabra` a `Lucecita.h`
+
+```cpp
+void finLetra();
+void finPalabra();
+```
+
+En `Lucecita.cpp` agregamos la duración de `finLetra` y `finPalabra`
+
+```cpp
+// esperar 2 veces lo que dura el punto
+void Lucecita::finLetra () {
+    sleep_ms(2 * Lucecita::duracionPunto)
+}
+
+// esperar 6 veces lo que dura el punto
+void Lucecita::finPalabra() {
+    sleep_ms (6 * Lucecita::duracionPunto)
+}
+```
+
+Retroactively add la instancia luz en cada morsePunto, morseRaya y finLetra/Palabra
+
+Copiamos y pegamos `Boton.h` y `Boton.cpp`; añadimos `#include "Boton.h"` en `main.cpp` y agregamos atributos relevantes
+
+```cpp
+// en Boton.h
+
+bool presionado = false;
+bool presionadoAnterior = false;
+bool recienPresionado = false;
+```
+
+```cpp
+// en Boton.cpp
+
+void Boton::leer() {
+    Boton::presionadoAnterior = Boton::presionado;
+    // actualiza el estado actual del boton
+    Boton::presionado = gpio_get(Boton::patita);
+
+    // si antes no estaba presionado
+    // y ahora si está presionado
+    if (Boton::presionadoAnterior == false &&
+        Boton::presionado == true) {
+            Boton::recienPresionado = true;
+        }
+    else {  
+        Boton::recienPresionado = false;
+    }
+}
+```
+
+```cpp
+// en main.cpp
+
+int main() {
+    // instanciar un boton
+    Boton saludador (10);
+
+    while (true) {
+
+        // leer sensores
+        saludador.leer();
+
+        if (saludador.recienPresionado) {
+            // H ....
+            luz.morsePunto();
+            luz.morsePunto();
+            luz.morsePunto();
+            luz.morsePunto();
+            luz.finLetra();
+
+            // O ---
+            luz.morseRaya();
+            luz.morseRaya();
+            luz.morseRaya();
+            luz.finLetra();
+
+            // L .-..
+            luz.morsePunto();
+            luz.morseRaya();
+            luz.morsePunto();
+            luz.morsePunto();
+            luz.finLetra();
+
+            // A .-
+            luz.morsePunto();
+            luz.morseRaya();
+            luz.finPalabra();
+        }
+    }
+}
+```
+
+La simulación funciona como debe en el sentido de que el LED parpadea el morse y reacciona cuando se presiona el botón, el problema es que al empezar la simulación, the sequence does get triggered without the button being pressed
+
+Resultó ser que el botón estaba conectado al revés lol
+
+Después de arreglar eso, la simulación funcionó como se esperaba yipee
+
 [Video de la clase de Wokwi](https://youtu.be/3rPzC8b9JSg)
 
 ---
