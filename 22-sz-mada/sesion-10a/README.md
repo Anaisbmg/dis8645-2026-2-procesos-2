@@ -2,6 +2,4 @@
 
 ## apuntes sesión
 
-## encargos
-
 ## lectura

@@ -27,6 +27,7 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 - presentación oral
 - bitácora
 - bitácora
+  
 **grupales**
 - interfaz (relato material, usabilidad, factura)
 - código (clases, comentarios, uso, orden)
@@ -37,19 +38,36 @@ hoy revisamos lo que se pedirá para la entrega del proyecto 02
 - ```.sch``` indicar dónde se encuentran las conexiones y sus valores (no importa diseño ni visualidad)
 - ```.pcb``` acá si importa el diseño de el esquema
 - nunca olvidar grabar
+- referencia -- nombre el cual identifica al componente
+- valor -- característica del componente
+- cuerpo -- dibujo
 - agregar precios y URL (propiedades componentes)
 - cad: diseño asistido por computadora
-- Module:RaspberryPi_Pico_Common_Unspecified = raspberry pi pico (no chip solo)
-- SW_Push = botón pulsador
-- D_LED = diodo LED
-- A -- agregar símbolos, escribir, buscar componentes 
-- M -- mover
-- T -- texto (incluir documentación)
-- V -- valor
-- G -- tomar y mover
-- E -- propiedades
-- L -- etiquetas de red
-- R -- resistencia
+
+**componentes**
+
+- ```Module:RaspberryPi_Pico_Common_Unspecified``` = raspberry pi pico (no chip solo)
+- ```SW_Push``` = botón pulsador
+- ```D_LED``` = diodo LED
+- ```resistor``` = resistencia eléctrica
+- ```capacitor``` = almacenan carga eléctrica, poseen capacitancia
+
+**comandos**
+
+- ```A``` -- agregar símbolos, escribir, buscar componentes 
+- ```M``` -- mover
+- ```T``` -- texto (incluir documentación)
+- ```V``` -- valor
+- ```G``` -- tomar y mover
+- ```E``` -- propiedades
+- ```L``` -- etiquetas de red
+- ```R``` -- resistencia
+
+**orden esquemático**
+- entradas -- izquierda
+- procesamiento -- centro
+- salidas -- derecho
+
 
 1. resistores -- resistencia
 2. capacitores -- capacitancias
