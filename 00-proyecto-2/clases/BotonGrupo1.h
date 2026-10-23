@@ -30,8 +30,11 @@ public:
 
   // definimos métodos
 
+  // lee que Boton está conectado en el gpio
   void leer();
+  // ejecuta la acción de presionar Boton
   void presionar();
+  // ejecuta la accion de soltar Boton
   void soltar();
 }
 
