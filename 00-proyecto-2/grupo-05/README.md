@@ -1,8 +1,14 @@
 # Génesis del proyecto
+
+<details>
+
 ![génesis](./imagenes/genesis.jpeg)
 
-# Diagrama de flujo, experiencia de usuario 
+</details>
 
+# Diagrama de flujo, experiencia de usuario 
+<details>
+    
 ```mermaid
 flowchart TD
     A([Inicio]) --> B{¿Encender la máquina?}
@@ -40,3 +46,7 @@ flowchart TD
     class B,D,L,N,O decision;
     class M,Q fin;
 ```
+</details>
+
+# Diagrama de flujo, botones 
+# Diagrama de flujo, perillas 
