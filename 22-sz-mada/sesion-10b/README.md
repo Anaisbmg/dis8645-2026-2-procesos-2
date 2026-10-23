@@ -4,4 +4,8 @@
 
 ## apuntes sesión
 
-## encargos
+Aarón nos dio¿ la clase para poder trabajar en el proyecto yipee
+
+---
+
+
