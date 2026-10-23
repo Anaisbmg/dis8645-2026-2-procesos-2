@@ -8,7 +8,7 @@ Con los cuatro que habíamos en la sala, Aarón definió? que el mejor momento p
 
 ### Bloque 9:00 - 11:00
 
-Para el proyecto 02 hay que conformar grupos de cuatro, aunque va a haber un (1) grupo de tres anyway
+Para el proyecto-02 hay que conformar grupos de cuatro, aunque va a haber un (1) grupo de tres anyway
 
 - Cada grupo escribe una clase (perilla o botón)
 
@@ -34,6 +34,10 @@ Versiones de software v X.Y.Z &rarr; lo que yo entiendo es: X big change que rom
 
 La clase de KiCad [streamed by Misaa](https://www.youtube.com/watch?v=iI2J38TAtJc)
 
-## encargos
+Ya que he usado KiCad anteriormente, anotaré solamente lo que no recordaba del todo, o directamente no sabía
+
+Hotkeys: X flips horizontally, Y flips vertically
+
+Si hago selecciono de arriba hacia abajo, se selecciona solo las partes que están dentro de la sección; de abajo hacia arriba se selecciona el componente completo
 
 ## lectura
