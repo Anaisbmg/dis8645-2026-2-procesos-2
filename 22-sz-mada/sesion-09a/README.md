@@ -38,7 +38,7 @@ Ya que he usado KiCad anteriormente, anotaré solamente lo que no recordaba del 
 
 Hotkeys: X flips horizontally, Y flips vertically
 
-Si hago selecciono de arriba hacia abajo, se selecciona solo las partes que están dentro de la sección; de abajo hacia arriba se selecciona el componente completo
+Si selecciono de arriba hacia abajo, se selecciona solo las partes que están dentro de la selección; de abajo hacia arriba se selecciona el componente completo
 
 Algunas herramientas tienen una esquina que indica que contienen más subherramientas, estas se acceden manteniendo apretada la herramienta principial
 
