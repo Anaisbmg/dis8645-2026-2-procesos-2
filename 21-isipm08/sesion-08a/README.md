@@ -111,7 +111,8 @@ encargo-08a:
 <https://wokwi.com/projects/477358360928893953>
 
 ## lectura
-- hoy realicé la lectura de un nuevo capítulo llamado ""
+### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
+- hoy realicé la lectura de un nuevo capítulo llamado "Languajes for computers and for people"
 
 *apuntes lectura*
 - como sociedad de plantea que el pensamiento es capaz de impedir nuestras acciones o incluso el aprendizaje

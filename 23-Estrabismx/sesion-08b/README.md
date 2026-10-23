@@ -44,21 +44,69 @@ Por ejemplo, en los _otamotone_ se enciende al subir el volumen, ya que el poten
 - Potenciómetro con switch de 5 pines
 
 ![pote](./imagenes/otamatone.jpg)
-![pote](./imagenes/pote+switch.webp)
+![pote](./imagenes/pote-switch.webp)
 
 <br>
 
 ### MAX7219
 
-### Multiplexores (mux - demux)
+Es un circuito integrado que permite controlar pantallas en serie, similar a una matriz. Siendo posible llegar a manipular 8 digitos de 7 segmentos o una matriz de 8x8 leds, todo esto con 3 conexiones a GPIO
+
+![max7219](./imagenes/max7219.jpg)
+![max7219 pinout](./imagenes/max7219-pinout.webp)
+![max7219 matriz](./imagenes/matriz.jpg)
+
+<br>
+
+### Multiplexores - Demultiplexores (mux - demux)
+
+- Multiplexores: Es un circuito combinacional, donde se reciben muchas entradas y se seleciona una para enviarla por la salida. Actuando como un interruptor en que _habla_ en binario
+
+- Demultiplexores: Es lo contrario, desde una única entrada se selecciona alguna salida entre varias
+
+![esquema](./imagenes/esquema-multiplexor.jpg)
+
+<br>
 
 ### CD4051
 
-> 8 canales > 3 selectores
+Este IC que funcioma como multi/demultiplexador y consta de 8 canales que se pueden controlar mediante 3 selectores.
+
+Esto nos ayuda a controlar una mayor cantidad de elementos con la cantidad limitada de GPIO que nos ofrece un microcontolador
+
+![cd4051](./imagenes/4051-esquema.png)
+![cd4051](./imagenes/4051tutorial.png)
+![cd4051](./imagenes/ic4051.jpg)
+
+<br>
 
 ### pwm slice
 
-### rising edge
+- Pulse Width Modulation o modulación por ancho de pulsos
+
+En el contexto de los microntroladores nos ayuda a definir la cantidad de energía que se nos entrega
+
+En C++ (Raspberry Pi Pico) se utiliza `GPIO_FUNC_PWM`
+
+Para más información:
+
+- <https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008371-DS-1-rp2040-datasheet.pdf>
+
+> Sección 4.5 corresponde a PWM
+
+- <https://www.i-programmer.info/programming/hardware/14849-the-pico-in-c-basic-pwm.html>
+
+- <https://www.youtube.com/watch?v=-OoGz9A6o2Q>
+
+<br>
+
+### rising edge - falling edge
+
+Corresponden a las transiciones en un voltaje de menos a más y de más a menos respectivamente
+
+![esquema](./imagenes/rising-edge.jpg)
+
+<br>
 
 ### CD4016
 
@@ -69,5 +117,9 @@ Este video se observa un sintetizador que posee "_botones_", es decir, 4 SPST. T
 ![4016](./imagenes/cd4016.png)
 
 ## encargos
+
+Me quise ir en volá xd, ya que sé que veremos KiCad y realizaremos el esquema y pcb del microcontrolador del raspi, descargue el repo [franbu](https://github.com/piruetasxyz/frambu) de [piruetas.xyz](https://github.com/piruetasxyz) donde hay una plantilla para trabajar con dicho chip.
+
+>Tarea propia, investigar sobre el chip y como se relaciona con la placa de desarrollo  
 
 ## lectura
