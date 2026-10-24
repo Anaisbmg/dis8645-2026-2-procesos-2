@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+PARO
+
 ## encargos
 
 ## lectura
