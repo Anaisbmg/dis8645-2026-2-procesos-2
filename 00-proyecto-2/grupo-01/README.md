@@ -2,13 +2,20 @@
 
 ### class Boton
 
+modoSwitch
+
 | anterior | actual | resultado |
 | :------: | :----: | :-------: |
-| 0        | 0      |          |
-| 1        | 0      |          |
-| 1        | 1      |          |
-| 0        | 1      |           |
+| 0        | 0      |  0        |
+| 1        | 0      | 1         |
+| 1        | 1      | 0         |
+| 0        | 1      | 1         |
 
+XOR
+
+Una u otra, pero no ambos
+
+Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 
 ### class Ampli 
