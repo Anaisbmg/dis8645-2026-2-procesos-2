@@ -90,4 +90,10 @@ dejaré el trabajo en la carpeta, pero quiero volver a esto en algún momento pa
 
 ---
 
-## lectura
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
+
++ _nuanced_: made slightly different in appearance, meaning, sound, etc. (https://dictionary.cambridge.org/dictionary/english/nuanced)
+
+"This makes digital technology--and those of us using it-- biased toward a reduction of complexity" que real!! la cantidad de veces que he escuchado "pregúntale a chatgpt" cuando alguien pregunta el significado de algo o cualquier duda en general es increíble. que vuelvan las costumbres de nuestra generación en donde buscábamos todas las respuestas a nuestras dudas en foros, yahoo! respuestas o reddit... (esto sonó muy dios, patria y familia creo).
+
+"The seeker had to jump through the hoops left by his predecessor. Now, the seeker can just get the answer" así es como funcionaba para mi generación el buscar respuestas antes de la ia!! uno buscaba una duda de un ejercicio de matemáticas a última hora en internet y siempre pillaba a un alumno de 14 años atrás en yahoo! respuestas que tenía la misma duda... era hermoso ver como alguien que tenía el mismo problema logró tener respuestas, las cuales personas de generaciones más actuales también podían hacer uso.
