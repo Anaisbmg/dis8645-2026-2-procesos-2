@@ -92,7 +92,7 @@ dejaré el trabajo en la carpeta, pero quiero volver a esto en algún momento pa
 
 ## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
 
-+ _nuanced_: made slightly different in appearance, meaning, sound, etc. (https://dictionary.cambridge.org/dictionary/english/nuanced)
++ _nuanced_: made slightly different in appearance, meaning, sound, etc. (<https://dictionary.cambridge.org/dictionary/english/nuanced>)
 
 "This makes digital technology--and those of us using it-- biased toward a reduction of complexity" que real!! la cantidad de veces que he escuchado "pregúntale a chatgpt" cuando alguien pregunta el significado de algo o cualquier duda en general es increíble. que vuelvan las costumbres de nuestra generación en donde buscábamos todas las respuestas a nuestras dudas en foros, yahoo! respuestas o reddit... (esto sonó muy dios, patria y familia creo).
 
