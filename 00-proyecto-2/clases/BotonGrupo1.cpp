@@ -46,21 +46,26 @@ estadoAnterior = presionado;
 // calculamos la duración que se ha mantenido presionado
 if (presionado) {   
  duracionPresionado = tiempoActual - ultimoTiempoLectura;
+ // reiniciamos la duración de suelto
  duracionSuelto = 0;
  // si presionado es falso 
  } else {
  // calculamos la duración que se mantuvo suelto
  duracionSuelto = tiempoActual - ultimoTiempoLectura;
+ // reiniciamos la duración de presionado
  duracionPresionado = 0; 
+}
 }
 
 
 
-void Boton::dobleClick() {
+void Boton::doblePresionado() {
  // si se presiono el boton, y la duracion es mayor a 50 ms y menor a 500 ms
  // entonces se considera un doble click
  if (presionado && duracionPresionado > 50 && duracionPresionado < 500) {
- }
+  estadoDoblePresionado = true;
+ } else { 
+}
 
  
 }
