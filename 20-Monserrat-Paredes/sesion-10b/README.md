@@ -14,6 +14,7 @@ Funciona a través de un selector de caracteres (perilla), que nos permite escog
 
 También podemos editar el texto que imprimimos en una segunda pantalla con una segunda perilla que puede recorrer el texto para añadir un carácter, borrarlo, o borrar todo lo digitado si se mantiene presionado.
 
+---
 
 ### Proceso
 
@@ -54,6 +55,7 @@ Perilla 1: elegir la letra
 
 Perilla 2: recorrer el texto
 
+---
 
 ### Referentes
 
