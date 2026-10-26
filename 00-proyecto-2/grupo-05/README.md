@@ -1,4 +1,6 @@
 # Génesis del proyecto
+![tittle](./imagenes/altiro-hero-loop.gif)
+
 
 <details>
 
