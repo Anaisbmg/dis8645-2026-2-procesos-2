@@ -1,3 +1,5 @@
+Hola, grupo 06 y a todes quienes ven este texto. Estas son las especificaciones de cómo queremos que sea la biblioteca de nuestros botones.
+  
 // ============================================================
 // BOTÓN 1: moverse por los niveles y elegir uno
 // (solo se usa en el menú de niveles, la acción de navegar
