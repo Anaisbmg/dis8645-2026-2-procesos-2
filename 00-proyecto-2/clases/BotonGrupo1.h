@@ -34,9 +34,13 @@ class Boton {
  // valor asociado al boton funcionando como switch
  bool estadoMantenerPresionado = false;
  // detecta si se presionó el Boton dos veces
- bool estadoDoblePresionado;
- // variable que ayuda a utilizar el modo switch
+ bool estadoDoblePresionado = false;
+ // variable que indica si se está esperando un doble click
+ bool esperandoDoblePresionado = false;
+ // variable que ayuda a procesar el estado del botón
  bool presionadoProcesado = false;
+
+
 
  // variable que ayuda a utilizar el modo borrar
  bool borrado = true;
@@ -62,7 +66,7 @@ class Boton {
  void leer();
  // detecta un doble click
  // devuelve true si se presionó dos veces
- bool doblePresionado(tiempoDoblePresionado);
+ bool doblePresionado();
  // convierte el boton pulsador en switch
  void mantenerPresionado();
  

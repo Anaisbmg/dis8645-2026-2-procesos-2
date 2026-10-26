@@ -45,9 +45,6 @@ void Boton::leer(){
     }
   }
 
- // creamos una varible que nos pueda servir para detectar doble click
- // se aloja aca para esconder la complejidad en .h
- bool esperandoDoblePresionado = false;
  // si presionado es verdadero
  if (presionado) {
    // y si esparamos un doble click
@@ -99,7 +96,7 @@ void Boton::leer(){
 // utilizamos bool para detectar doble click
 // esto facilita su uso en el main.cpp
 // solo leemos el estado de doble click y si es verdadero
-bool Boton::doblePresionado(tiempoDoblePresionado) {
+bool Boton::doblePresionado() {
  // si estadoDoblePresionado es verdadero 
  if (estadoDoblePresionado) {
    // reiniciamos estadoDoblePresionado a falso
@@ -137,5 +134,5 @@ void Boton::mantenerPresionado() {
 
 //
 void Boton::modoBorrar() {
-  estadoDoblePresionado = false;
+  estadoMantenerPresionado = false;
 }
