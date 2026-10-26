@@ -20,7 +20,7 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 ### class Ampli 
 
-
+Se preparó 
 
 ```cpp
 
