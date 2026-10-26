@@ -54,7 +54,7 @@ Sacamos información de aquí:
 
 Aquí una foto rescatas del repositorio de [riyakatalinaa - sesion10a](https://github.com/disenoUDP/dis8645-2026-2-procesos-2/tree/main/24-riyakatalinaa/sesion-10a)
 
-[captura de pantalla de la llamada en simultaneo con un documento de google](./imagenes/llamada-meet-grupo-04.png)
+![captura de pantalla de la llamada en simultaneo con un documento de google](./imagenes/llamada-meet-grupo-04.png)
 
 ## encargos
 
