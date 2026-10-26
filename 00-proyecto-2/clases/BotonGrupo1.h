@@ -32,10 +32,18 @@ class Boton {
  // observa el estado anterior del Boton
  bool estadoAnterior = false;
  // valor asociado al boton funcionando como switch
- bool estadoSwitch = false;
+ bool estadoMantenerPresionado = false;
  // detecta si se presionó el Boton dos veces
  bool estadoDoblePresionado = false;
- 
+ // variable que indica si se está esperando un doble click
+ bool esperandoDoblePresionado = false;
+ // variable que ayuda a procesar el estado del botón
+ bool presionadoProcesado = false;
+
+
+
+ // variable que ayuda a utilizar el modo borrar
+ bool borrado = true;
 
  // para detectar tiempo se recomienda usar uint32_t
  // optimiza el uso de memoria
@@ -46,6 +54,8 @@ class Boton {
  uint32_t duracionSuelto = 0;
  // última vez que se leyó el estado del botón
  uint32_t ultimaLectura = 0;
+ // ventana de tiempo para detectar doble click
+ uint32_t tiempoDoblePresionado = 300; // tiempo en milisegundos para detectar doble click
 
 
  // definimos constructor
@@ -55,9 +65,10 @@ class Boton {
  // lee que Boton está conectado en el gpio
  void leer();
  // detecta un doble click
- void doblePresionado();
+ // devuelve true si se presionó dos veces
+ bool doblePresionado();
  // convierte el boton pulsador en switch
- void modoSwitch(estadoSwitch);
+ void mantenerPresionado();
  
  // metodos especificos
 
