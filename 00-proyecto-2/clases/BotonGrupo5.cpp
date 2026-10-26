@@ -1,5 +1,5 @@
 Hola, grupo 06 y a todes quienes ven este texto. Estas son las especificaciones de cómo queremos que sea la biblioteca y el desarrollo de nuestros botones.
-Ver contexto y diagramas de flujo en: [proyecto 02, grupo 5](https://github.com/disenoUDP/dis8645-2026-2-procesos-2/tree/main/00-proyecto-2/grupo-05)
+Ver contexto y diagramas de flujo en: ![proyecto 02, grupo 5](https://github.com/disenoUDP/dis8645-2026-2-procesos-2/tree/main/00-proyecto-2/grupo-05)
 
 // ============================================================
 // BOTÓN 1: moverse por los niveles y elegir uno
