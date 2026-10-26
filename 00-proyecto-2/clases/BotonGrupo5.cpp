@@ -1,4 +1,4 @@
-Hola, grupo 06 y a todes quienes ven este texto. Estas son las especificaciones de cómo queremos que sea la biblioteca de nuestros botones.
+Hola, grupo 06 y a todes quienes ven este texto. Estas son las especificaciones de cómo queremos que sea la biblioteca y el desarrollo de nuestros botones.
   
 // ============================================================
 // BOTÓN 1: moverse por los niveles y elegir uno
