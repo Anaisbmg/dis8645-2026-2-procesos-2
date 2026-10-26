@@ -8,7 +8,7 @@
 // estaSiendoPresionado
 // soltado
 //
-// **Atributos**
+// Atributos
 //
 // Qué necesita saber este botón:
 //  - En qué pin está conectado de la raspberry.
@@ -70,7 +70,7 @@
 // estaSiendoPresionado
 // soltado
 //
-// **Atributos**
+// Atributos
 //
 // Qué necesita saber este botón:
 //  - En qué pin está conectado de la raspberry.
