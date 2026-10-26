@@ -60,28 +60,29 @@ void Boton::leer(){
      // para esperar el segundo click
      }
      else {
-    ultimaLectura = tiempoActual;
-    esperandoDoblePresionado = true;
-   }
-   // definimos la ventana de tiempo para detectar doble click
-   // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
-   //desde la última lectura es mayor a tiempoDoblePresionado
-   // esperandoDoblePresionado se actualiza a falso
-   // && es un operador lógico que significa y
-   // osea que si 2 elementos son verdaderos
-   // se ejecuta la instrucción
-   if (esperandoDoblePresionado && (tiempoActual - ultimaLectura > tiempoDoblePresionado)) {
+     ultimaLectura = tiempoActual;
+     esperandoDoblePresionado = true;
+    }
+  // definimos la ventana de tiempo para detectar doble click
+  // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
+  //desde la última lectura es mayor a tiempoDoblePresionado
+  // esperandoDoblePresionado se actualiza a falso
+  // && es un operador lógico que significa y
+  // osea que si 2 elementos son verdaderos
+  // se ejecuta la instrucción
+  if (esperandoDoblePresionado && (tiempoActual - ultimaLectura > tiempoDoblePresionado)) {
      esperandoDoblePresionado = false;
    }
 
-   if (presionado) {
+  // ahora vamos a calcular la duración que se mantuvo presionado o suelto
+  if (presionado) {
     // calculamos la duración que se mantuvo presionado
    duracionPresionado = tiempoActual - ultimaLectura;
    // reiniciamos la duración de suelto
    duracionSuelto = 0;
    // si presionado es falso 
      } 
-     else {
+   else {
    // calculamos la duración que se mantuvo suelto
    duracionSuelto = tiempoActual - ultimaLectura;
    // reiniciamos la duración de presionado
@@ -102,9 +103,9 @@ bool Boton::doblePresionado() {
    // reiniciamos estadoDoblePresionado a falso
    // para no leer de nuevo el estado de doble click
     estadoDoblePresionado = false;
-    // devolvemos verdadero
-    // return es una instrucción que devuelve un valor
-    // y termina la accion de la funcion
+     // devolvemos verdadero
+     // return es una instrucción que devuelve un valor
+     // y termina la accion de la funcion
      return true;
   }
   return false;
