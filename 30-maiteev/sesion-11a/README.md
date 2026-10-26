@@ -14,9 +14,12 @@ lectura pag 23 a la pagina 35
 
 
 **Capitulo 1**
+
 "la presencia de una obra de arte en el tiempo y el espacio, 'su existencia única en el lugar donde se encuentra', constituía la autenticidad, la autoridad y el 'aura' del objeto artístico, todo lo cual parecía estar en peligro por las posibilidades de la reproducción mecánica y la creación de copias idénticas" (pag 28)
 - composición de diferentes formas de imagenes, la superposición o la mezcla de elementos visuales
 - Nancy Burson pionera en el campo de las fotografias generadas por computador
 - Morphing
 - manipulación de imagenes
+
+"composición y collage que permite el procesamiento digital, un hecho al que se hace referencia con frecuencia en el arte" (pag 33)
 - kiding= empresa que traspasaba los limites entre el arte y la estetica publicitaria 
