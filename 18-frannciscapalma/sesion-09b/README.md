@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+nos adherimos al paro
+
 ## encargos
 
 ## lectura
