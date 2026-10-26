@@ -2,7 +2,7 @@
 #include "BotonGrupo1.h"
 
 //constructor
-Boton::Boton(int nuevoPin) {
+BotonGrupo1::BotonGrupo1(int nuevoPin) {
   pin = nuevoPin;
   
   // inicializamos el pin como entrada
@@ -15,7 +15,7 @@ Boton::Boton(int nuevoPin) {
 // definimos el método leer
 // definimos que la gran mayoria de lecturas ocurran en este metodo
 // de esta manera escondemos la complejidad de la clase Boton
-void Boton::leer(){
+void BotonGrupo1::leer(){
  // leemos el tiempo transcurrido desde que se encendió el microcontrolador
  // tiempoActual almacena el tiempo en milisegundos
  uint32_t tiempoActual = to_ms_since_boot(get_absolute_time());
@@ -97,7 +97,7 @@ void Boton::leer(){
 // utilizamos bool para detectar doble click
 // esto facilita su uso en el main.cpp
 // solo leemos el estado de doble click y si es verdadero
-bool Boton::doblePresionado() {
+bool BotonGrupo1::doblePresionado() {
  // si estadoDoblePresionado es verdadero 
  if (estadoDoblePresionado) {
    // reiniciamos estadoDoblePresionado a falso
@@ -112,7 +112,7 @@ bool Boton::doblePresionado() {
 }
 
 // metodo que convierte el boton pulsador en switch
-void Boton::mantenerPresionado() {
+void BotonGrupo1::mantenerPresionado() {
  // si presiono el boton y antes no estaba presionado
  // se inicia el modo switch
  // que es lo mismo que decir
@@ -134,6 +134,6 @@ void Boton::mantenerPresionado() {
 }
 
 //
-void Boton::modoBorrar() {
+void BotonGrupo1::modoBorrar() {
   estadoMantenerPresionado = false;
 }

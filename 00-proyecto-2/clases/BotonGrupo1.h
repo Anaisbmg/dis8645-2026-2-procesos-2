@@ -4,8 +4,8 @@
 // 
 // Licencia 
 
-#ifndef BOTON_H
-#define BOTON_H
+#ifndef BOTONGRUPO1_H
+#define BOTONGRUPO1_H
 
 // agregamos el GPIO
 // lo que hace es agregar la biblioteca del GPIO
@@ -14,7 +14,7 @@
 #include "pico/stdlib.h"
 
 // a continuación definimos la clase Boton
-class Boton {
+class BotonGrupo1 {
 
  // la hacemos public
  public:
@@ -62,7 +62,7 @@ class Boton {
  // a qué numero de pin está conectado
  Boton(int pin);
  // definimos métodos
- // lee que Boton está conectado en el gpio
+ // lee que BotonGrupo1 está conectado en el gpio
  void leer();
  // detecta un doble click
  // devuelve true si se presionó dos veces
