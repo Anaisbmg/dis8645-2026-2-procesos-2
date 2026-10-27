@@ -23,6 +23,30 @@ Sharp X68000
 El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y el sistema del computador Sharp X68000. La interacción se realizará mediante dos botones y dos perillas, cada uno con una función específica para seleccionar, reproducir y controlar los sonidos.
 
 
+### Controles e interacciones
+
+| Control | Acción |
+|---|---|
+| Encoder: giro horario | Avanza al siguiente sonido. |
+| Encoder: giro antihorario | Retrocede al sonido anterior. |
+| Encoder: pulsación | Reproduce el sonido seleccionado. |
+| Potenciómetro | Regula el volumen general en un rango de 0 a 100. |
+| Botón Loop: primera pulsación | Activa la repetición continua del sonido. |
+| Botón Loop: segunda pulsación | Desactiva la repetición continua del sonido. |
+| Cinco lucecitas LED | Indican cuál de los cinco sonidos está seleccionado. |
+
+### Experiencia de uso
+
+1. **Encender el dispositivo:** el sistema se inicia y queda preparado para seleccionar un sonido.
+2. **Seleccionar un sonido:** la persona gira el encoder en sentido horario o antihorario para recorrer los cinco sonidos. La lucecita correspondiente indica cuál está seleccionado.
+3. **Reproducir el sonido:** la persona presiona el encoder para escuchar el sonido seleccionado.
+4. **Regular el volumen:** gira el potenciómetro para ajustar el volumen general del dispositivo, dentro de un rango de 0 a 100.
+5. **Activar el loop:** presiona el botón LOOP una vez para que el sonido se repita continuamente.
+6. **Desactivar el loop:** presiona nuevamente el botón LOOP para desactivar la repetición.
+7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
+8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
+
+
 ### Archivos
 
 main.cpp	
