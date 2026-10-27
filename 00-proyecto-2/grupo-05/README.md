@@ -1,10 +1,11 @@
 ![tittle](./imagenes/altiro-hero-loop.gif)
 
 **Realizado por:**  
-*Francisca Palma (frannciscapalma)*
+*Francisca Jesús Palma Cuevas (frannciscapalma)*
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-*Nicolás Valdés (nicolasvaldesgreve)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-*Santiago Cifuentes Vélez (santiagocifuvelez)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Tomaz*
+*Nicolás Elías Valdés Greve (nicolasvaldesgreve)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+*Santiago Cifuentes Vélez (santiagocifuvelez)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+*Tomás Antonio Catrileo Curihual (tomascatri)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
  <br>
 
@@ -35,7 +36,7 @@ Es así como nace **Altiro Hero**, una máquina de entretenimiento compuesta por
 
 El dispositivo se enciende con un interruptor ubicado en [lugar]. Su pantalla es una matriz de 8x8 LEDs, que dividimos en cuatro columnas de dos LEDs de ancho cada una. Por estas columnas descienden los rectángulos de luz que conforman el patrón del juego. Bajo la matriz, a la izquierda, se encuentra una perilla, y a la derecha, un botón. Con la perilla, el jugador se desplaza horizontalmente para elegir la columna en la que se posicionará, y con el botón responde al patrón en el momento en que el rectángulo llega a la fila delimitada para el jugador de 1 LED de altura y 8 de ancho que está en la parte inferior de la matriz. Si acierta, la casilla se ilumina de verde; si falla, de rojo. 
 
-El juego cuenta con tres niveles, que se eligen desde el menú con el segundo botón, ubicado en el costado derecho: una pulsación avanza entre nivel 1, 2 y 3, y dos pulsaciones consecutivas confirman la elección. Bajo este botón hay una segunda perilla que permite aumentar o disminuir la velocidad de descenso del patrón, lo que ajusta la dificultad. Cada nivel dura un máximo de dos minutos y, al superarlo, comienza el siguiente automáticamente. Una vez completados los tres niveles, el dispositivo regresa al menú de niveles. (espesificar que se pasa el nivel si no cometes ningun error y que si te equivocas una vez vuelve a empezar automaticamente)
+El juego cuenta con tres niveles, que se eligen desde el menú con el segundo botón, ubicado en el costado derecho: una pulsación avanza entre nivel 1, 2 y 3, y dos pulsaciones consecutivas confirman la elección. Bajo este botón hay una segunda perilla que permite aumentar o disminuir la velocidad de descenso del patrón, lo que ajusta la dificultad. Cada nivel dura un máximo de dos minutos y al superarlo sin cometer ningún error, comienza el siguiente de manera automática, mientras que si cometes un error vuelves al menú de selección de niveles. Una vez completados los tres niveles, el dispositivo regresa al menú inicial.
 
 ## Mapa de flujo Experiencia de usuario
 
@@ -60,7 +61,7 @@ flowchart TD
     K -- No --> L["Pierde y vuelve<br/>a elegir nivel"]
     L --> C
 
-    K -- Sí --> M{"¿Sobrevive<br/>los 2:00 min?"}
+    K -- Sí --> M{"¿Pasaron<br/>los 2:00 min?"}
     M -- No, sigue jugando --> H
     M -- Sí --> N{"¿Acaba de superar<br/>el nivel 3?"}
     N -- No --> O["Avanza al siguiente nivel<br/>y escucha una nueva canción"]
@@ -136,66 +137,66 @@ flowchart TD
 
 ### Bill of materials:
 
-nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
+Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
 
-| componentes | cantidad | precio unitario | link |
+| Componentes | Cantidad | Precio unitario | Link |
 | --- | --- | --- | --- |
 | Raspberry Pi Pico 2W | 1 | $14.990 | <https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers> |
-| matriz LED RGB 8×8 con WS2812B | 1 | $9.990 | <https://afel.cl/products/matriz-led-rgb-88-con-ws2812b-64-pixeles-direccionables> |
-| parlante 36mm 8Ω | 1 | $2.290 | <https://pinout.cl/producto/parlante-mini-redondo-de-8-ohm> |
-| botón pulsador | 2 | $100 | <https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor> |
-| potenciómetro b100k | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
-| palanca switch | 1 | $400 | <https://afel.cl/products/interruptor-mts-102-3-pines> |
+| Matriz LED RGB 8×8 con WS2812B | 1 | $9.990 | <https://afel.cl/products/matriz-led-rgb-88-con-ws2812b-64-pixeles-direccionables> |
+| Parlante 36mm 8Ω | 1 | $2.290 | <https://pinout.cl/producto/parlante-mini-redondo-de-8-ohm> |
+| Botón pulsador | 2 | $100 | <https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor> |
+| Potenciómetro b100k | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
+| Palanca switch | 1 | $400 | <https://afel.cl/products/interruptor-mts-102-3-pines> |
 
 ---
 
 ## pseudocódigo del rol de los componentes:
 
-## switch
+## Switch
 
 ```cpp
-switch publico
+Switch publico
 
 int patita
-bool bascular
+bool bascular // aprendimos palabra nueva
 
 switch enciende
-switch apaga (?)
+switch apaga // (?)
 ```
 
 - Switch: Encendido y apagado del juego
-    - para apagar la pantalla, posición 0
-    - para encender la pantalla, posición 1
+    - Para apagar la pantalla, posición 0
+    - Para encender la pantalla, posición 1
     
 
-## botones
+## Botones
 
 ```cpp
-botón publico (todo público, no olvidar)
+Botón publico (todo público, no olvidar)
 
 bool presionado
 int duracionPresionado
 int patita
 
-boton lee
-boton presiona
-boton suelta
+Boton lee
+Boton presiona
+Boton suelta
 ```
 
 - Botón 1: Cambio de nivel del juego (nivel 1, 2 y 3)
-    - tres estados posibles: presión 1, presión 2, presión 3. con presion 4 volver a estado 1.
-    - en presión 1, selección de nivel de dificutlad 1
-    - en presión 2, selección de nivel de dificultad 2
-    - en presión 3, selección de nivel de dificultad 3
+    - Tres estados posibles: presión 1, presión 2, presión 3. con presion 4 volver a estado 1.
+    - En presión 1, selección de nivel de dificutlad 1
+    - En presión 2, selección de nivel de dificultad 2
+    - En presión 3, selección de nivel de dificultad 3
 
 - Botón 2: Selección del LED posicionado
-    - al presionar el botón en la casilla correcta, se pone el LED en verde
-    - al presionar el botón en la casilla incorrecta, se pone el LED en rojo
+    - Al presionar el botón en la casilla correcta, se pone el LED en verde
+    - Al presionar el botón en la casilla incorrecta, se pone el LED en rojo
 
-## perillas
+## Perillas
 
 ```cpp
-perilla pública
+Perilla pública
 
 int patita
 int posicion
@@ -204,23 +205,28 @@ void leer
 ```
     
 - Perilla 1: Cambio de velocidad del nivel
-    - resolución de la perilla en raspi es de 0-4095, se usará este espectro para controlar la velocidad en la que caen los rectángulos que debes atrapar en la fila inferior de la pantalla. 0 es la velocidad más lenta mientras que 4095 es la más rápida.
+    - Resolución de la perilla en raspi es de 0-4095, se usará este espectro para controlar la velocidad en la que caen los rectángulos que debes atrapar en la fila inferior de la pantalla. 0 es la velocidad más lenta mientras que 4095 es la más rápida.
     
 - Perilla 2: Recorrido de la posición del led 
-    - resolución de la perilla en raspi es de 0-4095, se delimitará cuatro posiciones posibles para poder moverte con este dentro de la pantalla.
-        - posición 1, rectángulo en extremo inferior derecho
-        - posición 2, rectángulo en mitad derecha inferior
-        - posición 3, rectángulo en mitad izquierda inferior
-        - posición 4, rectángulo en extremo inferior izquierdo.
+    - Resolución de la perilla en raspi es de 0-4095, se delimitará cuatro posiciones posibles para poder moverte con este dentro de la pantalla.
+        - Posición 1, rectángulo en extremo inferior derecho
+        - Posición 2, rectángulo en mitad derecha inferior
+        - Posición 3, rectángulo en mitad izquierda inferior
+        - Posición 4, rectángulo en extremo inferior izquierdo.
     
 ## Construcción tangible de; Al tiro hero
 
-Paleta de colores: Colours Cafe 
+Paleta de colores: Colours Cafe
 
-![paleta de colores](./imagenes/paleta-de-colores.jpeg)
+<details>
+ 
+![paleta de colores](./imagenes/paleta-de-colores.jpg)
 
+</details>
+ 
 ---
-# pseudo no tan pseudos (? son reales pero idk
+
+# Pseudo no tan pseudos (? son reales pero idk
 
 ```cpp
 // perillas:)
