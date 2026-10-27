@@ -216,10 +216,14 @@ void leer
     
 ## Construcción tangible de; Al tiro hero
 
-Paleta de colores: Colours Cafe 
+Paleta de colores: Colours Cafe
 
-![paleta de colores](./imagenes/paleta-de-colores.jpeg)
+<details>
+ 
+![paleta de colores](./imagenes/paleta-de-colores.jpg)
 
+</details>
+ 
 ---
 # pseudo no tan pseudos (? son reales pero idk
 
