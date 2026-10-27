@@ -9,6 +9,24 @@
 
  <br>
 
+ **Entregables:**   
+ - *Simulación digital en wokwi*
+ - *Prototipo físico tangible de altiro hero*
+
+**Indice:**   
+- Génesis del proyecto
+   - Contexto / investigación / referentes.
+- Diagramas de flujo
+   - Experiencia de usuario
+   - Máquina (altiro hero)
+   - Perillas
+   - Botones
+- Factura de materiales
+- Pseudocódigo del rol de los componentes
+   - 
+- Construcción tangible de Altiro hero
+- Referentes
+
 # Génesis del proyecto
 <details>
 
@@ -135,7 +153,7 @@ flowchart TD
 
 # Diagrama de flujo, perillas 
 
-### Bill of materials:
+### Factura de materiales:
 
 Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
 
@@ -214,7 +232,7 @@ void leer
         - Posición 3, rectángulo en mitad izquierda inferior
         - Posición 4, rectángulo en extremo inferior izquierdo.
     
-## Construcción tangible de; Al tiro hero
+## Construcción tangible de Altiro hero
 
 Paleta de colores: Colours Cafe
 
@@ -383,7 +401,7 @@ class Perilla {
 
 ---
 
-# FUENTES HOLA
+# Referentes
 
 + <https://youtu.be/n0YoaTSh_bI>
 + <https://es.wikipedia.org/wiki/Game_Boy_Color>
