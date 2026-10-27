@@ -28,4 +28,45 @@ flowchart TD
     H-->|repite|A;
 ```
 
+---
+
+Esta primera versión era un diagrama más generalizado, así que ahora voy a diferenciar entre el diagrama de flujo del usuario, y el flujo del programa
+
+### Diagrama de flujo del usuario
+
+```mermaid
+%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+%%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+flowchart TD
+
+%%==============================================================================
+
+A(<b>Iniciar</b>\nPantalla vacía, TRAZO desactivado)-->B(<b>Observar estado MOVER</b>\nEl indicador muestra MOVER);
+B-->C(<b>Posicionar cursor</b>\nGirar perillas, sin marcar);
+C-->D{¿Dibujar?};
+D-->|Si|E(<b>Pulsar TRAZO</b>\n Activa DIBUJAR);
+E-->F(<b>Mover perillas</b>\nSe dibuja una línea contínua);
+F-->G{¿Qué sigue?};
+G-->H(<b>Desplazarse sin marca</b>\nPulsar TRAZO: vuelve a MOVER);
+D--->|No|C;
+H-->C;
+G--->|Continuar|F;
+G-->I(<b>Borrar</b>\nLimpia y vuelve a MOVER);
+I-->B;
+```
+
+### Diagrama de flujo del programa
+
+```mermaid
+%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+%%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+flowchart TD
+
+%%==============================================================================
+
+
+```
+
 ## lectura
