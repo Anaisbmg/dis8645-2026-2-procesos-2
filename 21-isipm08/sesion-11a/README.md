@@ -5,3 +5,4 @@
 ## encargos
 
 ## lectura
+### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
