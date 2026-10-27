@@ -23,7 +23,9 @@
    - Botones
 - Factura de materiales
 - Pseudocódigo del rol de los componentes
-   - 
+   - Switch
+   - Botones
+   - Perillas
 - Construcción tangible de Altiro hero
 - Referentes
 
