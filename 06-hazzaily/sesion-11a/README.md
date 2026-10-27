@@ -2,7 +2,9 @@
 
 2026-10-27
 
-## apuntes sesión
+## Avance proyecto 2
+
+Editamos el ReadMe del proyecto-02 con la información actualizada, además de distribuir mejor el orden.
 
 ## encargos
 
