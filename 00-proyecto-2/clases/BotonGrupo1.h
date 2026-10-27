@@ -2,7 +2,7 @@
 // Este archivo define la clase Boton
 // desarrollado por: 
 // 
-// Licencia 
+// licencia 
 
 #ifndef BOTONGRUPO1_H
 #define BOTONGRUPO1_H
@@ -55,7 +55,7 @@ class BotonGrupo1 {
  // última vez que se leyó el estado del botón
  uint32_t ultimaLectura = 0;
  // ventana de tiempo para detectar doble click
- uint32_t tiempoDoblePresionado = 300; // tiempo en milisegundos para detectar doble click
+ uint32_t tiempoDoblePresionado = 300; 
 
 
  // definimos constructor
