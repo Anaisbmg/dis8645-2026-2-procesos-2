@@ -1,50 +1,114 @@
-**Idea principal** 
+# Proyecto-2 / grupo-04
 
-Nuestro proyecto se basará en el texto multitap que tenían los teléfonos como los Nokia, los cuales cada números contiene 3 letras que debes presionar para que estos aparecieran en la pantalla. 
+Fecha de entrega: 2026-11-03
 
-Bajo esta idea, queremos generar una máquina en donde se puedan digitar caracteres, en donde algunos de estos, como los son las vocales o la n, tienen variaciones que pueden ser seleccionadas presionando un botón 2 veces, cambiando así a que tengan tilde o ñ. 
+---
 
-Funciona a través de un selector de caracteres (perilla), que nos permite escoger las letras para formar palabras o no.
+## Integrantes
 
-**Proceso**
+Emilia Contreras / [hazzaily](https://github.com/hazzaily) / 
+
+Kristel Ladrón de Guevara / [kristelagj](https://github.com/kristelagj) /
+
+Monserrat Paredes / [Monserrat-Paredes](https://github.com/Monserrat-Paredes) / 
+
+Katalina Riquelme / [riyakatalinaa](https://github.com/riyakatalinaa) / 
+
+## Importante 
+
+Todas las imágenes y gifs son de nuestra autoría.
+
+Todos los gifs e imágenes se encuentran subidos en la carpeta de "imagenes".
+
+Códigos subidos por fecha en la carpeta "codigos".
+
+---
+
+## Referentes
+
+ - **Nokia 9000 (1998):** Contaba con un teclado alfanumérico integrado (qwerty)
+
+![foto del nokia 9000](./imagenes/.jpeg)
+
+ - **Nokia 3310 (2000):** Su teclado es multitap, lo que hace que en una tecla se encuentren varios caracteres que pueden ser seleccionados según la cantidad de veces que se presione el mismo botón.
+
+![foto del nokia 3310](./imagenes/.jpeg)
+
+ - **PS1 (1997):** En ciertos juegos o partidas permitía escribir palabras cortas, como nombres de usuario, esto era a través de las *analog stick* con el cual se pre seleccionaba el carácter y con el botón x se seleccionaba y se imprimía.
+
+![foto de la ps1](./imagenes/.jpeg)
+
+## Idea principal
+
+Nuestro proyecto se basará en el texto multitap que tenían los teléfonos Nokia, los cuales cada números contiene 3 letras que debes presionar para que estos aparecieran en la pantalla, también en los joystick de la PS1, que permitían digitar textos cortos para añadir nombres de usuario, entre otras cosas.
+
+Bajo esta idea, queremos generar una máquina en donde en una pantalla se pueden digitar caracteres los cuales tienen variaciones que pueden ser seleccionadas presionando un botón 2 veces (mayúscula o minúscula). Además, queremos añadir como opción caracteres especiales, tab, enter, etc.
+
+Funciona a través de un selector de caracteres (perilla), que nos permite escoger las letras para formar palabras o no y finalmente seleccionarlas con un botón que puede ser presionado 1 o 2 veces.
+
+También podemos editar el texto que imprimimos en una segunda pantalla con una segunda perilla que puede recorrer el texto para añadir un carácter, borrarlo, o borrar todo lo digitado si se mantiene presionado.
+
+## Proceso
 
 Comenzamos buscando qué ideas o aparatos funcionaban a partir de los elementos solicitados, como por ejemplo podrían ser las máquinas de casinos (juegos de azar).
 
-Además, como grupo encontramos importante mencionar la situación en la que nos encontramos y que fue ponernos de acuerdo, en gran mayoría, de manera online y coordinar nuestros tiempos a partir de la práctica, ¡pero todo terminó resultando bien\!
+Además, como grupo encontramos importante mencionar la situación en la que nos encontramos y que fue ponernos de acuerdo, en gran mayoría, de manera online y coordinar nuestros tiempos a partir de la práctica, ¡pero todo terminó resultando bien!
 
 Nos entregaron ciertos referentes en clase de donde podíamos comenzar a investigar y hacer un cover, pero decimos mencionar, utilizar y hacer un “cover” de algo que incluyera los requerimientos que son las perillas y botones, o sea, tanto cómo se escribía desde los teléfonos nokia 9000, a como se escribía en las consolas como la PS3. Delimitando así estos parámetros: 
 
-* Botón 1: borrar información   
-    
-* Botón 2: presionar opción / presionar dos veces: segunda opción 
+Después de decidir que debíamos hacer, comenzamos a definir detalladamente los métodos que deben realizar las pantallas, botones y perillas. 
 
-* Perilla 1: elegir la letra  
-    
-* Perilla 2: recorrer el texto
+**PANTALLA 1:** 
 
-Referentes
+ - Pantalla 1: imprime la información que fue previamente seleccionada en la pantalla 1, la cual se puede editar con la perilla 2 y el botón 2.
 
-Nokia 9000 (1998) - Contaba con un teclado alfanumérico integrado (qwerty).
+ - Perilla 1: debe recorrer el texto caracter por caracter de ida y/o de vuelta, permitiéndonos editarlo en cualquier parte del texto (con botones).
 
-Nokia 3310 (2000) - Su teclado es multitap, lo que hace que en una tecla se encuentren varios caracteres que pueden ser seleccionados según la cantidad de veces que se presione el mismo botón.
+ - Botón 1: dependiendo de la cantidad de pulsaciones (solo una pulsación) en la primera pantalla borra sólo un carácter, o (dos pulsaciones) se mantiene pulsado en la segunda pantalla
 
-PS1 (1997) - En ciertos juegos o partidas permitía escribir palabras cortas, como nombres de usuario, esto era a través de las analog stick con el cual se pre seleccionaba el carácter y con el botón x se seleccionaba y se imprimía.
+**PANTALLA 2:**
 
-(SCPH-1150 en Japón, SCPH-1180 en Estados Unidos y SCPH-1180e en Europa) 
+ - Pantalla 2: proyecta los caracteres: (a, b, c, d, e, f, g, h, i, j,k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, tab, enter) y en ella se recorren para seleccionarlos.
 
-https://en.wikipedia.org/wiki/Dual_Analog_Controller
-https://es.wikipedia.org/wiki/DualAnalog
+ - Perilla 2: debe recorrer los caracteres uno a uno para así poder seleccionar alguno, que el recorrido sea lento y que no se vaya todo de golpe de un extremo al otro. 
 
-**Código y clases**
+ - Botón 2: selecciona el carácter que se selecciona con la perilla 1, si se presiona una vez, la letra se imprime en minúscula, y si se presiona 2 veces se imprime en mayúscula.
 
-**Diagramas de flujo**
+**¿Qué hará cada uno de forma individual?:**
 
-**Esquemáticos**
+Botón 1: borrar información 
 
-**Bibliografía**
+Botón 2: presionar opción / presionar dos veces: segunda opción 
 
-**Prompts usados**
+Perilla 1: elegir la letra
 
-[https\://en.wikipedia.org/wiki/Multi-tap](https://en.wikipedia.org/wiki/Multi-tap)
+Perilla 2: recorrer el texto
 
-[https\://www\.youtube.com/shorts/4hhPcB-LsX0](https://www.youtube.com/shorts/4hhPcB-LsX0)
+## Código y clases
+
+## Diagramas de flujo
+
+## Esquemáticos
+
+## Bibliografía
+
+**Información:**
+
+[Wikipedia - Información Multi-Tap](https://en.wikipedia.org/wiki/Multi-tap)
+
+[Wikipedia - Dual Analog Controller](https://en.wikipedia.org/wiki/Dual_Analog_Controller)
+
+[Wikipedia - Dual Analog](https://es.wikipedia.org/wiki/DualAnalog)
+
+
+**Imágenes:**
+
+[Nokia 9000](https://www.elmundo.es/tecnologia/2026/08/15/6a8014c6e4d4d85a078b458d.html)
+
+[Nokia 3310](https://www.t13.cl/noticia/tendencias/tecnologia/es-cierto-va-regresar-indestructible-nokia-3310-plena-era-smartphones)
+
+[Play Station 1](https://www.fullcompras.cl/Sony-Playstation-PS-One---Consola-de-videojuegos-renovada?srsltid=AYCX9vL8oIILWeRBE8-nlHRv45sFf17SLITUHpGW-0kN0Bel9h7SiZZu)
+
+## Prompts usados
+
+
