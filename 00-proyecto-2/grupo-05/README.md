@@ -61,7 +61,7 @@ flowchart TD
     K -- No --> L["Pierde y vuelve<br/>a elegir nivel"]
     L --> C
 
-    K -- Sí --> M{"¿Sobrevive<br/>los 2:00 min?"}
+    K -- Sí --> M{"¿Pasaron<br/>los 2:00 min?"}
     M -- No, sigue jugando --> H
     M -- Sí --> N{"¿Acaba de superar<br/>el nivel 3?"}
     N -- No --> O["Avanza al siguiente nivel<br/>y escucha una nueva canción"]
