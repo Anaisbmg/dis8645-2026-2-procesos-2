@@ -3,13 +3,13 @@
 
 ☆ Vanessa García /
 
-☆ Isidora Pérez /
+☆ Isidora Pérez / <https://github.com/isipm08>
 
 ☆ Narely Riquelme /
 
 ☆ Angel Sabogal /
 
-## Commodore 64X
+## Commodore 64 Ultimate 
 
 ## Descripción del proyecto
 
@@ -18,7 +18,7 @@
 |Componente|Cantidad|Precio|Link|
 |---|---|---|---|
 |Raspberry Pi Pico|1|$14.990|<https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers>|
-|Pantalla |1|$xx|<>|
+|Pantalla |1|$22.000|<https://afel.cl/products/pantalla-tft-3-5-para-arduino-mega?_pos=10&_sid=5d442d2bf&_ss=r>|
 |Protoboard|1|$1.500|<https://afel.cl/products/mini-protoboard-400-puntos>|
 |Botón Táctil|2|$1.000|<https://afel.cl/products/kit-boton-tactil-6x6x5-interruptor-5-unidades?_pos=5&_sid=a64e3623f&_ss=r>|
 |Cables dupont pack 20|x|$1.000|<https://afel.cl/products/pack-20-cables-de-conexion-macho-macho>|
