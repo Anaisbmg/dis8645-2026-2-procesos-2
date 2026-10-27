@@ -71,7 +71,9 @@ ampli.h + ampli.cpp
 
 Como grupo nos corresponde realizar la clase Boton, el cuál debe funcionar tanto para lo que hagamos nosotras en nuestro proyecto, como para lo que haga el grupo 07 para el suyo.
 
-Licencia (pendiente) Esta se está investigando aún para implementarla.
+Licencia
+Este código es obra de Bianka Vilchez, Camila Ramirez y Dayana Pañitrur (2026).
+Se distribuye bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
 
 #### Boton.h
 
@@ -79,7 +81,12 @@ En el archivo .h definimos todo, declaramos todo, prometemos las cosas que hará
 
 El nombre de nuestra clases es **BotonGrupo1**
 
-Algo importante que debemos colocar en nuestro archivo .h es integrar la biblioteca del GPIO.
+Algo importante que debemos integrar en nuestro archivo .h son:
+
+- La biblioteca de la Rapberry Pi Pico para poder programarla
+- Biblioteca del GPIO, para integrar la conexión física de los pines de la Raspi
+
+Hacer el código `public` hará que cualquier persona pueda ver, usar o modificar nuestra clase Boton
 
 modoSwitch
 
