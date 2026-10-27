@@ -2,7 +2,7 @@
 #include "BotonGrupo1.h"
 
 //constructor
-Boton::Boton(int nuevoPin) {
+BotonGrupo1::BotonGrupo1(int nuevoPin) {
   pin = nuevoPin;
   
   // inicializamos el pin como entrada
@@ -15,7 +15,7 @@ Boton::Boton(int nuevoPin) {
 // definimos el método leer
 // definimos que la gran mayoria de lecturas ocurran en este metodo
 // de esta manera escondemos la complejidad de la clase Boton
-void Boton::leer(){
+void BotonGrupo1::leer(){
  // leemos el tiempo transcurrido desde que se encendió el microcontrolador
  // tiempoActual almacena el tiempo en milisegundos
  uint32_t tiempoActual = to_ms_since_boot(get_absolute_time());
@@ -60,28 +60,29 @@ void Boton::leer(){
      // para esperar el segundo click
      }
      else {
-    ultimaLectura = tiempoActual;
-    esperandoDoblePresionado = true;
-   }
-   // definimos la ventana de tiempo para detectar doble click
-   // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
-   //desde la última lectura es mayor a tiempoDoblePresionado
-   // esperandoDoblePresionado se actualiza a falso
-   // && es un operador lógico que significa y
-   // osea que si 2 elementos son verdaderos
-   // se ejecuta la instrucción
-   if (esperandoDoblePresionado && (tiempoActual - ultimaLectura > tiempoDoblePresionado)) {
+     ultimaLectura = tiempoActual;
+     esperandoDoblePresionado = true;
+    }
+  // definimos la ventana de tiempo para detectar doble click
+  // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
+  //desde la última lectura es mayor a tiempoDoblePresionado
+  // esperandoDoblePresionado se actualiza a falso
+  // && es un operador lógico que significa y
+  // osea que si 2 elementos son verdaderos
+  // se ejecuta la instrucción
+  if (esperandoDoblePresionado && (tiempoActual - ultimaLectura > tiempoDoblePresionado)) {
      esperandoDoblePresionado = false;
    }
 
-   if (presionado) {
+  // ahora vamos a calcular la duración que se mantuvo presionado o suelto
+  if (presionado) {
     // calculamos la duración que se mantuvo presionado
    duracionPresionado = tiempoActual - ultimaLectura;
    // reiniciamos la duración de suelto
    duracionSuelto = 0;
    // si presionado es falso 
      } 
-     else {
+   else {
    // calculamos la duración que se mantuvo suelto
    duracionSuelto = tiempoActual - ultimaLectura;
    // reiniciamos la duración de presionado
@@ -96,22 +97,22 @@ void Boton::leer(){
 // utilizamos bool para detectar doble click
 // esto facilita su uso en el main.cpp
 // solo leemos el estado de doble click y si es verdadero
-bool Boton::doblePresionado() {
+bool BotonGrupo1::doblePresionado() {
  // si estadoDoblePresionado es verdadero 
  if (estadoDoblePresionado) {
    // reiniciamos estadoDoblePresionado a falso
    // para no leer de nuevo el estado de doble click
     estadoDoblePresionado = false;
-    // devolvemos verdadero
-    // return es una instrucción que devuelve un valor
-    // y termina la accion de la funcion
+     // devolvemos verdadero
+     // return es una instrucción que devuelve un valor
+     // y termina la accion de la funcion
      return true;
   }
   return false;
 }
 
 // metodo que convierte el boton pulsador en switch
-void Boton::mantenerPresionado() {
+void BotonGrupo1::mantenerPresionado() {
  // si presiono el boton y antes no estaba presionado
  // se inicia el modo switch
  // que es lo mismo que decir
@@ -133,6 +134,6 @@ void Boton::mantenerPresionado() {
 }
 
 //
-void Boton::modoBorrar() {
+void BotonGrupo1::modoBorrar() {
   estadoMantenerPresionado = false;
 }
