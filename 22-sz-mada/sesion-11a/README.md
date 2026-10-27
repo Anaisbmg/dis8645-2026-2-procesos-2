@@ -1,7 +1,7 @@
 # sesion-11a
 
-## apuntes sesión
+2026.10.27
 
-## encargos
+## apuntes sesión
 
 ## lectura
