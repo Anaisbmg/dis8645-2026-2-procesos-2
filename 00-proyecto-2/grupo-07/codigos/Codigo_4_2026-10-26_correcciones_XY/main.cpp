@@ -4,7 +4,7 @@
 #include "hardware/i2c.h"
 #include "Perilla.h"
 extern "C" { // La biblioteca de pantalla está en C; así la podemos llamar desde nuestro C++.
-#include "ssd1306.h"
+#include "Ssd1306.h"
 }
 // Código 4: nuestras dos perillas mueven el cursor. El trazo y los botones vienen después.
 int main() {
