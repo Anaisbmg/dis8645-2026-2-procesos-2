@@ -137,66 +137,66 @@ flowchart TD
 
 ### Bill of materials:
 
-nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
+Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
 
-| componentes | cantidad | precio unitario | link |
+| Componentes | Cantidad | Precio unitario | Link |
 | --- | --- | --- | --- |
 | Raspberry Pi Pico 2W | 1 | $14.990 | <https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers> |
-| matriz LED RGB 8×8 con WS2812B | 1 | $9.990 | <https://afel.cl/products/matriz-led-rgb-88-con-ws2812b-64-pixeles-direccionables> |
-| parlante 36mm 8Ω | 1 | $2.290 | <https://pinout.cl/producto/parlante-mini-redondo-de-8-ohm> |
-| botón pulsador | 2 | $100 | <https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor> |
-| potenciómetro b100k | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
-| palanca switch | 1 | $400 | <https://afel.cl/products/interruptor-mts-102-3-pines> |
+| Matriz LED RGB 8×8 con WS2812B | 1 | $9.990 | <https://afel.cl/products/matriz-led-rgb-88-con-ws2812b-64-pixeles-direccionables> |
+| Parlante 36mm 8Ω | 1 | $2.290 | <https://pinout.cl/producto/parlante-mini-redondo-de-8-ohm> |
+| Botón pulsador | 2 | $100 | <https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor> |
+| Potenciómetro b100k | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
+| Palanca switch | 1 | $400 | <https://afel.cl/products/interruptor-mts-102-3-pines> |
 
 ---
 
 ## pseudocódigo del rol de los componentes:
 
-## switch
+## Switch
 
 ```cpp
-switch publico
+Switch publico
 
 int patita
-bool bascular
+bool bascular // aprendimos palabra nueva
 
 switch enciende
-switch apaga (?)
+switch apaga // (?)
 ```
 
 - Switch: Encendido y apagado del juego
-    - para apagar la pantalla, posición 0
-    - para encender la pantalla, posición 1
+    - Para apagar la pantalla, posición 0
+    - Para encender la pantalla, posición 1
     
 
-## botones
+## Botones
 
 ```cpp
-botón publico (todo público, no olvidar)
+Botón publico (todo público, no olvidar)
 
 bool presionado
 int duracionPresionado
 int patita
 
-boton lee
-boton presiona
-boton suelta
+Boton lee
+Boton presiona
+Boton suelta
 ```
 
 - Botón 1: Cambio de nivel del juego (nivel 1, 2 y 3)
-    - tres estados posibles: presión 1, presión 2, presión 3. con presion 4 volver a estado 1.
-    - en presión 1, selección de nivel de dificutlad 1
-    - en presión 2, selección de nivel de dificultad 2
-    - en presión 3, selección de nivel de dificultad 3
+    - Tres estados posibles: presión 1, presión 2, presión 3. con presion 4 volver a estado 1.
+    - En presión 1, selección de nivel de dificutlad 1
+    - En presión 2, selección de nivel de dificultad 2
+    - En presión 3, selección de nivel de dificultad 3
 
 - Botón 2: Selección del LED posicionado
-    - al presionar el botón en la casilla correcta, se pone el LED en verde
-    - al presionar el botón en la casilla incorrecta, se pone el LED en rojo
+    - Al presionar el botón en la casilla correcta, se pone el LED en verde
+    - Al presionar el botón en la casilla incorrecta, se pone el LED en rojo
 
-## perillas
+## Perillas
 
 ```cpp
-perilla pública
+Perilla pública
 
 int patita
 int posicion
@@ -205,14 +205,14 @@ void leer
 ```
     
 - Perilla 1: Cambio de velocidad del nivel
-    - resolución de la perilla en raspi es de 0-4095, se usará este espectro para controlar la velocidad en la que caen los rectángulos que debes atrapar en la fila inferior de la pantalla. 0 es la velocidad más lenta mientras que 4095 es la más rápida.
+    - Resolución de la perilla en raspi es de 0-4095, se usará este espectro para controlar la velocidad en la que caen los rectángulos que debes atrapar en la fila inferior de la pantalla. 0 es la velocidad más lenta mientras que 4095 es la más rápida.
     
 - Perilla 2: Recorrido de la posición del led 
-    - resolución de la perilla en raspi es de 0-4095, se delimitará cuatro posiciones posibles para poder moverte con este dentro de la pantalla.
-        - posición 1, rectángulo en extremo inferior derecho
-        - posición 2, rectángulo en mitad derecha inferior
-        - posición 3, rectángulo en mitad izquierda inferior
-        - posición 4, rectángulo en extremo inferior izquierdo.
+    - Resolución de la perilla en raspi es de 0-4095, se delimitará cuatro posiciones posibles para poder moverte con este dentro de la pantalla.
+        - Posición 1, rectángulo en extremo inferior derecho
+        - Posición 2, rectángulo en mitad derecha inferior
+        - Posición 3, rectángulo en mitad izquierda inferior
+        - Posición 4, rectángulo en extremo inferior izquierdo.
     
 ## Construcción tangible de; Al tiro hero
 
@@ -225,7 +225,8 @@ Paleta de colores: Colours Cafe
 </details>
  
 ---
-# pseudo no tan pseudos (? son reales pero idk
+
+# Pseudo no tan pseudos (? son reales pero idk
 
 ```cpp
 // perillas:)
