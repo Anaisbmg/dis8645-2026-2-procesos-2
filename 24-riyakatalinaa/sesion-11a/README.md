@@ -8,7 +8,18 @@ avanzar en el proyecto-02
 
 - avanzar en el README del proyecto-02 (organizar para llegar y poner información)
 - buscar imágenes de referentes y subirlos al README con su respectivo link de donde fue sacada la imagen
-- avanzar en los códigos 
+- avanzar en los códigos
+
+### idea principal (subir al README del proyecto-02)
+
+Nuestro proyecto se basará en el texto multitap que tenían los teléfonos Nokia, los cuales cada números contiene 3 letras que debes presionar para que estos aparecieran en la pantalla, también en los joystick de la PS1, que permitían digitar textos cortos para añadir nombres de usuario, entre otras cosas.
+
+Bajo esta idea, queremos generar una máquina en donde en una pantalla se pueden digitar caracteres los cuales tienen variaciones que pueden ser seleccionadas presionando un botón 2 veces (mayúscula o minúscula). Además, queremos añadir como opción caracteres especiales, tab, enter, etc.
+
+Funciona a través de un selector de caracteres (perilla), que nos permite escoger las letras para formar palabras o no y finalmente seleccionarlas con un botón que puede ser presionado 1 o 2 veces.
+
+También podemos editar el texto que imprimimos en una segunda pantalla con una segunda perilla que puede recorrer el texto para añadir un carácter, borrarlo, o borrar todo lo digitado si se mantiene presionado.
+
 
 ## encargos
 
