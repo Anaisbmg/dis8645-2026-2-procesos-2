@@ -18,7 +18,7 @@ Elegí esta porque nos habla de "divide and conquer" que se refiere directamente
 
 Parte por parte hasta lograr una solución para un problema que se veía enorme, pero que en realidad, sólo eran pequeños problemas uno sobre otro que parecían una masa gigante.
 
- 3. "If the list is empty, return zero.". (pág. 57).
+ 2. "If the list is empty, return zero.". (pág. 57).
 
 Elegí esta porque se me hace interesante el hecho de que demos por sentado el 0, sea en programación, clases o en general. Y es más que nada eso, simplemente me pareció curioso el hecho de que ese "return zero" ya está en nuestra cabeza casi que por default cuando no tenemos más elementos que contar, pero que al computador haya que decírselo.
 
