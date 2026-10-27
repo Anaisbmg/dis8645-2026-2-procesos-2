@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-PROGRAMACIÓN ORIENTADA A OJETOS (POO)
+PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
 
 Sirve para ahorrar espacio, tiempo y ordenar.
 La mayoría de errores en programación es por hacer copia y pega.
