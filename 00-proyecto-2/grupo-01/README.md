@@ -12,6 +12,18 @@ El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y
 
 ### class Boton
 
+Como grupo nos corresponde realizar la clase Boton, el cuál debe funcionar tanto para lo que hagamos nosotras en nuestro proyecto, como para lo que haga el grupo 07 para el suyo.
+
+Licencia (pendiente) Esta se está investigando aún para implementarla.
+
+#### Boton.h
+
+En el archivo .h definimos todo, declaramos todo, prometemos las cosas que hará el botón, el cómo lo hará lo escribiremos en el archivo .cpp
+
+El nombre de nuestra clases es **BotonGrupo1**
+
+Algo importante que debemos colocar en nuestro archivo .h es integrar la biblioteca del GPIO.
+
 modoSwitch
 
 | anterior | actual | resultado |
