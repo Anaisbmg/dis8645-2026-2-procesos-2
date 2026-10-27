@@ -35,7 +35,7 @@ Esta primera versión era un diagrama más generalizado, así que ahora voy a di
 ### Diagrama de flujo del usuario
 
 ```mermaid
-%%{ init : { "theme" : "neo", "flowchart" : { "curve" : "linear" }}}%%
+%%{ init : { "theme" : "redux-color", "flowchart" : { "curve" : "linear" }}}%%
 %%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 flowchart TD
@@ -48,25 +48,36 @@ C-->D{¿Dibujar?};
 D-->|Si|E(<b>Pulsar TRAZO</b>\n Activa DIBUJAR);
 E-->F(<b>Mover perillas</b>\nSe dibuja una línea contínua);
 F-->G{¿Qué sigue?};
-G-->H(<b>Desplazarse sin marca</b>\nPulsar TRAZO: vuelve a MOVER);
+G-->H(<b>Desplazarse sin marca</b>\nPulsar TRAZO: vuelve a MOVER)-->C;
 D--->|No|C;
-H-->C;
 G--->|Continuar|F;
-G-->I(<b>Borrar</b>\nLimpia y vuelve a MOVER);
-I-->B;
+G-->I(<b>Borrar</b>\nLimpia y vuelve a MOVER)-->B;
 ```
 
 ### Diagrama de flujo del programa
 
 ```mermaid
-%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+%%{ init : { "theme" : "redux-color", "flowchart" : { "curve" : "linear" }}}%%
 %%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 flowchart TD
 
 %%==============================================================================
 
-
+A(<b>Inicializar</b>)-->B(<b>Leer valores inciales</b>\nFijar coordenadas anteriores);
+B-->C(<b>Leer entradas</b>\nDos perillas y dos botones);
+C-->D(<b>Convertir y limitar</b>\nPerillas a coordenadas, bordes);
+D-->E{¿Evento BORRAR?};
+E--->|No|F(<b>Procesar evento TRAZO</b>\nUna pulsación alterna estado);
+F-->G{¿Se activó el TRAZO?};
+G--->|No|H{¿Dibujando y cambió posición?};
+H-->|No|I(<b>Componer imagen</b>\nDibujo, cursor e indicador);
+I-->J(<b>Actualizar salida</b>\nSolo cuando corresponda);
+J-->K(<b>Guardar coordenadas</b>\nActuales pasan a anteriores);
+E-->|Si|L(<b>Limpiar búfer</b>\nPasar a MOVER\nSincronizar coordenadas)-->I;
+G-->|Si|M(<b>Fijar inicio</b>\nEn la coordenada actual)-->I;
+H--->|Sí|N(<b>Agregar segmento</b>\nDe anterior a actual)-->I;
+K-->|Repite|C;
 ```
 
 ## lectura
