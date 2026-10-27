@@ -34,11 +34,9 @@
 
 ![génesis](./imagenes/genesis.jpeg)
 
-</details>
-    
-## pseudo.h
+## Contexto del proyecto:
 
-### Contexto del proyecto:
+<details>
 
 Nuestro proyecto consiste en la creación de un dispositivo interactivo de entretenimiento. Elegimos como computador de referencia para el diseño de la carcasa y la interfaz, la **Game Boy Color**, principalmente por la estética de su carcasa y por la forma en que organiza sus controles.
 
@@ -57,6 +55,9 @@ Es así como nace **Altiro Hero**, una máquina de entretenimiento compuesta por
 El dispositivo se enciende con un interruptor ubicado en [lugar]. Su pantalla es una matriz de 8x8 LEDs, que dividimos en cuatro columnas de dos LEDs de ancho cada una. Por estas columnas descienden los rectángulos de luz que conforman el patrón del juego. Bajo la matriz, a la izquierda, se encuentra una perilla, y a la derecha, un botón. Con la perilla, el jugador se desplaza horizontalmente para elegir la columna en la que se posicionará, y con el botón responde al patrón en el momento en que el rectángulo llega a la fila delimitada para el jugador de 1 LED de altura y 8 de ancho que está en la parte inferior de la matriz. Si acierta, la casilla se ilumina de verde; si falla, de rojo. 
 
 El juego cuenta con tres niveles, que se eligen desde el menú con el segundo botón, ubicado en el costado derecho: una pulsación avanza entre nivel 1, 2 y 3, y dos pulsaciones consecutivas confirman la elección. Bajo este botón hay una segunda perilla que permite aumentar o disminuir la velocidad de descenso del patrón, lo que ajusta la dificultad. Cada nivel dura un máximo de dos minutos y al superarlo sin cometer ningún error, comienza el siguiente de manera automática, mientras que si cometes un error vuelves al menú de selección de niveles. Una vez completados los tres niveles, el dispositivo regresa al menú inicial.
+
+</details>
+</details>
 
 # Diagramas de flujo 
 <details> 
@@ -160,19 +161,21 @@ flowchart TD
 ```
 </details>
 
-# Diagrama de flujo, botones 
+## Diagrama de flujo, botones 
 
 <details> 
 </details>
 
-# Diagrama de flujo, perillas 
+## Diagrama de flujo, perillas 
 
 <details> 
  holi
 </details>
 </details>
 
-### Factura de materiales:
+# Factura de materiales:
+
+<details> 
 
 Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
 
@@ -186,6 +189,8 @@ Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componen
 | Palanca switch | 1 | $400 | <https://afel.cl/products/interruptor-mts-102-3-pines> |
 
 ---
+
+</details>
 
 ## pseudocódigo del rol de los componentes:
 
