@@ -35,7 +35,32 @@ Es compatible con cintas de casete, unidades de disco y con televisores de tubo 
 
 ## Descripción del proyecto
 
+### Inspiración: La Influencia del Commodore 64
 
+La referencia al Commodore 64 Ultimate se manifiesta en cuatro pilares fundamentales del proyecto:
+
+1. **Estética Gráfica y Lenguaje Visual:** Uso de bloques visuales marcados, bordes delimitados en pantalla y tipografía geométrica estilo monospaciado, emulando el modo de texto y la construcción de sprites característicos de la época de los 8 bits.
+2. **Identidad Sonora (Chiptune):** Generación de melodías tipo *chiptune* construidas bajo el espíritu de la síntesis de onda cuadrada, emulando los tonos del legendario chip de sonido MOS 6581 SID del C64.
+3. **Mecánica de Control Retro:** La interacción mediante perillas analógicas e interruptores táctiles evoca los paneles de control integrados y los mandos de los microcomputadores clásicos.
+4. **Narrativa de Carga por Etapas:** La transición entre pantallas emula la experiencia de los juegos de cassette o disco de los años 80, donde el jugador avanza slide a slide resolviendo desafíos consecutivos para completar una historia.
+
+## Funcionamiento y Dinámica del Juego
+
+El flujo interactivo se estructura en **5 Slides correlativos**:
+
+* **Slide 1 — Inicio e Instrucciones:** Pantalla de bienvenida con el título del juego, la explicación general de los controles y el planteamiento del desafío: *"Llega a la universidad"*.
+
+
+* **Slide 2 — Etapa 1 (El Laberinto de la Micro):** El jugador debe mover al personaje a través de un laberinto vectorial para alcanzar el paradero de la micro antes de que el temporizador llegue a cero.
+
+
+* **Slide 3 — Etapa 2 (La Micro en el Tráfico):** Control del vehículo de transporte público en una vía multicarril. El jugador debe esquivar el flujo de autos en movimiento. Como condicionante de dificultad en esta etapa, el juego activa la **inversión de controles** en las perillas.
+
+
+* **Slide 4 — Etapa 3 (El Pasillo a la Sala):** Nivel final donde el estudiante transita el pasillo de la universidad para ingresar por la puerta de la sala de clases.
+
+
+* **Slide 5 — Conclusión y Reflexión:** Pantalla de cierre al completar la meta. Muestra el mensaje *"¡Lo lograste!"* acompañado de una frase reflexiva sobre la resiliencia y la impredecibilidad de la vida diaria (*"Las cosas no siempre son como uno espera... pero igual se logra"*).
 
 
 
@@ -57,7 +82,7 @@ Es compatible con cintas de casete, unidades de disco y con televisores de tubo 
 
 ## Documentación IA
 
-# Organización del Proyecto por Clases: Juego Arcade (Raspberry Pi Pico)
+### Organización del Proyecto por Clases: Juego Arcade (Raspberry Pi Pico)
 
 Para mantener el código ordenado, eficiente en memoria y fácil de presentar, dividiremos el proyecto en **6 Clases independientes**, asignando a cada una su "Lista de supermercado" (**Atributos/Variables**) y sus "Acciones" (**Métodos/Funciones**).
 
@@ -80,7 +105,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 1. Clase `Boton` (Hardware)
+#### 1. Clase `Boton` (Hardware)
 
 * **Responsabilidad:** Lee un botón físico y elimina falsos toques por rebote mecánico (*debounce*).
 
@@ -103,7 +128,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 2. Clase `Perilla` (Hardware)
+#### 2. Clase `Perilla` (Hardware)
 
 * **Responsabilidad:** Lee un potenciómetro analógico, lo traduce a coordenadas de pantalla ($X$ o $Y$) y permite invertir los controles en ciertas etapas.
 
@@ -131,7 +156,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 3. Clase `AudioPlayer` (Sonido)
+#### 3. Clase `AudioPlayer` (Sonido)
 
 * **Responsabilidad:** Administra el zumbador y reproduce las 3 melodías arcade de forma secuencial sin pausar el juego.
 
@@ -153,7 +178,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 4. Clase `PantallaUI` (Gráficos y Renderizado)
+#### 4. Clase `PantallaUI` (Gráficos y Renderizado)
 
 * **Responsabilidad:** Maneja toda la parte visual (pantalla TFT), dibujando textos, gráficos vectoriales e imágenes sin recargar el procesamiento del juego.
 
@@ -175,7 +200,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 5. Clase `Player` (Personaje)
+#### 5. Clase `Player` (Personaje)
 
 * **Responsabilidad:** Almacena los datos del estudiante en el mapa y comprueba su estado.
 
@@ -194,7 +219,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-## 6. Clase `GameController` (El Cerebro)
+#### 6. Clase `GameController` (El Cerebro)
 
 * **Responsabilidad:** Coordina todo el juego, administra el paso entre los 5 slides, controla el tiempo límite y evalúa si el personaje choca o gana.
 
@@ -223,7 +248,7 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 ---
 
-##  Flujo de Ejecución del Programa (`main.cpp`)
+####  Flujo de Ejecución del Programa (`main.cpp`)
 
 1. **Creación de Objetos:** Se instancia cada componente (`botonSlide`, `botonAudio`, `perillaX`, `perillaY`, `audio`, `pantalla` y `juego`).
 
