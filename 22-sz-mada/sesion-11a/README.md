@@ -4,6 +4,8 @@
 
 ## apuntes sesión
 
+Realicé la primera versión del diagrama de flujo del proyecto. Primera vez que hago uno en markdown lol así que aprendí un nivel muy básico del syntax de `mermaid`
+
 ```mermaid
 %%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
 %%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
