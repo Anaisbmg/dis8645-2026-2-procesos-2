@@ -58,7 +58,12 @@ El dispositivo se enciende con un interruptor ubicado en [lugar]. Su pantalla es
 
 El juego cuenta con tres niveles, que se eligen desde el menú con el segundo botón, ubicado en el costado derecho: una pulsación avanza entre nivel 1, 2 y 3, y dos pulsaciones consecutivas confirman la elección. Bajo este botón hay una segunda perilla que permite aumentar o disminuir la velocidad de descenso del patrón, lo que ajusta la dificultad. Cada nivel dura un máximo de dos minutos y al superarlo sin cometer ningún error, comienza el siguiente de manera automática, mientras que si cometes un error vuelves al menú de selección de niveles. Una vez completados los tres niveles, el dispositivo regresa al menú inicial.
 
+# Diagramas de flujo 
+<details> 
+ 
 ## Mapa de flujo Experiencia de usuario
+
+<details> 
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
@@ -101,8 +106,11 @@ flowchart TD
 
     linkStyle default stroke:#A247D3,stroke-width:2px;
 ```
+</details>
 
 ## Mapa de flujo Máquina
+
+<details> 
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
@@ -150,10 +158,17 @@ flowchart TD
 
     linkStyle default stroke:#A247D3,stroke-width:2px;
 ```
+</details>
 
 # Diagrama de flujo, botones 
 
+<details> 
+</details>
+
 # Diagrama de flujo, perillas 
+
+<details> 
+</details>
 
 ### Factura de materiales:
 
