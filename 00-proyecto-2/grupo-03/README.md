@@ -300,12 +300,119 @@ codigo/
 
 ### Clases escritas por nosotras
 
-#### `[NombreClase]`
-- **Qué hace:** 
-- **Atributos:** 
-- **Métodos:** 
-- **Se relaciona con:** 
+#### `Perilla`
 
+Qué hace: Representa los potenciómetros físicos que permiten seleccionar emociones y navegar entre pantallas.
+
+Atributos:
+- `pin`: identifica la entrada analógica.
+- `valor`: almacena la posición actual.
+- `cantidad_opciones`: define cuántas opciones puede seleccionar.
+
+Métodos:
+- `leer_valor()`: obtiene el valor analógico del potenciómetro.
+- `seleccionar_opcion()`: convierte el valor obtenido en una opción determinada.
+
+<details>
+<summary> Desplegar código  </summary/>
+
+Perilla.h
+
+```cpp
+#ifndef PERILLA_H
+#define PERILLA_H
+
+// Clase que representa un potenciómetro
+class Perilla 
+{
+
+public:
+    // Guarda el pin GPIO conectado al potenciómetro
+    int pin;
+
+    // Guarda la cantidad de opciones disponibles
+    int cantidad_opciones;
+
+    // Constructor: configura el pin y la cantidad de opciones
+    Perilla(int pin, int cantidad_opciones);
+
+    // Lee la posición actual del potenciómetro
+    int leer_valor();
+
+    // Convierte la lectura en una opción
+    int seleccionar_opcion();
+};
+
+#endif
+```
+
+Perilla.cpp
+
+```cpp
+#include "Perilla.h"       // Incluye la definición de la clase
+#include "hardware/adc.h" // Permite leer las perillas analógicas
+
+// Guarda el pin y la cantidad de opciones de la perilla
+Perilla::Perilla(int pin, int cantidad_opciones) {
+    this->pin = pin;
+    this->cantidad_opciones = cantidad_opciones;
+}
+
+// Lee el valor analógico de la perilla
+int Perilla::leer_valor() {
+
+    // Selecciona el canal ADC según el pin conectado
+    if (pin == 26) {
+        adc_select_input(0); // GP26 corresponde al ADC0
+    }
+    else if (pin == 27) {
+        adc_select_input(1); // GP27 corresponde al ADC1
+    }
+
+    // Devuelve un valor entre 0 y 4095
+    return adc_read();
+}
+
+// Convierte la lectura en una opción seleccionable
+int Perilla::seleccionar_opcion() {
+    int valor = leer_valor();
+
+    // Divide el rango analógico entre las opciones disponibles
+    int opcion = valor * cantidad_opciones / 4096;
+
+    // Evita que la opción supere el límite
+    if (opcion >= cantidad_opciones) {
+        opcion = cantidad_opciones - 1;
+    }
+
+    return opcion;
+}
+```
+Falta ordenar comentarios 
+
+</details/>
+
+
+#### `Emociones`
+Qué hace: Gestiona las expresiones faciales, los mensajes asociados y el nivel de dificultad correspondiente a cada emoción.
+
+Atributos:
+
+- `nombre`: identifica la emoción.
+- `rostro`: almacena su representación gráfica.
+- `mensaje`: almacena el texto asociado.
+- `dificultad`: define el nivel de dificultad del juego asociado a la emoción.
+
+Métodos:
+
+- `mostrar_rostro()`: muestra la expresión facial.
+- `obtener_mensaje()`: devuelve el mensaje correspondiente.
+- `obtener_dificultad()`: devuelve el nivel de dificultad asociado a la emoción.
+
+
+<details>
+<summary> Desplegar código  </summary/>
+  
 ```cpp
 class NombreClase {
   private:
@@ -314,6 +421,9 @@ class NombreClase {
     void encender();   // qué hace, en una línea
 };
 ```
+</details/>
+
+
 
 #### Prompts usados:
 para qué se usó cada uno y qué se hizo con la respuesta.
