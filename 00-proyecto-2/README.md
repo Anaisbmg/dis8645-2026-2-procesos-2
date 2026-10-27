@@ -19,42 +19,42 @@ la nota de proyecto dos se calcula como la suma de esos 6 puntajes, más el punt
 
 ## apuntes y código grupo-01
 
-- README: bien
+- README: incluir más información sobre el proyecto. diagramas de flujo, cosas que quieren tomar o cambiar de su referencia
 - clases: Boton, exclente base en .h, implementacion super bien en .cpp
 
 ## apuntes y código grupo-02
 
-- README:
+- README: VACÍO `:(`
 - clases: buen avance en .h pero incompleto, revisar otros grupos.
 
 ## apuntes y código grupo-03
 
-- README:
+- README: el esquema general del proyecto va bien. Falta más información sobre el computador de referencia
 - clases: buen avance en .h y .cpp, demostrar en wokwi que funciona, agregar los métodos faltantes.
 
 ## apuntes y código grupo-04
 
-- README: bien
+- README: bien, buena idea de máquina. Puede ser un aparato de escritura bien interesante
 - clases: buen avance en pseudocódigo en .h pero convertir a código, falta .cpp
 
 ## apuntes y código grupo-05
 
-- README: super bien
+- README: excelente imaginación, pero exploren pronto la materialidad para ver si se conectan
 - clases: VACÍO `:(`
 
 ## apuntes y código grupo-06
 
-- README:
+- README: VACÍO `:(`
 - clases: buen avance en pseudocódigo en .h pero convertir a código, falta .cpp
 
 ## apuntes y código grupo-07
 
-- README:
+- README: VACÍO `:(`
 - clases: VACÍO `:(`
 
 ## apuntes y código grupo-08
 
-- README:
+- README: necesitamos más que la lista de materiales ¿cuál es su máquina de referencia? ¿qué pretenden?
 - clases: buen .h, falta .cpp
 
 ## grupos
