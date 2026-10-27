@@ -13,13 +13,18 @@ Camila Ramirez
 
 El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y el sistema del computador Sharp X68000. La interacción se realizará mediante dos botones y dos perillas, cada uno con una función específica para seleccionar, reproducir y controlar los sonidos.
 
-### Archivo
+### Archivos
 
 main.cpp	
+
 Boton.h + Boton.cpp	
+
 Perilla.h + Perilla.cpp	
+
 Sonido.h + Sonido.cpp	
+
 Lucecita.h + Lucecita.cpp
+
 ampli.h + ampli.cpp
 
 ### class Boton
