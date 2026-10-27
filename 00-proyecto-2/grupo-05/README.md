@@ -192,8 +192,10 @@ Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componen
 
 </details>
 
-## pseudocódigo del rol de los componentes:
+# Pseudocódigo del rol de los componentes:
 
+<details>
+ 
 ## Switch
 
 ```cpp
@@ -255,18 +257,19 @@ void leer
         - Posición 2, rectángulo en mitad derecha inferior
         - Posición 3, rectángulo en mitad izquierda inferior
         - Posición 4, rectángulo en extremo inferior izquierdo.
-    
-## Construcción tangible de Altiro hero
 
-Paleta de colores: Colours Cafe
+ </details>
+
+# Construcción tangible de Altiro hero
 
 <details>
+
+Paleta de colores: Colours Cafe
  
 ![paleta de colores](./imagenes/paleta-de-colores.jpg)
-
-</details>
  
 ---
+</details>
 
 # Pseudo no tan pseudos (? son reales pero idk
 
@@ -427,7 +430,11 @@ class Perilla {
 
 # Referentes
 
+<details>
+
 + <https://youtu.be/n0YoaTSh_bI>
 + <https://es.wikipedia.org/wiki/Game_Boy_Color>
 +
 +
+
+</details>
