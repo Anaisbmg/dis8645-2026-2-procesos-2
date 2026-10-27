@@ -1,6 +1,14 @@
 # sesion-11a
 
+martes 2026-10-27
+
 ## apuntes sesión
+
+avanzar en el proyecto-02
+
+- avanzar en el README del proyecto-02 (organizar para llegar y poner información)
+- buscar imágenes de referentes y subirlos al README con su respectivo link de donde fue sacada la imagen
+- avanzar en los códigos 
 
 ## encargos
 
