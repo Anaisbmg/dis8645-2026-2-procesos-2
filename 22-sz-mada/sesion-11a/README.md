@@ -7,7 +7,7 @@
 Realicé la primera versión del diagrama de flujo del proyecto. Primera vez que hago uno en markdown lol así que aprendí un nivel muy básico del syntax de `mermaid`
 
 ```mermaid
-%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+%%{ init : { "theme" : "redux-color", "flowchart" : { "curve" : "linear" }}}%%
 %%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 flowchart TD
@@ -35,7 +35,7 @@ Esta primera versión era un diagrama más generalizado, así que ahora voy a di
 ### Diagrama de flujo del usuario
 
 ```mermaid
-%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+%%{ init : { "theme" : "neo", "flowchart" : { "curve" : "linear" }}}%%
 %%                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 flowchart TD
