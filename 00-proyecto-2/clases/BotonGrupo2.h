@@ -29,6 +29,6 @@ class Boton
 
     // caso grupo 2
     // espacio del escritorio, con las perillas me muevo
-}
+};
 
 #endif
