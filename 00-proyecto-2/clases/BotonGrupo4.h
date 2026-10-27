@@ -14,10 +14,6 @@
 // definir clase Boton
 class Boton {
 
-  // todo publico
-  // nada de andar privatizando
-  public:
-
   // atributos
   bool presionado = false;
   int duracionPresionado = 0;   
