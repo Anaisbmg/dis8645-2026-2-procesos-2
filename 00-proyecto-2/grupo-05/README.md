@@ -9,16 +9,34 @@
 
  <br>
 
+ **Entregables:**   
+ - *Simulación digital en wokwi*
+ - *Prototipo físico tangible de altiro hero*
+
+**Indice:**   
+- Génesis del proyecto
+   - Contexto / investigación / referentes.
+- Diagramas de flujo
+   - Experiencia de usuario
+   - Máquina (altiro hero)
+   - Perillas
+   - Botones
+- Factura de materiales
+- Pseudocódigo del rol de los componentes
+   - Switch
+   - Botones
+   - Perillas
+- Construcción tangible de Altiro hero
+- Referentes
+
 # Génesis del proyecto
 <details>
 
 ![génesis](./imagenes/genesis.jpeg)
 
-</details>
-    
-## pseudo.h
+## Contexto del proyecto:
 
-### Contexto del proyecto:
+<details>
 
 Nuestro proyecto consiste en la creación de un dispositivo interactivo de entretenimiento. Elegimos como computador de referencia para el diseño de la carcasa y la interfaz, la **Game Boy Color**, principalmente por la estética de su carcasa y por la forma en que organiza sus controles.
 
@@ -38,7 +56,15 @@ El dispositivo se enciende con un interruptor ubicado en [lugar]. Su pantalla es
 
 El juego cuenta con tres niveles, que se eligen desde el menú con el segundo botón, ubicado en el costado derecho: una pulsación avanza entre nivel 1, 2 y 3, y dos pulsaciones consecutivas confirman la elección. Bajo este botón hay una segunda perilla que permite aumentar o disminuir la velocidad de descenso del patrón, lo que ajusta la dificultad. Cada nivel dura un máximo de dos minutos y al superarlo sin cometer ningún error, comienza el siguiente de manera automática, mientras que si cometes un error vuelves al menú de selección de niveles. Una vez completados los tres niveles, el dispositivo regresa al menú inicial.
 
+</details>
+</details>
+
+# Diagramas de flujo 
+<details> 
+ 
 ## Mapa de flujo Experiencia de usuario
+
+<details> 
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
@@ -81,8 +107,11 @@ flowchart TD
 
     linkStyle default stroke:#A247D3,stroke-width:2px;
 ```
+</details>
 
 ## Mapa de flujo Máquina
+
+<details> 
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
@@ -130,12 +159,23 @@ flowchart TD
 
     linkStyle default stroke:#A247D3,stroke-width:2px;
 ```
+</details>
 
-# Diagrama de flujo, botones 
+## Diagrama de flujo, botones 
 
-# Diagrama de flujo, perillas 
+<details> 
+</details>
 
-### Bill of materials:
+## Diagrama de flujo, perillas 
+
+<details> 
+ holi
+</details>
+</details>
+
+# Factura de materiales:
+
+<details> 
 
 Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componentes:
 
@@ -150,8 +190,12 @@ Nuestro proyecto será un juego de ritmo el cual tendrá los siguientes componen
 
 ---
 
-## pseudocódigo del rol de los componentes:
+</details>
 
+# Pseudocódigo del rol de los componentes:
+
+<details>
+ 
 ## Switch
 
 ```cpp
@@ -213,18 +257,19 @@ void leer
         - Posición 2, rectángulo en mitad derecha inferior
         - Posición 3, rectángulo en mitad izquierda inferior
         - Posición 4, rectángulo en extremo inferior izquierdo.
-    
-## Construcción tangible de; Al tiro hero
 
-Paleta de colores: Colours Cafe
+ </details>
+
+# Construcción tangible de Altiro hero
 
 <details>
+
+Paleta de colores: Colours Cafe
  
 ![paleta de colores](./imagenes/paleta-de-colores.jpg)
-
-</details>
  
 ---
+</details>
 
 # Pseudo no tan pseudos (? son reales pero idk
 
@@ -383,9 +428,13 @@ class Perilla {
 
 ---
 
-# FUENTES HOLA
+# Referentes
+
+<details>
 
 + <https://youtu.be/n0YoaTSh_bI>
 + <https://es.wikipedia.org/wiki/Game_Boy_Color>
 +
 +
+
+</details>
