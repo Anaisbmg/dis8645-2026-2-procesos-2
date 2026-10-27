@@ -25,13 +25,56 @@ Elegimos como principal referente un Digital Desktop PC de la marca KB Learning 
 
 ![referente](./imagenes/referente.png)
 
+  
+<details>
+<summary> ¿Cómo funciona? </summary>
+ 
+Este computador en su interior se define el funcionamiento a través de tres sistemas: 
+
+**1. La placa base central (PCB) y el chip "Blob"**
+
+- **La PCB (Printed Circuit Board)** es una placa electrónica que conecta y organiza los componentes del computador
+
+- **Chip «Blob» (Chip-on-Board)**
+
+Blob es esa pequeña protuberancia negra, generalmente circular, que aparece sobre algunas placas electrónicas. 
+
+En realidad, no es el chip propiamente tal, sino una capa de resina epoxi que protege un circuito integrado montado directamente sobre la placa. Esta técnica se conoce como Chip-on-Board (COB).
+
+  - Interpretar las pulsaciones de los botones.
+  - Ejecutar los juegos o actividades programadas.
+  - Controlar los gráficos de la pantalla.
+  - Gestionar sonidos y respuestas del juguete.
+    
+```mermaid
+graph LR
+    A["**Botón**<br><br>Entrada"] --> B["**PCB + Blob**<br><br>Procesamiento"]
+    B --> C["**Pantalla**<br><br>Respuesta"]
+
+    style A fill:#f2f2f2,stroke:#999,stroke-width:2px,color:#000,rx:10,ry:10
+    style B fill:#f2f2f2,stroke:#999,stroke-width:2px,color:#000,rx:10,ry:10
+    style C fill:#f2f2f2,stroke:#999,stroke-width:2px,color:#000,rx:10,ry:10
+    linkStyle 0,1 stroke:#00b894,stroke-width:2px
+```
+
+**2. El sistema de pantalla (Monitor)**
+
+- **Pantalla LCD pasiva:** La carcasa de plástico imitaba la forma de un monitor convencional, mientras que la imagen se mostraba en una pequeña pantalla LCD.
+- **Cables planos (Ribbon cables)**
+
+**3. Conectividad y Puertos**
+
+El computador utilizaba conexiones eléctricas simples para comunicar sus controles con la placa principal (PCB). En este tipo de juguetes, el teclado podía funcionar mediante una membrana con contactos conductores que detectaban las pulsaciones, mientras que el mouse se conectaba mediante un puerto físico para transmitir señales de movimiento y clic.
+
+Este computador nos parece un referente interesante por la manera en que transforma la tecnología en una experiencia de juego sencilla y cercana. Nos llama la atención cómo, a través de controles físicos y respuestas visuales simples, logra despertar la curiosidad e invitar a la exploración. Queremos rescatar esa forma de interactuar, donde cada acción tiene una respuesta y el usuario aprende mientras juega.
+
+</details>
 
 ### Decisiones
 A partir de este referente, destacamos sus características como pantallas LCD, los botones físicos, colores vívidos, el teclado, los gráficos de baja resolución y que cuenta con estos tres modos (word games, math games y fun games). Decidimos mantener la estructura del monitor, ocupar el recurso del teclado para tener nuestros botones y perillas separadas de la pantalla, para proponer una experiencia similar a la de este tipo de computador, y tener 3 modos de "juego", reinterpretándolo con nuestro objetivo.
 
 #### Boceto:
 ![boceto](./imagenes/boceto.png)
-
 
 #### Materialidad e interfaz
 Planeamos realizar la carcasa en impresión 3d, para mantenernos fiel a las formas y materiales de nuestro referente. La interfaz está en desarrollo.
@@ -40,7 +83,18 @@ Planeamos realizar la carcasa en impresión 3d, para mantenernos fiel a las form
 
 ## Funcionamiento del sistema
 
+### BOM: Lista de componentes
+
+| Componente | Pin | Nota |
+|------------|-----|------|
+| Rasberry Pi Pico 2W |  | |
+|  | |  |
+
+### Esquemático
+![Esquemático](esquematico.png)
+
 ### Diagramas de flujos
+Definen la experiencia del usuario y cómo funciona cada componente.
 
 #### Usuario:
 ```mermaid
@@ -120,16 +174,117 @@ flowchart TB
    classDef decision fill:#ecfeff,stroke:#22d3ee
 ```
 
-### Esquemático
+#### Botón 0
+```mermaid
+flowchart TD
+    A(["Máquina apagada"]) --> B["Presionar botón 0"]
+    B --> C["Máquina encendida"]
+    C --> D["Iniciar pantalla principal"]
+    D --> E{"¿Presiona botón 0?"}
+    E -->|Sí| F["Apagar máquina"]
+    F --> A
+    E -->|No| D
 
-![Esquemático](esquematico.png)
+    classDef start fill:#eef2ff,stroke:#818cf8
+    classDef action fill:#fdf4ff,stroke:#e879f9
+    classDef decision fill:#ecfeff,stroke:#22d3ee
 
-#### BOM: Lista de componentes
+    class A start
+    class B,C,D,F action
+    class E decision
+```
 
-| Componente | Pin | Nota |
-|------------|-----|------|
-| Rasberry Pi Pico 2W |  | |
-|  | |  |
+#### Botón 1
+```mermaid
+flowchart TD
+    A(["Entrar al modo 3"]) --> B["Iniciar minijuego"]
+    B --> C["Personaje avanza y aparecen obstáculos"]
+    C --> D{"¿Presiona botón 1?"}
+
+    D -->|Sí| E["Personaje salta"]
+    D -->|No| F{"¿Choca con un obstáculo?"}
+
+    E --> F
+    F -->|No| C
+    F -->|Sí| G["Fin de la partida"]
+
+    G --> H{"¿Qué desea hacer?"}
+    H -->|Jugar otra vez| B
+    H -->|Volver a navegar| I(["Regresar a la navegación"])
+
+    classDef screen fill:#eef2ff,stroke:#818cf8
+    classDef action fill:#fdf4ff,stroke:#e879f9
+    classDef game fill:#fff7ed,stroke:#fb923c
+    classDef decision fill:#ecfeff,stroke:#22d3ee
+
+    class A,I screen
+    class B,E,G action
+    class C game
+    class D,F,H decision
+```
+
+#### Perilla 0
+```mermaid
+flowchart TD
+    A(["Modo 1: Caritas"]) --> B["Girar perilla 0"]
+    B --> C{"¿Qué emoción selecciona?"}
+
+    C -->|Felicidad| D["Mostrar rostro feliz"]
+    C -->|Tristeza| E["Mostrar rostro triste"]
+    C -->|Enojo| F["Mostrar rostro enojado"]
+    C -->|Calma| H["Mostrar rostro tranquilo"]
+
+    D --> I["Guardar emoción seleccionada"]
+    E --> I
+    F --> I
+    H --> I
+
+    I --> J{"¿Desea cambiar la emoción?"}
+    J -->|Sí| B
+    J -->|No| K(["Continuar con la navegación"])
+
+    classDef screen fill:#eef2ff,stroke:#818cf8
+    classDef action fill:#fdf4ff,stroke:#e879f9
+    classDef emotion fill:#f0fdf4,stroke:#4ade80
+    classDef decision fill:#ecfeff,stroke:#22d3ee
+
+    class A,K screen
+    class B,I action
+    class D,E,F,H emotion
+    class C,J decision
+
+```
+
+#### Perilla 1
+```mermaid
+flowchart TD
+   A(["Modo 1: Caritas"]) --> B["Girar perilla 1"]
+   B --> C{"¿Hacia dónde gira?"}
+
+   C -->|Avanzar| D["Modo 2: Mensaje"]
+   C -->|Retroceder| A
+
+   D --> E["Girar perilla 1"]
+   E --> F{"¿Hacia dónde gira?"}
+
+   F -->|Avanzar| G["Modo 3: Minijuego"]
+   F -->|Retroceder| A
+
+   G --> H["Girar perilla 1"]
+   H --> I{"¿Hacia dónde gira?"}
+
+   I -->|Avanzar| G
+   I -->|Retroceder| D
+
+   classDef screen fill:#eef2ff,stroke:#818cf8
+   classDef action fill:#fdf4ff,stroke:#e879f9
+   classDef decision fill:#ecfeff,stroke:#22d3ee
+
+   class A,D,G screen
+   class B,E,H action
+   class C,F,I decision
+
+```
 
 ## Estructura del código
 
@@ -187,6 +342,9 @@ conclusiones, reflexiones del proceso
 | Nombre 3 | Interfaz |
 
 ### Bibliografía:
-fuentes consultadas.
+- kp_mcclard. (s. f.). Vtg KB Learning Toys 90s desktop kids educational toy computer keyboard mouse [Anuncio de venta con fotografías]. eBay. https://www.ebay.es/itm/407262442228
+- Nardi, T. (2020, 27 de abril). Teardown: VTech Whiz Kid luggable computer. Hackaday. https://hackaday.com/2020/04/27/teardown-vtech-whiz-kid-luggable-computer/
+- Mitchell, R. (2016, 13 de octubre). Retro teardown: TI's Super Speak & Spell. All About Circuits. https://www.allaboutcircuits.com/news/retro-teardown-tis-super-speak-spell/
+
 
 
