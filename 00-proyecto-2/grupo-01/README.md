@@ -1,5 +1,11 @@
 # [placeholder para el nombre ayudaaa]
 
+## concepto
+
+
+
+## clases
+
 ### class Boton
 
 modoSwitch
@@ -17,10 +23,12 @@ Una u otra, pero no ambos
 
 Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
+### class Led
+
 
 ### class Ampli 
 
-
+Se preparó 
 
 ```cpp
 

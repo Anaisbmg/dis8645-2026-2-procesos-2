@@ -2,10 +2,10 @@
 // Este archivo define la clase Boton
 // desarrollado por: 
 // 
-// Licencia 
+// licencia 
 
-#ifndef BOTON_H
-#define BOTON_H
+#ifndef BOTONGRUPO1_H
+#define BOTONGRUPO1_H
 
 // agregamos el GPIO
 // lo que hace es agregar la biblioteca del GPIO
@@ -14,7 +14,7 @@
 #include "pico/stdlib.h"
 
 // a continuación definimos la clase Boton
-class Boton {
+class BotonGrupo1 {
 
  // la hacemos public
  public:
@@ -55,14 +55,14 @@ class Boton {
  // última vez que se leyó el estado del botón
  uint32_t ultimaLectura = 0;
  // ventana de tiempo para detectar doble click
- uint32_t tiempoDoblePresionado = 300; // tiempo en milisegundos para detectar doble click
+ uint32_t tiempoDoblePresionado = 300; 
 
 
  // definimos constructor
  // a qué numero de pin está conectado
  Boton(int pin);
  // definimos métodos
- // lee que Boton está conectado en el gpio
+ // lee que BotonGrupo1 está conectado en el gpio
  void leer();
  // detecta un doble click
  // devuelve true si se presionó dos veces
