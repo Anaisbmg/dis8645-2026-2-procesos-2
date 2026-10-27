@@ -21,6 +21,37 @@ Funciona a través de un selector de caracteres (perilla), que nos permite escog
 También podemos editar el texto que imprimimos en una segunda pantalla con una segunda perilla que puede recorrer el texto para añadir un carácter, borrarlo, o borrar todo lo digitado si se mantiene presionado.
 
 
+### proceso (subir al README del proyecto-02)
+
+Comenzamos buscando qué ideas o aparatos funcionaban a partir de los elementos solicitados, como por ejemplo podrían ser las máquinas de casinos (juegos de azar).
+
+Además, como grupo encontramos importante mencionar la situación en la que nos encontramos y que fue ponernos de acuerdo, en gran mayoría, de manera online y coordinar nuestros tiempos a partir de la práctica, ¡pero todo terminó resultando bien!
+
+Nos entregaron ciertos referentes en clase de donde podíamos comenzar a investigar y hacer un cover, pero decimos mencionar, utilizar y hacer un “cover” de algo que incluyera los requerimientos que son las perillas y botones, o sea, tanto cómo se escribía desde los teléfonos nokia 9000, a como se escribía en las consolas como la PS3. Delimitando así estos parámetros: Después de decidir que debíamos hacer, comenzamos a definir detalladamente los métodos que deben realizar las pantallas, botones y perillas. 
+
+## PARTE 1/PANTALLA 1 
+
+Pantalla 1: imprime la información que fue previamente seleccionada en la pantalla 1, la cual se puede editar con la perilla 2 y el botón 2.
+
+Perilla 1: debe recorrer el texto caracter por caracter de ida y/o de vuelta, permitiéndonos editarlo en cualquier parte del texto (con botones).
+
+Botón 1: dependiendo de la cantidad de pulsaciones (solo una pulsación) en la primera pantalla borra sólo un carácter, o (dos pulsaciones) se mantiene pulsado en la segunda pantalla
+
+
+## PARTE 2/PANTALLA 2
+
+Pantalla 2: proyecta los caracteres: (a, b, c, d, e, f, g, h, i, j,k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, tab, enter) y en ella se recorren para seleccionarlos.
+
+Perilla 2: debe recorrer los caracteres uno a uno para así poder seleccionar alguno, que el recorrido sea lento y que no se vaya todo de golpe de un extremo al otro. 
+
+Botón 2: selecciona el carácter que se selecciona con la perilla 1, si se presiona una vez, la letra se imprime en minúscula, y si se presiona 2 veces se imprime en mayúscula.
+
+
+## diagrama de flujo (emi y yo)
+
+**subir imagen del diagrama**
+
+
 ## encargos
 
 ## lectura
