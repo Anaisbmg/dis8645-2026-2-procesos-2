@@ -15,7 +15,7 @@
 
 
 # Idea de proyecto 
-  Juego de nave, la cual hay que mantener volando por el mayor tiempo que pueda sin chocar con obstáculos ni caer al suelo. Tendrá 2 botones y 2 perillas para su uso, el primer botón, al mantenerse presionado durante 2 segundos, prende y apaga el juego, el segundo botón es el que sirve para mantener la nave volando, ya que al presionarlo la nave sube hasta que el botón se suelta y la nave comienza a caer, por lo que se debe intercalar el presionar y soltar para evitar que la nave caiga. Las perillas manejan dos aspectos distintos, la primera es una selección de diferentes naves para que el usuario escoja. La segunda perilla regula la velocidad de juego, pudiendo subir o bajar la dificultad para ajustarla a sus capacidades. 
+Juego de nave, la cual hay que mantener volando por el mayor tiempo que pueda sin chocar con obstáculos ni caer al suelo. Tendrá 2 botones y 2 perillas para su uso, el primer botón, al mantenerse presionado durante 2 segundos, prende y apaga el juego, el segundo botón es el que sirve para mantener la nave volando, ya que al presionarlo la nave sube hasta que el botón se suelta y la nave comienza a caer, por lo que se debe intercalar el presionar y soltar para evitar que la nave caiga. Las perillas manejan dos aspectos distintos, la primera es una selección de diferentes naves para que el usuario escoja. La segunda perilla regula la velocidad de juego, pudiendo subir o bajar la dificultad para ajustarla a sus capacidades. 
 
 Botón 1: servirá para encender y apagar la pantalla (tendrás que mantenerlo presionado por 2 segundos) y además funciona como botón seleccionador (apretandolo una vez)
 
@@ -27,17 +27,24 @@ Perilla 2: funcionará para cambiar la selección de personajes.
 
 Si el jugador choca o se cae, el juego se reinicia. 
 
-# Computador elegido 
-**Apple iMac G3** 
 
-Interfaz de usuario:
+Esta idea de proyecto esta totalmente inspirado en el juego Flappy Bird 
+![inspiración](./imagenes/foto-bird.jpeg)
+
+# Computador elegido 
+**Apple iMac G3 (1998)** 
+![foto computador](./imagenes/imac.jpeg)
+
+Lanzado el 6 de mayo de 1998, el iMac G3 cambio la forma de vender a  Apple, arrancando una nueva era de productos icónicos, como el iPod, iPhone y iPad. Era super reconocible por su diseño de plástico transparente en colores muy llamativos y su forma particular, además revolucionando siendo pionera en el mercado al deshacerse del disquete para irse por los puertos USB y el CD.
+
+**Interfaz de usuario:**
 
 Este computador cambió por completo la forma de comprar de los usuarios. Antes de la llegada del iMac, la tecnología siempre manejó la misma estética: equipos sobrios, grises y rectangulares. Cuando Apple presentó el iMac, transformó la forma de vender en un momento clave, justo cuando muchísima gente compraba su primera computadora. Lanzar al mercado un equipo con variedad de colores y un diseño tan particular rompió con la frialdad de la industria de esa época.
 A partir de ahí, los compradores ya no solo elegían una máquina por su funcionamiento, sino también por una estética que reflejaba su propia identidad y que se integraba como un objeto interesante en su espacio. Todo esto demostró un éxito rotundo, pasando de ver al usuario como un simple operador de tecnología a un consumidor cautivado por el diseño, e iniciando una era donde la conexión visual y la experiencia de uso pasaron a ser factores decisivos de compra.
 
 ----
 
-¿Porque este computador?
+**¿Porque este computador?** 
 
 steve jobs genio, se fue, apple a la bancarrota, vuelve, dice “no vamos a hacer lo mismo que todos”, innova, personaliza, llama la atención y pum dijo “pa los gustos los colores” y sacó los imac g3 full color escoja caserita, ¿qué hay debajo de toda esa carcasa? no se preocupe caserita aquí se lo mostramos ¿que no entiende nada? yo tampoco pero se ve de locos siono si
 
@@ -104,3 +111,7 @@ a mi personalmente me gustan los mouse con formas raras, hubiese amado tener uno
 //Un número entero que almacena la posición física limpia de la perilla tras procesar la señal del convertidor 
 
  ```
+
+# Mapa de flujo del usuario 
+# Mapa de flujo botones 
+# Mapa de flujo perillas 
