@@ -2,6 +2,7 @@
 
 ## apuntes sesión
 
+clase paro 
 ## encargos
 
 ## lectura
