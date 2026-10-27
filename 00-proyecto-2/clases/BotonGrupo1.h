@@ -33,6 +33,8 @@ class BotonGrupo1 {
  bool estadoAnterior = false;
  // valor asociado al boton funcionando como switch
  bool estadoMantenerPresionado = false;
+ // detecta si el Boton está siendo presionado y filtrado
+ bool estadoAnteriorFiltrado = false;
  // detecta si se presionó el Boton dos veces
  bool estadoDoblePresionado = false;
  // variable que indica si se está esperando un doble click
@@ -54,13 +56,17 @@ class BotonGrupo1 {
  uint32_t duracionSuelto = 0;
  // última vez que se leyó el estado del botón
  uint32_t ultimaLectura = 0;
+ // lecturas para los diferentes modos de presionado
+ uint32_t ultimaLecturaPresionado = 0;
+ uint32_t ultimaLecturaDoblePresionado = 0;
+ uint32_t ultimaLecturaMantenerPresionado = 0;
  // ventana de tiempo para detectar doble click
  uint32_t tiempoDoblePresionado = 300; 
 
 
  // definimos constructor
  // a qué numero de pin está conectado
- Boton(int pin);
+ BotonGrupo1(int pin);
  // definimos métodos
  // lee que BotonGrupo1 está conectado en el gpio
  void leer();

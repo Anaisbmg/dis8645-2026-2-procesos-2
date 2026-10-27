@@ -30,7 +30,8 @@ void BotonGrupo1::leer(){
    // si lo anterior es verdad
    // actualizamos la última lectura
    // ahora ultimaLectura es igual al tiempo desde que se encendió el microcontrolador
-   ultimaLectura = tiempoActual;  
+
+   ultimaLectura = tiempoActual; 
  }
   
  // ahora vamos a filtrar el ruido
@@ -42,49 +43,22 @@ void BotonGrupo1::leer(){
    // presionado toma el valor de nuevoPresionado   
    // actualizamos el valor oficil basicamente
      presionado = nuevoPresionado;  
+    
+     //vamos a guardar el tiempo que transcurrio para cada evento importante
+     ultimaLecturaPresionado = tiempoActual; 
     }
   }
 
- // si presionado es verdadero
+ // ahora vamos a calcular la duración que se mantuvo presionado o suelto
  if (presionado) {
-   // y si esparamos un doble click
-   // y el tiempo transcurrido desde la última lectura es menor a tiempoDoblePresionado
-   // entonces se detecta un doble click
-   if (esperandoDoblePresionado) {
-     if (tiempoActual - ultimaLectura < tiempoDoblePresionado) {
-       estadoDoblePresionado = true;
-       esperandoDoblePresionado = false;
-      }
-     }
-     // si no esperandoDoblePresionado se actualiza a verdadero 
-     // para esperar el segundo click
-     }
-     else {
-     ultimaLectura = tiempoActual;
-     esperandoDoblePresionado = true;
-    }
-  // definimos la ventana de tiempo para detectar doble click
-  // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
-  //desde la última lectura es mayor a tiempoDoblePresionado
-  // esperandoDoblePresionado se actualiza a falso
-  // && es un operador lógico que significa y
-  // osea que si 2 elementos son verdaderos
-  // se ejecuta la instrucción
-  if (esperandoDoblePresionado && (tiempoActual - ultimaLectura > tiempoDoblePresionado)) {
-     esperandoDoblePresionado = false;
-   }
-
-  // ahora vamos a calcular la duración que se mantuvo presionado o suelto
-  if (presionado) {
-    // calculamos la duración que se mantuvo presionado
-   duracionPresionado = tiempoActual - ultimaLectura;
+   // calculamos la duración que se mantuvo presionado
+   duracionPresionado = tiempoActual - ultimaLecturaPresionado;
    // reiniciamos la duración de suelto
    duracionSuelto = 0;
    // si presionado es falso 
-     } 
-   else {
+  } else {
    // calculamos la duración que se mantuvo suelto
-   duracionSuelto = tiempoActual - ultimaLectura;
+   duracionSuelto = tiempoActual - ultimaLecturaPresionado;
    // reiniciamos la duración de presionado
    duracionPresionado = 0; 
   }
@@ -98,6 +72,39 @@ void BotonGrupo1::leer(){
 // esto facilita su uso en el main.cpp
 // solo leemos el estado de doble click y si es verdadero
 bool BotonGrupo1::doblePresionado() {
+ // obtenemos el tiempo actual para este metodo
+ uint32_t tiempoActual = to_ms_since_boot(get_absolute_time());
+
+ // -- deteccion de un doble click --  
+ // si presionado es verdadero
+ if (presionado && !estadoAnteriorFiltrado) {
+   // y si esparamos un doble click
+   // y el tiempo transcurrido desde la última lectura es menor a tiempoDoblePresionado
+   // entonces se detecta un doble click
+   if (esperandoDoblePresionado) {
+     if (tiempoActual - ultimaLecturaDoblePresionado < tiempoDoblePresionado) {
+       estadoDoblePresionado = true;
+       esperandoDoblePresionado = false;
+      }
+    } else {
+     ultimaLecturaDoblePresionado = tiempoActual;
+     esperandoDoblePresionado = true;
+    }
+  }
+  // definimos la ventana de tiempo para detectar doble click
+  // si esperandoDoblePresionado es verdadero y el tiempo transcurrido
+  //desde la última lectura es mayor a tiempoDoblePresionado
+  // esperandoDoblePresionado se actualiza a falso
+  // && es un operador lógico que significa y
+  // osea que si 2 elementos son verdaderos
+  // se ejecuta la instrucción
+  if (esperandoDoblePresionado && (tiempoActual - ultimaLecturaDoblePresionado > tiempoDoblePresionado)) {
+     esperandoDoblePresionado = false;
+   }
+   
+ // guardamos el estado filtrado solo para este metodo
+ estadoAnteriorFiltrado = presionado;
+
  // si estadoDoblePresionado es verdadero 
  if (estadoDoblePresionado) {
    // reiniciamos estadoDoblePresionado a falso
