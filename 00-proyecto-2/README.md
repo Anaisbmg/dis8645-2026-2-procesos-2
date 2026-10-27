@@ -15,9 +15,47 @@ la nota de proyecto dos se calcula como la suma de esos 6 puntajes, más el punt
 - criterio-05: individual. bitácoras, incluyendo encargos y lecturas
 - criterio-06: individual. bitácoras, incluyendo encargos y lecturas
 
-crit-01: , documentación textual y visual del proyecto, con énfasis en referentes y valores de diseño
-crit-02: , código del proyecto, con énfasis en proceso no en resultados
-crit-03: grupal, documentación del código del proyecto, con énfasis en comentarios y diagramas de flujo
+## retroalimentación 2026-10-27 octubre
+
+## apuntes y código grupo-01
+
+- README: incluir más información sobre el proyecto. diagramas de flujo, cosas que quieren tomar o cambiar de su referencia
+- clases: Boton, exclente base en .h, implementacion super bien en .cpp
+
+## apuntes y código grupo-02
+
+- README: VACÍO `:(`
+- clases: buen avance en .h pero incompleto, revisar otros grupos.
+
+## apuntes y código grupo-03
+
+- README: el esquema general del proyecto va bien. Falta más información sobre el computador de referencia
+- clases: buen avance en .h y .cpp, demostrar en wokwi que funciona, agregar los métodos faltantes.
+
+## apuntes y código grupo-04
+
+- README: bien, buena idea de máquina. Puede ser un aparato de escritura bien interesante
+- clases: buen avance en pseudocódigo en .h pero convertir a código, falta .cpp
+
+## apuntes y código grupo-05
+
+- README: excelente imaginación, pero exploren pronto la materialidad para ver si se conectan
+- clases: VACÍO `:(`
+
+## apuntes y código grupo-06
+
+- README: VACÍO `:(`
+- clases: buen avance en pseudocódigo en .h pero convertir a código, falta .cpp
+
+## apuntes y código grupo-07
+
+- README: VACÍO `:(`
+- clases: VACÍO `:(`
+
+## apuntes y código grupo-08
+
+- README: necesitamos más que la lista de materiales ¿cuál es su máquina de referencia? ¿qué pretenden?
+- clases: buen .h, falta .cpp
 
 ## grupos
 
