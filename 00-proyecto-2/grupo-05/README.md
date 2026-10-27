@@ -168,6 +168,8 @@ flowchart TD
 # Diagrama de flujo, perillas 
 
 <details> 
+ holi
+</details>
 </details>
 
 ### Factura de materiales:
