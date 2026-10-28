@@ -4,10 +4,6 @@
 
 ## clases
 
-## concepto
-
-## clases
-
 ### integrantes
 
 Bianka Vilchez
@@ -67,6 +63,14 @@ Lucecita.h + Lucecita.cpp
 
 ampli.h + ampli.cpp
 
+## seudo-código
+
+1. Inicia la máquina
+
+2. Se define los parametros inciales de la máquina (en que sonido incia)
+
+3. 
+
 ### class Boton
 
 Como grupo nos corresponde realizar la clase Boton, el cuál debe funcionar tanto para lo que hagamos nosotras en nuestro proyecto, como para lo que haga el grupo 07 para el suyo.
@@ -106,6 +110,12 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 #### Boton.cpp
 
 ![Diagrama Botón](./imagenes/boton-leer-v02.png)
+
+![Diagrama Botón](./imagenes/boton-doble-click.png)
+
+![Diagrama Botón](./imagenes/boton-switch.png)
+
+![Diagrama Botón](./imagenes/boton-modo-borrar.png)
 
 ### class Led
 
