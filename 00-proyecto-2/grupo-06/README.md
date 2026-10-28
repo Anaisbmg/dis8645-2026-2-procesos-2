@@ -15,15 +15,15 @@
 
 
 # Idea de proyecto 
-Juego de nave, la cual hay que mantener volando por el mayor tiempo que pueda sin chocar con obstáculos ni caer al suelo. Tendrá 2 botones y 2 perillas para su uso, el primer botón, al mantenerse presionado durante 2 segundos, prende y apaga el juego, el segundo botón es el que sirve para mantener la nave volando, ya que al presionarlo la nave sube hasta que el botón se suelta y la nave comienza a caer, por lo que se debe intercalar el presionar y soltar para evitar que la nave caiga. Las perillas manejan dos aspectos distintos, la primera es una selección de diferentes naves para que el usuario escoja. La segunda perilla regula la velocidad de juego, pudiendo subir o bajar la dificultad para ajustarla a sus capacidades. 
+Juego de nave, la cual hay que mantener volando por el mayor tiempo que pueda sin chocar con obstáculos ni caer al suelo. Tendrá 2 botones y 2 perillas para su uso, el primer botón, al mantenerse presionado durante 2 segundos, prende y apaga el juego, el segundo botón es el que sirve para mantener la nave volando, ya que al presionarlo la nave sube hasta que el botón se suelta y la nave comienza a caer, por lo que se debe intercalar el presionar y soltar para evitar que la nave caiga. Las perillas manejan dos aspectos distintos, la perilla derecha es una selección de diferentes naves para que el usuario escoja, son cuatro naves: 1-calabaza, 2-chango, 3-gato alien y 4-vaca . La perilla izquierda  regula la velocidad de juego, pudiendo subir o bajar la dificultad para ajustarla a sus capacidades. 
 
 Botón 1: servirá para encender y apagar la pantalla (tendrás que mantenerlo presionado por 2 segundos) y además funciona como botón seleccionador (apretandolo una vez)
 
 Botón 2: si lo mantienes presionado el personaje sube y si lo sueltas cae (eje y)
 
-Perilla 1: funcionará para controlar la velocidad con la que avanza el mapa (eje x) 
+Perilla derecha: funcionará para cambiar la selección de personajes. 
 
-Perilla 2: funcionará para cambiar la selección de personajes. 
+Perilla izquierda: funcionará para controlar la velocidad con la que avanza el mapa (eje x) 
 
 Si el jugador choca o se cae, el juego se reinicia. 
 
@@ -111,6 +111,15 @@ a mi personalmente me gustan los mouse con formas raras, hubiese amado tener uno
 //Un número entero que almacena la posición física limpia de la perilla tras procesar la señal del convertidor 
 
  ```
+por terminaar 
+# Materiales 
+| Componentes | Cantidad | Precio unitario | Link |
+| --- | --- | --- | --- |
+| Raspberry Pi Pico 2W | 1 | $14.990 | <https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers> |
+| Pantalla OLED 128×64 I2C  | 1 | $4.275| <> |
+|xxxx | xx | xxx| xxx |
+|xxx |xxx | xxx | xx|
+
 
 # Mapa de flujo del usuario 
 # Mapa de flujo botones 
