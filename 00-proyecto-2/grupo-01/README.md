@@ -96,6 +96,10 @@ Una u otra, pero no ambos
 
 Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
+#### Boton.cpp
+
+![Diagrama Botón](./imagenes/boton-leer-v02.png)
+
 ### class Led
 
 ### class Ampli
