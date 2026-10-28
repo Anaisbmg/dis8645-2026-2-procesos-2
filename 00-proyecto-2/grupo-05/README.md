@@ -164,6 +164,90 @@ flowchart TD
 ## Diagrama de flujo, botones 
 
 <details> 
+ 
+ Botón 1:
+ ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
+flowchart TD
+    A([Ciclo principal llama a update]) --> B{"¿La persona está<br/>presionando el botón?"}
+
+    B -- Sí --> C["Estado: estaSiendoPresionado"]
+    C --> A
+
+    B -- No --> D{"¿Estaba presionado<br/>en el ciclo anterior?"}
+    D -- Sí --> E["Estado: soltado<br/>Cuenta UNA pulsación<br/>Anota la hora"]
+    E --> F["Estado: noPresionado"]
+    D -- No --> F
+
+    F --> G{"¿Hay pulsaciones<br/>esperando respuesta?"}
+    G -- No --> A
+    G -- Sí --> H{"¿Ya van<br/>2 pulsaciones?"}
+
+    H -- Sí --> I["Avisa: DOS pulsaciones<br/>Significa: SELECCIONAR el nivel"]
+    H -- No --> J{"¿Pasaron 0,6 segundos<br/>desde la pulsación?"}
+    J -- No, sigue esperando --> A
+    J -- Sí --> K["Avisa: UNA pulsación<br/>Significa: CAMBIAR de nivel"]
+
+    I --> L["Reiniciar contador<br/>Botón listo para empezar de nuevo"]
+    K --> L
+    L --> A
+
+    classDef inicio fill:#005968,stroke:#A247D3,stroke-width:2px,color:#F5F5F5;
+    classDef decision fill:#4BC7CF,stroke:#A247D3,stroke-width:2px,color:#005968;
+    classDef proceso fill:#BCEDE5,stroke:#A247D3,stroke-width:2px,color:#005968;
+    classDef aviso fill:#F5F5F5,stroke:#A247D3,stroke-width:2px,color:#005968;
+
+    class A inicio;
+    class B,D,G,H,J decision;
+    class C,E,F,L proceso;
+    class I,K aviso;
+
+    linkStyle default stroke:#A247D3,stroke-width:2px;
+```
+ 
+</details>
+
+<details> 
+
+Botón 2 
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial','lineColor':'#A247D3','primaryTextColor':'#005968'}}}%%
+flowchart TD
+    A([Ciclo principal llama a update]) --> B{"¿La persona está<br/>presionando el botón?"}
+
+    B -- Sí --> C{"¿Ya estaba presionado<br/>en el ciclo anterior?"}
+    C -- Sí --> D["Estado: estaSiendoPresionado<br/>No avisa nada nuevo<br/>(no se repite sola)"]
+    C -- No --> E["Avisa de inmediato:<br/>intentó atrapar"]
+    E --> F["Estado: estaSiendoPresionado"]
+
+    B -- No --> G{"¿Estaba presionado<br/>en el ciclo anterior?"}
+    G -- Sí --> H["Estado: soltado"]
+    H --> I["Estado: noPresionado"]
+    G -- No --> I
+
+    D --> A
+    F --> A
+    I --> A
+
+    E --> M{"Programa principal:<br/>¿hay una luz en la<br/>zona de captura?"}
+    M -- No --> P
+    M -- Sí --> N{"¿El LED está en el<br/>mismo camino que la luz?"}
+    N -- Sí --> O(["La luz se atrapa<br/>El juego sigue"])
+    N -- No --> P(["La jugadora pierde<br/>Regresa al menú de niveles"])
+
+    classDef inicio fill:#005968,stroke:#A247D3,stroke-width:2px,color:#F5F5F5;
+    classDef decision fill:#4BC7CF,stroke:#A247D3,stroke-width:2px,color:#005968;
+    classDef proceso fill:#BCEDE5,stroke:#A247D3,stroke-width:2px,color:#005968;
+    classDef aviso fill:#F5F5F5,stroke:#A247D3,stroke-width:2px,color:#005968;
+
+    class A,O,P inicio;
+    class B,C,G,M,N decision;
+    class D,F,H,I proceso;
+    class E aviso;
+
+    linkStyle default stroke:#A247D3,stroke-width:2px;
+```
+ 
 </details>
 
 ## Diagrama de flujo, perillas 
