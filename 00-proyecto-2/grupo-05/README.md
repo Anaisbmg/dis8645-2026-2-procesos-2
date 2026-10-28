@@ -119,10 +119,10 @@ flowchart TD
     A([Encendido del sistema]) --> B["Inicializar LEDs, botones y perillas<br/>nivel = 1"]
     B --> C["Mostrar menú de niveles<br/>en matriz de LEDs"]
 
-    C --> D{"Botón 1:<br/>¿1 o 2 pulsaciones?"}
-    D -- 1 pulsación --> E["nivel = nivel + 1<br/>si nivel > 3, nivel = 1"]
+    C --> D{"¿Qué botón:<br/>presiona?"}
+    D -- Botón 1 --> E["nivel = nivel + 1<br/>si nivel > 3, nivel = 1"]
     E --> C
-    D -- 2 pulsaciones --> F["Confirmar nivel seleccionado"]
+    D -- Botón 2 --> F["Confirmar nivel seleccionado"]
 
     F --> G["Cargar canción del nivel<br/>Cargar velocidad base del nivel"]
     G --> H["Reproducir canción<br/>Iniciar temporizador de 2:00 min"]
