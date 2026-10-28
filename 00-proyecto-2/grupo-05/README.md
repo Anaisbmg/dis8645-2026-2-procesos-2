@@ -73,10 +73,10 @@ flowchart TD
     B -- No --> A
     B -- Sí --> C["Ve el menú de niveles<br/>Nivel 1 Fácil · Nivel 2 Medio · Nivel 3 Difícil"]
 
-    C --> D{"¿Cuántas veces<br/>oprime el botón 1?"}
-    D -- Una vez --> E["Cambia entre los niveles<br/>1 → 2 → 3"]
+    C --> D{"¿Qué botón<br/>oprime?"}
+    D -- Botón 1 --> E["Cambia entre los niveles<br/>1 → 2 → 3"]
     E --> C
-    D -- Dos veces --> F["Selecciona el nivel"]
+    D -- Botón 2 --> F["Selecciona el nivel"]
 
     F --> G["Escucha la canción del nivel<br/>y empieza el reto"]
     G --> H["Ve bajar las luces<br/>por los 4 caminos"]
