@@ -352,7 +352,7 @@ Paleta de colores: Colours Cafe
  
 ![paleta de colores](./imagenes/paleta-de-colores.jpg)
 
-![proceso1](./imagenes/caseproceso1.jpeg)
+![proceso1](./imagenes/proceso.jpg)
  
 ---
 </details>
