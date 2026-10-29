@@ -6,6 +6,7 @@
 #ifndef BOTON_H
 #define BOTON_H
 
+// Agregamos la libreria de GPIO 
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
