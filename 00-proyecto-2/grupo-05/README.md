@@ -351,6 +351,10 @@ void leer
 Paleta de colores: Colours Cafe
  
 ![paleta de colores](./imagenes/paleta-de-colores.jpg)
+
+Guías 
+![proceso1](./imagenes/caseproceso1.jpeg)
+![proceso2](./imagenes/caseproceso2.jpeg)
  
 ---
 </details>
