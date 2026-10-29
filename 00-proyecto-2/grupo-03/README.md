@@ -91,7 +91,11 @@ Planeamos realizar la carcasa en impresión 3d, para mantenernos fiel a las form
 |  | |  |
 
 ### Esquemático
-![Esquemático](esquematico.png)
+
+(borrador)
+
+![esquematico](./imagenes/esquematico.png)
+
 
 ### Diagramas de flujos
 Definen la experiencia del usuario y cómo funciona cada componente.
