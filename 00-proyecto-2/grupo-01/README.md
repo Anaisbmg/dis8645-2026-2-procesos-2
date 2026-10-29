@@ -1,4 +1,4 @@
-# [placeholder para el nombre ayudaaa]
+# 50N1D0
 
 ## Integrantes
 
@@ -7,10 +7,6 @@
 [Dayana Pañitrur](https://github.com/dayanapanitrur)
 
 [Camila Ramirez](https://github.com/Estrabismx)
-
-## concepto
-
-## clases
 
 ## concepto
 
@@ -98,6 +94,8 @@ ampli.h + ampli.cpp
 
 8. si se gira la perillaVolumen, el valor asociado cambiará el volumen
 
+## clases
+
 ### class Boton
 
 Como grupo nos corresponde realizar la clase Boton, el cuál debe funcionar tanto para lo que hagamos nosotras en nuestro proyecto, como para lo que haga el grupo 07 para el suyo.
@@ -144,9 +142,23 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 ![Diagrama Botón](./imagenes/boton-modo-borrar.png)
 
-### class Led
+### class Lucesita
 
+### class Audio
 
+![class audio](./imagenes/sc-23.png)
+
+![class audio](./imagenes/sc-22.png)
+
+![class audio](./imagenes/sc-24.png)
+
+- nombrar el formato que debe tener el archivo
+- como cargarlo
+- como funciona
+
+- como exportar y que web usar
+
+[File to C style array converter](https://notisrac.github.io/FileToCArray/)
 ### class Ampli
 
 Se preparó
