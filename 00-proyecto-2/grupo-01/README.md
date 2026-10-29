@@ -62,6 +62,19 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
 8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
 
+## Casos no deseados
+
+- ¿que pasa si estoy apretando botón loop y botón de reproducir a la vez?
+- ¿que pasa si mientras está sonando un audio se vuelve a presionar el botón para reproducir sonido?
+- ¿que pasa si el encoder gira mientras está sonando el audio? ¿cambian ambos o no cambia ninguno?
+- ¿que pasa si el sonido queda reproduciendo en loop, luego se apaga el sistema y se enciende de nuevo, el sonido queda sonando en loop o se reincia?
+- ¿que pasa si se mantiene presionado el botón de selección mientras se gira la perilla?
+- ¿que pasa si el encoder se presiona y se gira a la vez?
+- ¿que pasa si el loop se presiona dos veces dentro de un lapso de tiempo muy corto? ¿se desactiva o se mantiene?
+- ¿que pasa si presiono loop mientras está sonando algo? ¿empezará de cero o el sonido quedará en bucle?
+- ¿que pasa si movemos la perilla de volumen mientras está sonando? ¿registra el último valor de volumen para cuando termine el sonido actual y comience otro? ¿o el volumen es regulable mientras suena?
+- ¿que pasaría si es que mientras suena sonidoInicio.h selecciono otro audio para que se reproduzca?
+
 ## Archivos
 
 main.cpp
