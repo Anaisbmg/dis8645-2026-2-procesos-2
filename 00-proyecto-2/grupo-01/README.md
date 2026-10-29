@@ -82,11 +82,30 @@ ampli.h + ampli.cpp
 
 ## seudo-código
 
+
+
 1. Inicia la máquina
 
-2. Se define los parametros inciales de la máquina (en que sonido incia)
+2. suena sonidoPrendido.h
 
-3.
+3. se define los parametros inciales de la máquina, es decir, que se enciende led 0 y sonido 0 queda pre-seleccionado
+
+4. lectura inicial de volumen [potenciometro en GPIO XX]
+
+5. si presiona botonLoop y se habilita el modo loop 
+
+- se identifica reproduciendo el sonidoLoopActivado.h y cambiando el led encendido a parpadear
+
+- al momento de seleccionar uno de los 5 sónidos, este se reproducira en un bucle que acabará solo si es presionado el botonLoop nuevamente 
+
+6. Si se gira la perillaEncoder se podrá seleccionar uno de los 5 sonidos que estan asociados al igual que los leds con valores de 0 a 4, al llegar a un extremo se mueve al otro extremo como un circulo
+
+- todas las instancias de lucesita y sonido estan relacionadas directamente, es decir que led 0 y sonido 0 estan vinculados
+
+7. Si se presiona botónSelector se reproduce el sonido en el que se encuentre 
+
+8. si se gira la perillaVolumen, el valor asociado cambiará el volumen
+ 
 
 ### class Boton
 
