@@ -1,5 +1,13 @@
 # [placeholder para el nombre ayudaaa]
 
+## Integrantes
+
+[Bianka Vilchez](https://github.com/biankavilchez)
+
+[Dayana Pañitrur](https://github.com/dayanapanitrur)
+
+[Camila Ramirez](https://github.com/Estrabismx)
+
 ## concepto
 
 ## clases
@@ -20,23 +28,16 @@ Fases de la evolución del sonido en Japón
 
 Era moderna y el sonido interactivo (Siglo XXI - Presente): La música y los efectos dejaron de ser simples archivos lineales para volverse adaptativos y dinámicos, reaccionando en tiempo real a las acciones del jugador, la exploración o el combate. Además, géneros como el jazz, la música electrónica y fusiones culturales pasaron a ser sellos distintivos en sagas como Persona o Sonic the Hedgehog
 
-## clases
+## Punto de partida
 
-### integrantes
 
-Bianka Vilchez
-
-Dayana Pañitrur
-
-Camila Ramirez
-
-### Inspiración
+## Inspiración
 
 Sharp X68000
 
 El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y el sistema del computador Sharp X68000. La interacción se realizará mediante dos botones y dos perillas, cada uno con una función específica para seleccionar, reproducir y controlar los sonidos.
 
-### Controles e interacciones
+## Controles e interacciones
 
 El encoder rotatorio cumple dos funciones en un solo componente: funciona como **perilla** al girarlo y como **botón** al presionarlo, ya que incluye un pulsador integrado en su eje.
 
@@ -50,7 +51,7 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 | Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Desactiva la repetición continua del sonido. |
 | Cinco lucecitas LED | 5 LED + 5 resistencias | LED 5 mm*, resistencias 220–330 Ω* | Indican cuál de los cinco sonidos está seleccionado. |
 
-### Experiencia de uso
+## Experiencia de uso
 
 1. **Encender el dispositivo:** el sistema se inicia y queda preparado para seleccionar un sonido.
 2. **Seleccionar un sonido:** la persona gira el encoder en sentido horario o antihorario para recorrer los cinco sonidos. La lucecita correspondiente indica cuál está seleccionado.
@@ -61,7 +62,7 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
 8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
 
-### Archivos
+## Archivos
 
 main.cpp
 
@@ -79,9 +80,25 @@ ampli.h + ampli.cpp
 
 1. Inicia la máquina
 
-2. Se define los parametros inciales de la máquina (en que sonido incia)
+2. suena sonidoPrendido.h
 
-3.
+3. se define los parametros inciales de la máquina, es decir, que se enciende led 0 y sonido 0 queda pre-seleccionado
+
+4. lectura inicial de volumen [potenciometro en GPIO XX]
+
+5. si presiona botonLoop y se habilita el modo loop 
+
+- se identifica reproduciendo el sonidoLoopActivado.h y cambiando el led encendido a parpadear
+
+- al momento de seleccionar uno de los 5 sónidos, este se reproducira en un bucle que acabará solo si es presionado el botonLoop nuevamente 
+
+6. Si se gira la perillaEncoder se podrá seleccionar uno de los 5 sonidos que estan asociados al igual que los leds con valores de 0 a 4, al llegar a un extremo se mueve al otro extremo como un circulo
+
+- todas las instancias de lucesita y sonido estan relacionadas directamente, es decir que led 0 y sonido 0 estan vinculados
+
+7. Si se presiona botónSelector se reproduce el sonido en el que se encuentre 
+
+8. si se gira la perillaVolumen, el valor asociado cambiará el volumen
 
 ### class Boton
 
