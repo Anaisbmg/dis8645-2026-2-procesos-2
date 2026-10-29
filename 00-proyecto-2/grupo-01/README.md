@@ -74,8 +74,6 @@ ampli.h + ampli.cpp
 
 ## seudo-código
 
-
-
 1. Inicia la máquina
 
 2. suena sonidoPrendido.h
@@ -97,7 +95,6 @@ ampli.h + ampli.cpp
 7. Si se presiona botónSelector se reproduce el sonido en el que se encuentre 
 
 8. si se gira la perillaVolumen, el valor asociado cambiará el volumen
- 
 
 ### class Boton
 
