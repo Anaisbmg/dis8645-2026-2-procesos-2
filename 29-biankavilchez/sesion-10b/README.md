@@ -181,6 +181,10 @@ int main() {
     return 0;
 }
 ```
+
+https://wokwi.com/projects/479260195811679233
+
+
 ### mejorar 
 
 idealmente, no ocupar sleep_ms(500) por que va a estar bloqueando medio segundo por ende en ese perido no va a ponder sonar algo :( 
