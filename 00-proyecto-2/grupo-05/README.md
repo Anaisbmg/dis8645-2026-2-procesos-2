@@ -119,7 +119,7 @@ flowchart TD
     A([Encendido del sistema]) --> B["Inicializar LEDs, botones y perillas<br/>nivel = 1"]
     B --> C["Mostrar menú de niveles<br/>en matriz de LEDs"]
 
-    C --> D{"¿Qué botón:<br/>presiona?"}
+    C --> D{"¿Qué botón<br/>presiona?"}
     D -- Botón 1 --> E["nivel = nivel + 1<br/>si nivel > 3, nivel = 1"]
     E --> C
     D -- Botón 2 --> F["Confirmar nivel seleccionado"]
