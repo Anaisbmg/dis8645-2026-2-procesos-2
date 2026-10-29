@@ -46,15 +46,17 @@ El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y
 
 ### Controles e interacciones
 
-| Control | Acción |
-| --- | --- |
-| Encoder: giro horario | Avanza al siguiente sonido. |
-| Encoder: giro antihorario | Retrocede al sonido anterior. |
-| Encoder: pulsación | Reproduce el sonido seleccionado. |
-| Potenciómetro | Regula el volumen general en un rango de 0 a 100. |
-| Botón Loop: primera pulsación | Activa la repetición continua del sonido. |
-| Botón Loop: segunda pulsación | Desactiva la repetición continua del sonido. |
-| Cinco lucecitas LED | Indican cuál de los cinco sonidos está seleccionado. |
+El encoder rotatorio cumple dos funciones en un solo componente: funciona como **perilla** al girarlo y como **botón** al presionarlo, ya que incluye un pulsador integrado en su eje.
+
+| Control | Componente | Especificación | Acción |
+| --- | --- | --- | --- |
+| Encoder (perilla): giro horario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Avanza al siguiente sonido. |
+| Encoder (perilla): giro antihorario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Retrocede al sonido anterior. |
+| Encoder (botón): pulsación | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Reproduce el sonido seleccionado. |
+| Potenciómetro (perilla) | Potenciómetro | 10 kΩ lineal* | Regula el volumen general en un rango de 0 a 100. |
+| Botón Loop: primera pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Activa la repetición continua del sonido. |
+| Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Desactiva la repetición continua del sonido. |
+| Cinco lucecitas LED | 5 LED + 5 resistencias | LED 5 mm*, resistencias 220–330 Ω* | Indican cuál de los cinco sonidos está seleccionado. |
 
 ### Experiencia de uso
 
