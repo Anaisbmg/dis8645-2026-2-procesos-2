@@ -5,7 +5,7 @@
 
 ## lectura
 ### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
-- me encuentro en el capítulo 6 llamado " "
+- me encuentro en el capítulo 6 llamado "Powerful Ideas in Mind-size Bites"
   
 *apuntes lectura*
 
@@ -41,6 +41,17 @@ ideas computacionales como materiales para el trabajo de remodelación del conoc
 modelo de tortuga puede ayudar a cerrar la brecha entre conocimiento formal/ comprensión intuitiva
 
 trabajar -- buscar sensibilidad del conflicto, entre las diferentes formas de pensar sobre el problema 
+
+buena experiencia informática -- sentirse cómodo con las formas de los procedimientos 
+
+mejor procedimiento -- comprobación errores
+
+procedimiento -- llama, manipula, reconoce 
+
+cómo una idea poderosa se vuelve parte del pensamiento intuitivo
+
+pensamiento procedimental -- poderosa herramienta intelectual  
+
 
 
 
