@@ -6,6 +6,7 @@
 #ifndef BOTON_H
 #define BOTON_H
 
+// Agregamos la libreria de GPIO 
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
@@ -40,7 +41,10 @@ class Boton
     // cuánto lleva apretado (ms); 0 si no está apretado
     uint32_t tiempoPresionado() const;
 
-  private:
+// Aquí no entiendo para que le pone private
+// Le dije que estamos trabajando todo público
+// private:
+   public: 
     uint patita;
     uint32_t umbralLargoMs;
 
