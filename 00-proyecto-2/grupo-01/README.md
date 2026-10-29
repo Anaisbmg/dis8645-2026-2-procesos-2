@@ -1,18 +1,17 @@
 # [placeholder para el nombre ayudaaa]
 
-## concepto
+## integrantes
 
-## clases
+[Bianka Vilchez](Link)
 
-### integrantes
+[Dayana Pañitrur](Link)
 
-Bianka Vilchez
+[Camila Ramirez](link)
 
-Dayana Pañitrur
+## Punto de partida
 
-Camila Ramirez
 
-### Inspiración
+## Inspiración
 
 Seleccionar un computador personal creado entre 1980 y 2010 y desarrollar un tributo a partir de una de sus características más representativas.
 
@@ -26,7 +25,7 @@ Sharp X68000
 
 El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y el sistema del computador Sharp X68000. La interacción se realizará mediante dos botones y dos perillas, cada uno con una función específica para seleccionar, reproducir y controlar los sonidos.
 
-### Controles e interacciones
+## Controles e interacciones
 
 | Control | Acción |
 | --- | --- |
@@ -38,7 +37,7 @@ El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y
 | Botón Loop: segunda pulsación | Desactiva la repetición continua del sonido. |
 | Cinco lucecitas LED | Indican cuál de los cinco sonidos está seleccionado. |
 
-### Experiencia de uso
+## Experiencia de uso
 
 1. **Encender el dispositivo:** el sistema se inicia y queda preparado para seleccionar un sonido.
 2. **Seleccionar un sonido:** la persona gira el encoder en sentido horario o antihorario para recorrer los cinco sonidos. La lucecita correspondiente indica cuál está seleccionado.
@@ -49,7 +48,7 @@ El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y
 7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
 8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
 
-### Archivos
+## Archivos
 
 main.cpp 
 
