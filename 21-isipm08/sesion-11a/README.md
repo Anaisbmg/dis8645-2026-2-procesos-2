@@ -2,6 +2,21 @@
 
 ## apuntes sesión
 - el día de hoy seguimos avanzando en nuestro proyecto 02, en el cual definimos mejor nuestra idea, realizando bocetos, buscando más información de nuestro computador referente, viendo carcasa y lo que queríamos lograr
+## proceso proyecto-02
+### commodore 64 ultimate
+lo primero que realizamos fue definir de forma concreta el computador que escogeríamos como referente, en donde escogimos ```Commodore 64 ultimate```
+
+### carcasa
+luego de esto fuimos viendo carcasa, diferentes formas, ya que queríamos llegar a realizar nuestro propio commodore
+
+### clases
+luego a la par entre Narely y Angel empezaron a realizar clases, a su vez rellenando nuestro github grupal. Luego nos quedamos después de taller para seguir evaluando nuevamente en las clase, ya que según lo que queríamos lograr en nuestro proyecto eran muchos códigos trabajando a la vez de forma simultánea
+
+```perillas```
+
+```botones```
+
+```pantalla```
 
 ## lectura
 ### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
