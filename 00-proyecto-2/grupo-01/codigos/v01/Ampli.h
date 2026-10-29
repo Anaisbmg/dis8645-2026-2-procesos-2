@@ -7,8 +7,8 @@
 // 6. sonidoActual ahora lo actualiza la clase Audio
 // 7. nuevo atributo cantidadBuffers en lugar del 3 fijo del constructor
 
-#ifndef AMPLI_V01_H
-#define AMPLI_V01_H
+#ifndef AMPLI_H
+#define AMPLI_H
 
 // incluye las herramientas basicas del sdk de raspberry pi
 #include "pico/stdlib.h"

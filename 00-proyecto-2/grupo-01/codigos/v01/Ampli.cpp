@@ -5,7 +5,7 @@
 // 4. nuevo metodo cambiarVolumen()
 // 5. el constructor usa cantidadBuffers en lugar del 3 fijo
 
-#include "Ampli-v01.h"
+#include "Ampli.h"
 
 //constructor
 Ampli::Ampli(int nuevoPinReloj, int nuevoPinDatos) {

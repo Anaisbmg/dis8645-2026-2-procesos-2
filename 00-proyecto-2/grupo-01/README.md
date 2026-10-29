@@ -1,5 +1,13 @@
 # [placeholder para el nombre ayudaaa]
 
+## Integrantes
+
+[Bianka Vilchez](https://github.com/biankavilchez)
+
+[Dayana Pañitrur](https://github.com/dayanapanitrur)
+
+[Camila Ramirez](https://github.com/Estrabismx)
+
 ## concepto
 
 ## clases
@@ -19,12 +27,6 @@ Fases de la evolución del sonido en Japón
 • Era del CD-ROM y 32 bits (Mediados de los 90): Con la llegada de soportes como la PlayStation o la Sega Saturn, se dio el salto al audio grabado (pistas en formato Red Book CD o MIDI avanzado), permitiendo incorporar instrumentos acústicos reales, coros y arreglos orquestales más emotivos.
 
 Era moderna y el sonido interactivo (Siglo XXI - Presente): La música y los efectos dejaron de ser simples archivos lineales para volverse adaptativos y dinámicos, reaccionando en tiempo real a las acciones del jugador, la exploración o el combate. Además, géneros como el jazz, la música electrónica y fusiones culturales pasaron a ser sellos distintivos en sagas como Persona o Sonic the Hedgehog
-
-[Bianka Vilchez](Link)
-
-[Dayana Pañitrur](Link)
-
-[Camila Ramirez](link)
 
 ## Punto de partida
 

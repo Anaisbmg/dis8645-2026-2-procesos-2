@@ -3,11 +3,11 @@
 // 2. enviarSonido() ahora tambien guarda sonidoActual en el ampli
 // 3. nuevo metodo reproducirSonido() para usar al presionar el encoder
 
-#ifndef AUDIO_V01_H
-#define AUDIO_V01_H
+#ifndef AUDIO_H
+#define AUDIO_H
 
 // incluye la clase del amplificador para poder enviarle los datos
-#include "Ampli-v01.h"
+#include "Ampli.h"
 // incluye los tipos de datos de tamano exacto
 #include <stdint.h>
 

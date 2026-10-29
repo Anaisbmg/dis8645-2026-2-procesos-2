@@ -3,7 +3,7 @@
 // 2. enviarSonido() ahora tambien guarda sonidoActual en el ampli
 // 3. nuevo metodo reproducirSonido()
 
-#include "Audio-v01.h"
+#include "Audio.h"
 
 // incluye los archivos externos que contienen los arreglos de 8 bits
 // debes ajustar estos nombres para que coincidan con tus archivos reales
