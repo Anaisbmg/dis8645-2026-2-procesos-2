@@ -298,6 +298,10 @@ Para mantener el código ordenado, eficiente en memoria y fácil de presentar, d
 
 * Llama a `juego.actualizar()` y `audio.actualizar()` para actualizar gráficos, reglas de juego y música.
 
+wokwi 
+
+https://wokwi.com/projects/479061199676387329 
+
 ## Bibliografía
 
 https://commodore.net/computer/ 
