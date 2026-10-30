@@ -6,6 +6,8 @@ En esta sesión solo fue el proceso del proyecto. En nuestro grupo cada una lide
 
 [https\://wokwi.com/projects/478683034244407297](https://wokwi.com/projects/478683034244407297)
 
+https://www.discogs.com/es/label/2254858-WEA-MIA 
+
 ## encargos
 
 ## lectura
