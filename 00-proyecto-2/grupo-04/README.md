@@ -28,15 +28,15 @@ Códigos subidos por fecha en la carpeta "codigos".
 
  - **Nokia 9000 (1998):** Contaba con un teclado alfanumérico integrado (qwerty)
 
-![foto del nokia 9000](./imagenes/.jpeg)
+![foto del nokia 9000](./imagenes/nokia-9000.jpeg)
 
  - **Nokia 3310 (2000):** Su teclado es multitap, lo que hace que en una tecla se encuentren varios caracteres que pueden ser seleccionados según la cantidad de veces que se presione el mismo botón.
 
-![foto del nokia 3310](./imagenes/.jpeg)
+![foto del nokia 3310](./imagenes/nokia-3310.jpeg)
 
  - **PS1 (1997):** En ciertos juegos o partidas permitía escribir palabras cortas, como nombres de usuario, esto era a través de las *analog stick* con el cual se pre seleccionaba el carácter y con el botón x se seleccionaba y se imprimía.
 
-![foto de la ps1](./imagenes/.jpeg)
+![foto de la ps1](./imagenes/ps1.jpeg)
 
 ## Idea principal
 
