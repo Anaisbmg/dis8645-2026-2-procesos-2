@@ -354,3 +354,42 @@ Todavía estamos trabajando en el desarrollo de TRAZO, por lo que este registro 
 <https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html>
 
 ## Prompts usados
+> **Nota:** el chat original se borró. Lo que sigue es una reconstrucción
+> aproximada, hecha de memoria 
+
+### Código 1 (25-10-2026): plan en comentarios
+- **Qué pedimos (aprox):** Primero le explicamos qué es la máquina: TRAZO, un proyecto de
+  dibujo digital con una Raspberry Pi Pico, dos potenciómetros (uno para el eje X y otro
+  para el Y) y una pantalla OLED de 128 x 64, con modos MOVER y DIBUJAR y un botón para
+  borrar. Después le pedimos que nos ayudara a hacer el primer código declarando solamente
+  qué queremos que haga sin programar todavía.
+- **Qué nos dio la IA:** un archivo solo con comentarios, ordenado en secciones. 
+
+### Código 2 (26-10-2026): estructura
+- **Qué pedimos (aprox.):** A partir de ese plan, la estructura mínima del programa:
+  iniciar el ADC y un ciclo que muestre que el programa sigue activo, sin leer las perillas
+  todavía.
+- **Qué nos dio la IA:** `main.cpp` y `CMakeLists.txt` básicos.
+
+### Código 3 y 4 (26-10-2026): perillas X/Y y corrección
+- **Contexto:** ya habíamos pensado la clase Perilla y cómo se conectaría con el resto.
+  Quedó pendiente integrar la clase Botón, que aun no teniamos; por eso
+  estas versiones solo deberían mover un punto en la pantalla.
+- **Qué pedimos (aprox.):** una clase Perilla basada en el ejemplo de la sesión 08a que
+  lea los dos potenciómetros y mueva un punto en la pantalla OLED.
+- **Sobre el error de la versión 3:** el error de conversión (`valor / 4095` antes de
+  multiplicar) lo introdujimos **a propósito**. Queríamos entender por qué la conversión
+  funciona cuando está bien hecha y qué pasaría si estuviera mal: con la división entera,
+  la posición se queda en 0 salvo cuando la lectura llega al máximo. La versión 3 queda
+  como ejemplo del error y la versión 4 como la corrección.
+- **Corrección (versión 4):** multiplicar primero y luego dividir, con redondeo.
+
+### Clase 1 y 2 (27 y 28-10-2026): Perilla y Encoder
+- **Contexto:** al comienzo hicimos Perilla y Encoder como dos clases separadas. Al
+  conversarlo con el grupo 1, que sí necesita un encoder, nos pasaron muy amorosamente <3 el enlace a un
+  repositorio del profesor que muestra cómo unir ambas funciones en una sola clase.
+- **Qué pedimos (aprox.):** adaptar ese ejemplo para que una sola clase Perilla sirva
+  como potenciómetro y como encoder.
+- **Resultado:** la versión de `clase_2` junta todo en una clase. Nosotras solo usamos la
+  parte de Perilla porque no necesitamos encoder; el encoder se mantiene en el código
+  porque lo usa el grupo 1.
