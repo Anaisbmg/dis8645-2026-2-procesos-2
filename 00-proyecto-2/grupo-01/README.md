@@ -8,6 +8,11 @@
 
 [Camila Ramirez](https://github.com/Estrabismx)
 
+## Licencia
+Este código es obra de Bianka Vilchez, Camila Ramirez y Dayana Pañitrur (2026).
+Se distribuye bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
+
+
 ## concepto
 
 Se plantea que el sonido de un computador está condicionado por la tecnología de su época, desde los chips de síntesis que generaban melodías y efectos electrónicos hasta la incorporación de audio digital y música grabada.
@@ -102,15 +107,11 @@ ampli.h + ampli.cpp
 
 Como grupo nos corresponde realizar la clase Boton, el cuál debe funcionar tanto para lo que hagamos nosotras en nuestro proyecto, como para lo que haga el grupo 07 para el suyo.
 
-Licencia
-Este código es obra de Bianka Vilchez, Camila Ramirez y Dayana Pañitrur (2026).
-Se distribuye bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
-
 #### Boton.h
 
 En el archivo .h definimos todo, declaramos todo, prometemos las cosas que hará el botón, el cómo lo hará lo escribiremos en el archivo .cpp
 
-El nombre de nuestra clases es **BotonGrupo1**
+El nombre de nuestra clases es **BotonGrupo1** 
 
 Algo importante que debemos integrar en nuestro archivo .h son:
 
@@ -148,6 +149,18 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 ### class Audio
 
+Esta clase ayuda a esconder la complejidad que existe al momento de seleccionar que audio/sonido va a sonar. 
+
+Si la definimos en una frase: _"Es nuestro DJ"_
+
+Por lo mismo utilizamos `#include Audio_n.h`
+
+> siendo n el número del audio
+
+#### Audios
+
+Para lograr introducir cualquier sonido para reproducir en nuestra Raspi  
+
 ![class audio](./imagenes/sc-23.png)
 
 ![class audio](./imagenes/sc-22.png)
@@ -161,6 +174,9 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 - como exportar y que web usar
 
 [File to C style array converter](https://notisrac.github.io/FileToCArray/)
+
+<br>
+
 ### class Ampli
 
 Se preparó
