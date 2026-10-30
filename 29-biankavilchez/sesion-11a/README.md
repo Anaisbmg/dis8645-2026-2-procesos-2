@@ -84,6 +84,18 @@ Era moderna y el sonido interactivo (Siglo XXI - Presente): La música y los efe
 
 https://digibuo.uniovi.es/dspace/bitstream/handle/10651/73779/reflexion.pdf?sequence=3&isAllowed=y
 
+## Computadores japoneses para el caso de estudio
 
+### 1. NEC PC-8801mkII SR (1985)
+
+### 2. Sharp X68000 (1987)
+
+### 3. Fujitsu FM TOWNS (1989)
+
+### 4. NEC PC-9801 (1980s–1990s)
+
+### 5. NEC PC-9821 Ra43 (2000)
+
+### 6. Toshiba DynaBook DB70P/5MC (2000)
 
 ## lectura
