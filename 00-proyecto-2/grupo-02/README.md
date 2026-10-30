@@ -1,3 +1,4 @@
+![imagenes](./imagenes/macintosh.gif)
 ## integrantes 
 
 - ***Anais Marschhausen*** 
