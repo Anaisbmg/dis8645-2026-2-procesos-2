@@ -1,9 +1,9 @@
 ## integrantes 
 
-- ***Anais Marschhausen*** 
-- ***Antonia Loch***
-- ***Hugo Montoya***
-- ***Carla Núñez***
+- ***Anais Marschhausen*** @anaisbmg
+- ***Antonia Loch***  @antoloch
+- ***Hugo Montoya*** @hugomontoya
+- ***Carla Núñez*** @ccarlabelenn
 
 
 
@@ -16,6 +16,13 @@ El proyecto busca reflexionar sobre cómo la tecnología, además de procesar in
 El Macintosh 128K, lanzado en enero de 1984, destacó por incorporar una interfaz gráfica de usuario basada en ventanas, íconos y menús, junto con el uso de un ratón. Su pantalla monocromática de 1 bit representaba las imágenes mediante píxeles blancos y negros.
 La tipografía y gran parte de la iconografía original fueron diseñadas por Susan Kare, cuyo trabajo contribuyó a que la informática resultara más accesible y comprensible para usuarios sin conocimientos técnicos.
 Nuestro proyecto retoma este lenguaje visual y lo combina con un anacronismo consciente: ventanas simultáneas que funcionan como espacios de exploración y encuentro con recuerdos personales.
+
+<p align="center">
+  <img src="./imagenes/applemacintosh.png" alt="Macintosh 128K" width="300">
+  <br>
+  <em>Figura 1. Macintosh 128K. Imagen obtenida de Wikipedia:
+  https://es.wikipedia.org/wiki/Macintosh_128K</em>
+</p>
 
 ## concepto 
 La propuesta consiste en un escritorio digital compuesto por cuatro carpetas que contienen imágenes personales simplificadas a frame. Mediante botones y perillas físicas, el usuario puede desplazarse por la pantalla, seleccionar carpetas y explorar sus fotografías.
