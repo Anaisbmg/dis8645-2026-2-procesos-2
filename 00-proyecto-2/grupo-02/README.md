@@ -207,6 +207,10 @@ Susan Kare fue la diseñadora gráfica responsable de crear gran parte de los el
 > **Fuente:** [99% Invisible – Designed with Kare](https://99percentinvisible.org/article/designed-with-kare-influential-macintosh-graphics-of-early-apple-computers/)
 ## Bibliografía
 
-Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedia.org/wiki/Macintosh_128K>
+- Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedia.org/wiki/Macintosh_128K>
+
+- Staff Editor. (2014, 24 de enero). *Blast from the past: Mac 128K Teardown*. Evertiq. https://evertiq.com/news/33666
+
+- Kohlstedt, K. (2018, 6 de julio). *Designed with Kare: Influential graphics of Apple’s early Macintosh computers*. 99% Invisible. https://99percentinvisible.org/article/designed-with-kare-influential-macintosh-graphics-of-early-apple-computers/
 
 
