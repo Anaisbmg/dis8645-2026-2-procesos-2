@@ -43,13 +43,14 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 
 | Control | Componente | Especificación | Acción |
 | --- | --- | --- | --- |
-| Encoder (perilla): giro horario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Avanza al siguiente sonido. |
-| Encoder (perilla): giro antihorario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Retrocede al sonido anterior. |
+| Encoder (perilla): giro horario | Encoder rotatorio con pulsador | Tipo KY-040 | Avanza al siguiente sonido. |
+| Encoder (perilla): giro antihorario | Encoder rotatorio con pulsador | Tipo KY-040 | Retrocede al sonido anterior. |
 | Encoder (botón): pulsación | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Reproduce el sonido seleccionado. |
-| Potenciómetro (perilla) | Potenciómetro | 10 kΩ lineal* | Regula el volumen general en un rango de 0 a 100. |
-| Botón Loop: primera pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Activa la repetición continua del sonido. |
-| Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Desactiva la repetición continua del sonido. |
+| Potenciómetro (perilla) | Potenciómetro | Tipo B o lineal| Regula el volumen general en un rango de 0 a 100. |
+| Botón Loop: primera pulsación | Botón pulsador | Momentáneo, 12 × 12 mm | Activa la repetición continua del sonido. |
+| Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm + resistencia pull down | Desactiva la repetición continua del sonido. |
 | Cinco lucecitas LED | 5 LED + 5 resistencias | LED 5 mm*, resistencias 220–330 Ω* | Indican cuál de los cinco sonidos está seleccionado. |
+| Unidad de control | Microcontrolador | Raspberry Pi Pico 2 W (chip RP2350, 150 MHz, 520 KB RAM, 4 MB flash) | Lee el encoder, el potenciómetro y el botón Loop, enciende los LEDs y envía el audio al amplificador por I2S. |
 
 ## Experiencia de uso
 
@@ -74,6 +75,7 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 - ¿que pasa si presiono loop mientras está sonando algo? ¿empezará de cero o el sonido quedará en bucle?
 - ¿que pasa si movemos la perilla de volumen mientras está sonando? ¿registra el último valor de volumen para cuando termine el sonido actual y comience otro? ¿o el volumen es regulable mientras suena?
 - ¿que pasaría si es que mientras suena sonidoInicio.h selecciono otro audio para que se reproduzca?
+- ¿se pueden hacer sonar dos audios al mismo tiempo?
 
 ## Archivos
 
