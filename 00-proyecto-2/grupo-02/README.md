@@ -80,9 +80,9 @@ Se considera el uso de una Raspberry Pi como plataforma de procesamiento y almac
 
 ## Pseudocódigo del rol de los componentes
 
-```text
-inicio
-´´´
+**inicio**
+
+```cpp
 disponible pantalla
 disponible perilla x
 disponible perilla y
@@ -92,11 +92,12 @@ disponible botón 2
 //debe estar visualizando la pantalla con las cuatro carpetas
 
 estado = activo
-´´´
+```
 
 
-navegar
-´´´
+**navegar**
+
+```cpp
 posición de perilla x
 posición de perilla y
 
@@ -110,10 +111,11 @@ seguro que quieres seleccionar esa carpeta? = presiona el botón 1 durante 1 seg
             Seleccionar carpeta
             Abrir carpeta
             Mostrar primera fotografía de la carpeta
-´´´
+```
 
-carpeta
-´´´
+**carpeta**
+
+```cpp
 si la carpeta está abierta podemos continuar: true
 
 nos mostrará directamente un frame representativo de la carpeta
@@ -133,11 +135,12 @@ nos mostrará directamente un frame representativo de la carpeta
  //para poder
         Volver al escritorio digital
 //estará listo para poder volver a navegar en nuestros recuerdos de escritorio
-´´´
+```
 
 
-loop
-´´´
+**loop**
+
+```cpp
 si está encendido
 
 podemos volver a navegar
@@ -146,7 +149,6 @@ ver frames
 ver carrusel
 
 Fin y haz loop como quieras:)
-´´´
 ```
 
 ## Carcasa
