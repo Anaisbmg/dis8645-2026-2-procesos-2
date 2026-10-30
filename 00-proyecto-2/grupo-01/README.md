@@ -136,6 +136,8 @@ Algo importante que debemos integrar en nuestro archivo .h son:
 
 Hacer el código `public` hará que cualquier persona pueda ver, usar o modificar nuestra clase Boton
 
+`int nuevoPin` Le indica a la clase en qué pin de la Raspberry Pi Pico está conectado ese botón
+
 modoSwitch
 
 | anterior | actual | resultado |
