@@ -1,21 +1,22 @@
-![imagenes](./imagenes/applemacintosh.gif)
-![imagenes](./imagenes/macintosh.gif)
+<p align="center">
+  <img src="./imagenes/applemacintosh.gif" alt="Apple Macintosh" />
+  <img src="./imagenes/applemacintosh.gif" alt="Apple Macintosh" />
+</p>
 
-![imagenes](./imagenes/applemacintosh.gif)
-![imagenes](./imagenes/macintosh.gif)
-## integrantes
+
+## Integrantes
 
 - ***Anais Marschhausen*** @anaisbmg
 - ***Antonia Loch***  @antoloch
 - ***Hugo Montoya*** @hugomontoya
 - ***Carla Núñez*** @ccarlabelenn
 
-## sobre el proyecto
+## Sobre el proyecto
 
 Este proyecto toma como referente el Apple Macintosh de 1984, recuperando su lenguaje visual basado en ventanas, carpetas, íconos y una interfaz monocromática de píxeles. A partir de esta estética, proponemos un escritorio digital interactivo que permite explorar fotografías y recuerdos personales de una manera intuitiva y cercana.
 El proyecto busca reflexionar sobre cómo la tecnología, además de procesar información y facilitar tareas cotidianas, puede convertirse en un medio para preservar algo profundamente humano: los recuerdos, los vínculos y las experiencias compartidas.
 
-## referente Apple Mac
+## Referente Apple Mac
 
 El Macintosh 128K, lanzado en enero de 1984, destacó por incorporar una interfaz gráfica de usuario basada en ventanas, íconos y menús, junto con el uso de un ratón. Su pantalla monocromática de 1 bit representaba las imágenes mediante píxeles blancos y negros.
 La tipografía y gran parte de la iconografía original fueron diseñadas por Susan Kare, cuyo trabajo contribuyó a que la informática resultara más accesible y comprensible para usuarios sin conocimientos técnicos.
@@ -28,7 +29,7 @@ Nuestro proyecto retoma este lenguaje visual y lo combina con un anacronismo con
   https://es.wikipedia.org/wiki/Macintosh_128K</em>
 </p>
 
-## concepto
+## Concepto
 
 La propuesta consiste en un escritorio digital compuesto por cuatro carpetas que contienen imágenes personales simplificadas a frame. Mediante botones y perillas físicas, el usuario puede desplazarse por la pantalla, seleccionar carpetas y explorar sus fotografías.
 La interacción busca ser sencilla e intuitiva, generando una experiencia íntima que acerque la tecnología a las personas.
@@ -39,7 +40,7 @@ La interacción busca ser sencilla e intuitiva, generando una experiencia íntim
 - **Pantalla:** muestra el escritorio, las fotografías y las interacciones del usuario.
 - **Estética:** píxeles, íconos y gráficos monocromáticos.
 
-## interacción
+## Interacción
 
 - **Perilla 1 (eje Y):** movimiento vertical en la pantalla
 - **Perilla 2 (eje X):** movimiento horizontal, simulando el movimiento de un mouse
@@ -56,7 +57,7 @@ parte de nuestra clase:
 
 Al abrir una carpeta, se muestra inicialmente su primera imagen. El usuario puede avanzar entre fotografías y activar su reproducción secuencial. Una pulsación prolongada permite regresar al escritorio y explorar otra carpeta.
 
-## desarrollo técnico
+## Desarrollo técnico
 
 El proyecto contempla la programación de clases para botones y perillas, responsables de traducir las acciones físicas del usuario en interacciones digitales.
 La clase Boton considera cinco variables y cinco funciones para gestionar el estado del botón, detectar las pulsaciones, medir su duración y ejecutar acciones según el contexto de uso.
@@ -158,6 +159,8 @@ Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedi
 
 ## Diagrama de flujo
 
+![imagenes](./imagenes/diagrama.png)
+
 ## Boom
 
 | Componentes | Cantidad | Precio unitario | Link |
@@ -172,74 +175,8 @@ Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedi
 
 ## Pseudocódigo del rol de los componentes
 
-```text
-inicio
-´´´
-disponible pantalla
-disponible perilla x
-disponible perilla y
-disponible botón 1
-disponible botón 2
-
-//debe estar visualizando la pantalla con las cuatro carpetas
-
-estado = activo
-´´´
 
 
-navegar
-´´´
-posición de perilla x
-posición de perilla y
-
-//si estamos ubicados en el escritorio podemos movernos vertical u horizontal
-//gracias a las perillas
-
-humanamente decidir sobre qué carpeta me quiero posicionar
-
-seguro que quieres seleccionar esa carpeta? = presiona el botón 1 durante 1 segundo
-
-            Seleccionar carpeta
-            Abrir carpeta
-            Mostrar primera fotografía de la carpeta
-´´´
-
-carpeta
-´´´
-si la carpeta está abierta podemos continuar: true
-
-nos mostrará directamente un frame representativo de la carpeta
-
-    SI botón 2 se presiona 2 veces
-        Avanzará a la siguiente fotografía
- //para poder
-        Mostrar nueva fotografía
-
-    SI botón 2 se presiona 3 veces
-        Activar carrusel de fotografías
-//para poder
-        Reproducir fotografías automáticamente
-
-    SI botón 2 se mantiene presionado durante 5 segundos
-        Detener carrusel
- //para poder
-        Volver al escritorio digital
-//estará listo para poder volver a navegar en nuestros recuerdos de escritorio
-´´´
-
-
-loop
-´´´
-si está encendido
-
-podemos volver a navegar
-ver diferentes carpetas
-ver frames
-ver carrusel
-
-Fin y haz loop como quieras:)
-´´´
-```
 
 ## Carcasa
 
@@ -249,8 +186,4 @@ Fin y haz loop como quieras:)
 
 Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedia.org/wiki/Macintosh_128K>
 
-## diagrama de flujo
 
-![imagenes](./imagenes/diagrama.png)
-## diagrama de flujo 
-![imagenes](./imagenes/diagrama.png)
