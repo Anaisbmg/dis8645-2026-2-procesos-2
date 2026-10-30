@@ -8,12 +8,17 @@
 
 [Camila Ramirez](https://github.com/Estrabismx)
 
+<br>
+
 ## Licencia
+
+
 Este código es obra de Bianka Vilchez, Camila Ramirez y Dayana Pañitrur (2026).
 Se distribuye bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
 
+<br>
 
-## concepto
+## Concepto
 
 Se plantea que el sonido de un computador está condicionado por la tecnología de su época, desde los chips de síntesis que generaban melodías y efectos electrónicos hasta la incorporación de audio digital y música grabada.
 
@@ -29,14 +34,21 @@ Fases de la evolución del sonido en Japón
 
 Era moderna y el sonido interactivo (Siglo XXI - Presente): La música y los efectos dejaron de ser simples archivos lineales para volverse adaptativos y dinámicos, reaccionando en tiempo real a las acciones del jugador, la exploración o el combate. Además, géneros como el jazz, la música electrónica y fusiones culturales pasaron a ser sellos distintivos en sagas como Persona o Sonic the Hedgehog
 
+<br>
+
 ## Punto de partida
 
+texto
+
+<br>
 
 ## Inspiración
 
 Sharp X68000
 
 El proyecto consiste en un dispositivo sonoro inspirado en las configuraciones y el sistema del computador Sharp X68000. La interacción se realizará mediante dos botones y dos perillas, cada uno con una función específica para seleccionar, reproducir y controlar los sonidos.
+
+<br>
 
 ## Controles e interacciones
 
@@ -53,6 +65,8 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 | Cinco lucecitas LED | 5 LED + 5 resistencias | LED 5 mm*, resistencias 220–330 Ω* | Indican cuál de los cinco sonidos está seleccionado. |
 | Unidad de control | Microcontrolador | Raspberry Pi Pico 2 W (chip RP2350, 150 MHz, 520 KB RAM, 4 MB flash) | Lee el encoder, el potenciómetro y el botón Loop, enciende los LEDs y envía el audio al amplificador por I2S. |
 
+<br>
+
 ## Experiencia de uso
 
 1. **Encender el dispositivo:** el sistema se inicia y queda preparado para seleccionar un sonido.
@@ -63,6 +77,8 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 6. **Desactivar el loop:** presiona nuevamente el botón LOOP para desactivar la repetición.
 7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
 8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
+
+<br>
 
 ## Casos no deseados
 
@@ -78,6 +94,8 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 - ¿que pasaría si es que mientras suena sonidoInicio.h selecciono otro audio para que se reproduzca?
 - ¿se pueden hacer sonar dos audios al mismo tiempo?
 
+<br>
+
 ## Archivos
 
 main.cpp
@@ -91,6 +109,8 @@ Sonido.h + Sonido.cpp
 Lucecita.h + Lucecita.cpp
 
 ampli.h + ampli.cpp
+
+<br>
 
 ## seudo-código
 
@@ -162,7 +182,13 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 ![Diagrama Botón](./imagenes/boton-modo-borrar.png)
 
+<br>
+
 ### class Lucesita
+
+[texto]
+
+<br>
 
 ### class Audio
 
