@@ -7,7 +7,7 @@
 
 ☆ Narely Riquelme /
 
-☆ Angel Sabogal /
+☆ Angel Sabogal / <https://github.com/angel-udp>
 
 ## Commodore 64 Ultimate 
 
@@ -34,6 +34,10 @@ Es compatible con cintas de casete, unidades de disco y con televisores de tubo 
 
 
 ## Descripción del proyecto
+
+**DORE 8** es un videojuego retro inspirado en el Commodore 64, desarrollado en C++ con Raspberry Pi Pico y prototipado en Wokwi. El juego consiste en ayudar a un estudiante a llegar a la universidad, superando diferentes desafíos, como recorrer un laberinto para alcanzar la micro, esquivar vehículos durante el trayecto y llegar a su sala de clases.
+
+Para interactuar con el juego utilizamos dos perillas, dos botones, una pantalla y un buzzer que reproduce música retro y efectos de sonido. Los gráficos se construyen mediante figuras geométricas para optimizar el uso de memoria. Nuestro objetivo es combinar la estética de los videojuegos antiguos con una experiencia interactiva sencilla y entretenida.
 
 ### Inspiración: La Influencia del Commodore 64
 
@@ -78,7 +82,35 @@ El flujo interactivo se estructura en **5 Slides correlativos**:
 
 ## Pruebas y error
 
+Durante el desarrollo de DORE 8 fuimos realizando diferentes pruebas en Wokwi para comprobar que los componentes y el código funcionaran correctamente. Al principio comenzamos con un proyecto vacío, donde incorporamos la Raspberry Pi Pico, una pantalla, dos potenciómetros, dos botones, un buzzer y un LED. Realizamos las conexiones manualmente, siguiendo la distribución que queríamos para nuestro prototipo.
+
+Una de las primeras pruebas fue comprobar el funcionamiento del sonido, ya que queríamos que el videojuego tuviera música retro de fondo y efectos sonoros. Para esto trabajamos con una clase llamada Audio, utilizando C++ y Pico SDK, sin Arduino. También probamos las perillas para verificar que permitieran mover un objeto en la pantalla y que los botones respondieran correctamente.
+
+Durante estas pruebas nos encontramos con un error de compilación relacionado con la función stdio_init_all(). Al revisar el problema, identificamos que estaba relacionado con la configuración del entorno de compilación de Wokwi. Modificamos la configuración para utilizar Pico SDK y conseguimos que el programa funcionara.
+
+Después de solucionar este problema, logramos visualizar los primeros gráficos en la pantalla, mover un cuadrado con las perillas y escuchar la música y los efectos del buzzer.
+
+Posteriormente comenzamos a integrar los gráficos del videojuego. Para esto utilizamos como referencia las funciones gráficas de Adafruit, trabajando con figuras geométricas en lugar de imágenes bitmap, con el objetivo de reducir el uso de memoria. Incorporamos los dibujos del estudiante, la micro, los automóviles, el laberinto y las diferentes pantallas.
+
+Otra dificultad que encontramos fue durante la prueba del nivel de la micro. Notamos que el movimiento era demasiado lento y que no resultaba tan claro cómo completar el desafío para avanzar al siguiente. Por eso decidimos modificar el código, reducir el tiempo del nivel de 30 a 15 segundos, aumentar la velocidad y agregar una línea de meta que permitiera identificar el objetivo.
+
+Estas pruebas nos ayudaron a identificar aspectos que debíamos mejorar, tanto en el funcionamiento del código como en la experiencia del jugador. También nos permitieron entender la importancia de probar cada componente por separado antes de integrarlo al videojuego completo.
+
 ## Aciertos 
+
+Uno de los principales aciertos durante el desarrollo de DORE 8 fue comenzar probando los componentes de manera individual antes de trabajar en el videojuego completo. Esto nos permitió comprobar que las perillas, los botones, la pantalla, el buzzer y el LED funcionaran correctamente, facilitando la identificación de errores.
+
+Otro acierto fue utilizar C++ con Pico SDK, ya que era uno de los requisitos del proyecto. También decidimos trabajar con clases para mantener el código organizado y poder reutilizar algunas de las desarrolladas anteriormente, como las de las perillas y los botones.
+
+La incorporación del buzzer también fue un avance importante, porque conseguimos reproducir música retro de fondo y efectos de sonido sin detener el movimiento de los elementos en pantalla. Esto nos permitió acercarnos más a la experiencia de los videojuegos antiguos que tomamos como referencia.
+
+En cuanto a los gráficos, consideramos que fue una buena decisión utilizar figuras geométricas inspiradas en las funciones de Adafruit GFX, ya que nos permitió representar los personajes y escenarios sin depender de imágenes bitmap grandes. Además, logramos integrar las ocho pantallas del videojuego, manteniendo una misma línea visual.
+
+Otro aspecto positivo fue establecer que el jugador solamente pudiera avanzar cuando completara cada desafío. Esto permitió que el juego tuviera una secuencia y que cada nivel tuviera un objetivo específico.
+
+También fue importante identificar que algunos elementos necesitaban ajustes, como ocurrió con la velocidad de la micro. Esto nos llevó a mejorar el planteamiento del nivel y hacer más visible la meta.
+
+En general, consideramos que uno de nuestros mayores aciertos fue avanzar de manera progresiva, probando, identificando errores y realizando modificaciones. Gracias a este proceso logramos pasar de un circuito básico en Wokwi a un prototipo de videojuego que integra gráficos, controles, música y diferentes desafíos.
 
 ## Documentación IA
 
