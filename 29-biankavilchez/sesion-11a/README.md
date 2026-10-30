@@ -88,16 +88,73 @@ https://digibuo.uniovi.es/dspace/bitstream/handle/10651/73779/reflexion.pdf?sequ
 
 ### 1. NEC PC-8801mkII SR (1985)
 
+Chip: Yamaha YM2203 (OPN).
+
+Tecnología: 3 canales FM y 3 canales SSG.
+
+Videojuegos:
+- Thexder
+- Ys I: Ancient Ys Vanished
+- Hydlide
+
+
 ### 2. Sharp X68000 (1987)
 
+Chips:
+- Yamaha YM2151 (OPM).
+- OKI MSM6258.
+Tecnología: 8 canales de síntesis FM y un canal de audio ADPCM.
+
+Videojuegos:
+- Gradius II
+- Akumajō Dracula
+- Final Fight
+- 
 ### 3. Fujitsu FM TOWNS (1989)
+
+Chip / tarjeta: Yamaha YM2608 (OPNA), mediante tarjeta de sonido PC-9801-86.
+
+Tecnología: 6 canales FM, 3 SSG, canales de ritmo y ADPCM.
+
+Videojuegos:
+- Touhou Reiiden: The Highly Responsive to Prayers
+- Touhou Fūmajinroku: The Story of Eastern Wonderland
+- Rusty
 
 ### 4. NEC PC-9801 (1980s–1990s)
 
+Hardware: unidad CD-ROM integrada y capacidades multimedia.
+
+Tecnología: reproducción de audio digital, muestras y contenido multimedia.
+
+Videojuegos:
+- Prince of Persia
+- Wing Commander
+- Might and Magic III
+
 ### 5. NEC PC-9821 Ra43 (2000)
+
+Computador: NEC PC-9821 Ra43.
+
+Año: 2000.
+
+Procesador: Intel Celeron de 443 MHz.
+
+Audio: la configuración de audio depende del modelo y sus componentes. La serie PC-9821 tuvo modelos con reproducción PCM y tarjetas de sonido adicionales.
 
 ### 6. Toshiba DynaBook DB70P/5MC (2000)
 
+Computador: Toshiba Qosmio V65/87M.
+
+Año: 2010.
+
+Audio:
+- Intel High Definition Audio.
+- Altavoces estéreo harman/kardon.
+- Dolby Advanced Audio.
+- MaxxAudio.
+- Reproducción multimedia mediante Blu-ray.
+  
 ## repo para estudiar 
 
 https://github.com/yuuqilin/RetroJapSound?utm
