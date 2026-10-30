@@ -19,6 +19,12 @@ avance en clase
 
 ## primer diagrama de flujo 
 
+falta ver detalles (proceso) 
+
+![Diagrama Botón](./imagenes/diagrama-flujo1.png)
+
+
+## concepto 
 
 Se plantea que el sonido de un computador está condicionado por la tecnología de su época, desde los chips de síntesis que generaban melodías y efectos electrónicos hasta la incorporación de audio digital y música grabada.
 
