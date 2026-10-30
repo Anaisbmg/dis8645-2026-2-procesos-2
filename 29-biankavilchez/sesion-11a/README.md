@@ -32,6 +32,15 @@ A partir de esta exploración, surge la pregunta: ¿cómo ha evolucionado el son
 
 La evolución del sonido y la música en los videojuegos japoneses ha transitado desde los simples tonos monofónicos de los arcades y consolas de 8 bits hasta complejas bandas sonoras dinámicas e integradas con tecnología binaural y orquestal.
 
+## ¿por qué 5 sonidos? 
+
+- Un tono simple.
+- Una secuencia rítmica.
+- Una melodía sintetizada.
+- Un sonido percusivo.
+- Una muestra de audio digital.
+
+La elección de cinco sonidos responde a la intención de representar distintas transformaciones tecnológicas en la historia del audio de los videojuegos. Cada sonido corresponde a una etapa que permite reconocer cómo evolucionaron la generación, síntesis y reproducción del sonido, desde los primeros tonos electrónicos hasta el audio digital. 
 
 ## ¿Cómo funciona la Música de Videojuegos Retro?
 
