@@ -1,0 +1,50 @@
+name: revisar forks
+
+# cada hora revisa los forks de estudiantes, abre pull requests asignados
+# al docente y avisa a los estudiantes cuando su pull request tiene conflictos
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      simulacro:
+        description: "solo mostrar lo que haria, sin abrir ni comentar"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: revisar-forks
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    # evita que corra en los forks de estudiantes
+    if: github.repository == 'disenoUDP/dis8645-2026-2-procesos-2'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # la empresa no permite que GITHUB_TOKEN abra pull requests,
+      # por eso se usa el token de una github app de la organizacion
+      - name: obtener token de la app
+        id: app
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: revisar forks
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          DOCENTE: montoyamoraga
+        run: |
+          if [[ "${{ inputs.simulacro }}" == "true" ]]; then
+            bash scripts/revisar-forks.sh --simulacro
+          else
+            bash scripts/revisar-forks.sh
+          fi
