@@ -58,3 +58,100 @@ La clase Boton considera cinco variables y cinco funciones para gestionar el est
 Las perillas permiten controlar la posición del cursor en los ejes horizontal y vertical, mientras que la pantalla representa visualmente las acciones realizadas.
 Se considera el uso de una Raspberry Pi como plataforma de procesamiento y almacenamiento, junto con una pantalla y controles físicos. Las imágenes se organizan en carpetas para facilitar su navegación y visualización.
 
+ ## Diagrama de flujo
+
+
+ ## Boom
+
+| Componentes | Cantidad | Precio unitario | Link |
+| --- | --- | --- | --- |
+| Raspberry Pi Pico 2W | 1 | $14.990 | <https://raspberrypi.cl/products/raspberry-pi-pico-2-w-con-headers> |
+| Botón pulsador  | 2 | 200 |  | 	https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptos |
+| Potenciómetro b100k | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
+|LED| 1 | $100 | https://afel.cl/products/kit-50-diodos-leds-de-5mm-ultrabrillantes |
+| Resistencia 220 Ω | 2 | $495 | <https://altronics.cl/potenciometro-lineal-100k-b100k> |
+| Pantalla | 1 |     |                       |
+| Protoboard | 1 |     |                       |
+
+## Pseudocódigo del rol de los componentes
+```text
+inicio
+´´´
+disponible pantalla
+disponible perilla x
+disponible perilla y
+disponible botón 1
+disponible botón 2
+
+//debe estar visualizando la pantalla con las cuatro carpetas
+
+estado = activo
+´´´
+
+
+navegar
+´´´
+posición de perilla x
+posición de perilla y
+
+//si estamos ubicados en el escritorio podemos movernos vertical u horizontal
+//gracias a las perillas
+
+humanamente decidir sobre qué carpeta me quiero posicionar
+
+seguro que quieres seleccionar esa carpeta? = presiona el botón 1 durante 1 segundo
+
+            Seleccionar carpeta
+            Abrir carpeta
+            Mostrar primera fotografía de la carpeta
+´´´
+
+carpeta
+´´´
+si la carpeta está abierta podemos continuar: true
+
+nos mostrará directamente un frame representativo de la carpeta
+
+    SI botón 2 se presiona 2 veces
+        Avanzará a la siguiente fotografía
+	//para poder
+        Mostrar nueva fotografía
+
+    SI botón 2 se presiona 3 veces
+        Activar carrusel de fotografías
+//para poder
+        Reproducir fotografías automáticamente
+
+    SI botón 2 se mantiene presionado durante 5 segundos
+        Detener carrusel
+	//para poder
+        Volver al escritorio digital
+//estará listo para poder volver a navegar en nuestros recuerdos de escritorio
+´´´
+
+
+loop
+´´´
+si está encendido
+
+podemos volver a navegar
+ver diferentes carpetas
+ver frames
+ver carrusel
+
+Fin y haz loop como quieras:)
+´´´
+```
+
+
+## Carcasa
+
+
+## Referentes
+
+
+## Bibliografía 
+Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.https://es.wikipedia.org/wiki/Macintosh_128K
+
+
+
