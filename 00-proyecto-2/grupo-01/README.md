@@ -43,13 +43,14 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 
 | Control | Componente | Especificación | Acción |
 | --- | --- | --- | --- |
-| Encoder (perilla): giro horario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Avanza al siguiente sonido. |
-| Encoder (perilla): giro antihorario | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Retrocede al sonido anterior. |
+| Encoder (perilla): giro horario | Encoder rotatorio con pulsador | Tipo KY-040 | Avanza al siguiente sonido. |
+| Encoder (perilla): giro antihorario | Encoder rotatorio con pulsador | Tipo KY-040 | Retrocede al sonido anterior. |
 | Encoder (botón): pulsación | Encoder rotatorio con pulsador | Tipo KY-040 o similar* | Reproduce el sonido seleccionado. |
-| Potenciómetro (perilla) | Potenciómetro | 10 kΩ lineal* | Regula el volumen general en un rango de 0 a 100. |
-| Botón Loop: primera pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Activa la repetición continua del sonido. |
-| Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm* | Desactiva la repetición continua del sonido. |
+| Potenciómetro (perilla) | Potenciómetro | Tipo B o lineal| Regula el volumen general en un rango de 0 a 100. |
+| Botón Loop: primera pulsación | Botón pulsador | Momentáneo, 12 × 12 mm | Activa la repetición continua del sonido. |
+| Botón Loop: segunda pulsación | Botón pulsador | Momentáneo, 12 × 12 mm + resistencia pull down | Desactiva la repetición continua del sonido. |
 | Cinco lucecitas LED | 5 LED + 5 resistencias | LED 5 mm*, resistencias 220–330 Ω* | Indican cuál de los cinco sonidos está seleccionado. |
+| Unidad de control | Microcontrolador | Raspberry Pi Pico 2 W (chip RP2350, 150 MHz, 520 KB RAM, 4 MB flash) | Lee el encoder, el potenciómetro y el botón Loop, enciende los LEDs y envía el audio al amplificador por I2S. |
 
 ## Experiencia de uso
 
@@ -61,6 +62,20 @@ El encoder rotatorio cumple dos funciones en un solo componente: funciona como *
 6. **Desactivar el loop:** presiona nuevamente el botón LOOP para desactivar la repetición.
 7. **Cambiar de sonido:** gira el encoder para seleccionar otro sonido y presiónalo para reproducirlo. Si el sonido anterior estaba en loop, el sistema debe gestionar el cambio según la lógica definida para la reproducción.
 8. **Explorar los cinco sonidos:** la persona puede recorrer el menú de forma continua. Después del quinto sonido, el encoder vuelve al primero; en sentido contrario, desde el primero pasa al quinto.
+
+## Casos no deseados
+
+- ¿que pasa si estoy apretando botón loop y botón de reproducir a la vez?
+- ¿que pasa si mientras está sonando un audio se vuelve a presionar el botón para reproducir sonido?
+- ¿que pasa si el encoder gira mientras está sonando el audio? ¿cambian ambos o no cambia ninguno?
+- ¿que pasa si el sonido queda reproduciendo en loop, luego se apaga el sistema y se enciende de nuevo, el sonido queda sonando en loop o se reincia?
+- ¿que pasa si se mantiene presionado el botón de selección mientras se gira la perilla?
+- ¿que pasa si el encoder se presiona y se gira a la vez?
+- ¿que pasa si el loop se presiona dos veces dentro de un lapso de tiempo muy corto? ¿se desactiva o se mantiene?
+- ¿que pasa si presiono loop mientras está sonando algo? ¿empezará de cero o el sonido quedará en bucle?
+- ¿que pasa si movemos la perilla de volumen mientras está sonando? ¿registra el último valor de volumen para cuando termine el sonido actual y comience otro? ¿o el volumen es regulable mientras suena?
+- ¿que pasaría si es que mientras suena sonidoInicio.h selecciono otro audio para que se reproduzca?
+- ¿se pueden hacer sonar dos audios al mismo tiempo?
 
 ## Archivos
 
@@ -120,6 +135,8 @@ Algo importante que debemos integrar en nuestro archivo .h son:
 - Biblioteca del GPIO, para integrar la conexión física de los pines de la Raspi
 
 Hacer el código `public` hará que cualquier persona pueda ver, usar o modificar nuestra clase Boton
+
+`int nuevoPin` Le indica a la clase en qué pin de la Raspberry Pi Pico está conectado ese botón
 
 modoSwitch
 
