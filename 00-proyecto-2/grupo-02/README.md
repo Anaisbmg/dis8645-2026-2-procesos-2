@@ -1,6 +1,8 @@
 ![imagenes](./imagenes/applemacintosh.gif)
 ![imagenes](./imagenes/macintosh.gif)
 
+![imagenes](./imagenes/applemacintosh.gif)
+![imagenes](./imagenes/macintosh.gif)
 ## integrantes
 
 - ***Anais Marschhausen*** @anaisbmg
@@ -249,4 +251,6 @@ Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedi
 
 ## diagrama de flujo
 
+![imagenes](./imagenes/diagrama.png)
+## diagrama de flujo 
 ![imagenes](./imagenes/diagrama.png)
