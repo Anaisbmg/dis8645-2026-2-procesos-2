@@ -127,7 +127,7 @@ while read -r usuario rama; do
   cuerpo="@$docente pull request automatico desde \`$usuario:$rama\` ($adelante commit(s))."$'\n\n'"$revision"
   if url=$(gh pr create --repo "$repositorio" --base "$rama_base" --head "$usuario:$rama" \
     --title "cambios de $usuario" --body "$cuerpo" \
-    --assignee "$docente" --reviewer "$docente"); then
+    --assignee "$docente" --reviewer "$docente" --no-maintainer-edit); then
     echo "   $url"
     abiertos+=("$url")
   else
@@ -172,3 +172,6 @@ echo "avisos de conflicto (${#comentados[@]}):"
 printf '  %s\n' "${comentados[@]+"${comentados[@]}"}"
 echo "errores (${#con_errores[@]}):"
 printf '  %s\n' "${con_errores[@]+"${con_errores[@]}"}"
+
+# si hubo errores, la ejecucion queda marcada como fallida en github actions
+[[ ${#con_errores[@]} -eq 0 ]]
