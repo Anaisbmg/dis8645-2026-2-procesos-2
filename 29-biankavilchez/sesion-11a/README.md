@@ -98,4 +98,7 @@ https://digibuo.uniovi.es/dspace/bitstream/handle/10651/73779/reflexion.pdf?sequ
 
 ### 6. Toshiba DynaBook DB70P/5MC (2000)
 
+## repo para estudiar 
+
+https://github.com/yuuqilin/RetroJapSound?utm
 ## lectura
