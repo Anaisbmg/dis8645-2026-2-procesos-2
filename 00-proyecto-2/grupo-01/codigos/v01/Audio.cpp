@@ -7,11 +7,11 @@
 
 // incluye los archivos externos que contienen los arreglos de 8 bits
 // debes ajustar estos nombres para que coincidan con tus archivos reales
-#include "sonido_1.h"
-#include "sonido_2.h"
-#include "sonido_3.h"
-#include "sonido_4.h"
-#include "sonido_5.h"
+#include "Sonido1.h"
+#include "Sonido2.h"
+#include "Sonido3.h"
+#include "Sonido4.h"
+#include "Sonido5.h"
 
 // funcion inicial que se ejecuta al crear la clase
 Audio::Audio() {
