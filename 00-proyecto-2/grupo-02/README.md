@@ -51,3 +51,5 @@ La clase Boton considera cinco variables y cinco funciones para gestionar el est
 Las perillas permiten controlar la posición del cursor en los ejes horizontal y vertical, mientras que la pantalla representa visualmente las acciones realizadas.
 Se considera el uso de una Raspberry Pi como plataforma de procesamiento y almacenamiento, junto con una pantalla y controles físicos. Las imágenes se organizan en carpetas para facilitar su navegación y visualización.
 
+## diagrama de flujo 
+![imagenes](./imagenes/diagrama.png)
