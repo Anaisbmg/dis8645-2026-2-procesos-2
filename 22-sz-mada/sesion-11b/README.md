@@ -82,3 +82,5 @@ int main() {
 Tristemente, de momento la simulación de Wokwi no funciona ya que lanza un error relacionado a la pantalla (SSD1306), así que mientras no solucionemos eso, no sabremos si TRAZO funciona como se espera
 
 ---
+
+Con la ayuda de Carlo, pudimos solucionar el código y la simulación funciona as expected yipee
