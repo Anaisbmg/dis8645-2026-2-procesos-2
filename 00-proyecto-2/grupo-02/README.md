@@ -1,3 +1,4 @@
+![imagenes](./imagenes/applemacintosh.gif)
 ![imagenes](./imagenes/macintosh.gif)
 ## integrantes 
 
