@@ -353,7 +353,7 @@ Todavía estamos trabajando en el desarrollo de TRAZO, por lo que este registro 
 **Raspberry Pi.** *Pico-series Microcontrollers Documentation.*
 <https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html>
 
-## Prompts usados
+## Prompts usados (chatGPT)
 > **Nota:** el chat original se borró. Lo que sigue es una reconstrucción
 > aproximada, hecha de memoria 
 
