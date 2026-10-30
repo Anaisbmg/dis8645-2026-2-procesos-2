@@ -17,7 +17,8 @@ avance en clase
 
 ## encargos
 
-primer diagrama de flujo 
+## primer diagrama de flujo 
+
 
 Se plantea que el sonido de un computador está condicionado por la tecnología de su época, desde los chips de síntesis que generaban melodías y efectos electrónicos hasta la incorporación de audio digital y música grabada.
 
@@ -25,6 +26,8 @@ A partir de esta exploración, surge la pregunta: ¿cómo ha evolucionado el son
 
 La evolución del sonido y la música en los videojuegos japoneses ha transitado desde los simples tonos monofónicos de los arcades y consolas de 8 bits hasta complejas bandas sonoras dinámicas e integradas con tecnología binaural y orquestal.
 
+
+## ¿Cómo funciona la Música de Videojuegos Retro?
 
 https://www.youtube.com/watch?v=v8Z2ft8XTHk
 
@@ -54,12 +57,9 @@ https://www.youtube.com/watch?v=v8Z2ft8XTHk
 
 **Era de los 16 bits: Se presenta como un prólogo técnico sobre el avance hacia la Sega Genesis (con su síntesis FM famosa en teclados Yamaha DX7) y la Super Nintendo (basada en el muestreo de audio o ADPCM), lo que permitió una transición de sonidos electrónicos a composiciones más orquestales.**
 
+### Resumir la información más relevante e identificar qué computadores japoneses coinciden con las características tecnológicas estudiadas, especialmente en sus chips de sonido y componentes de audio
 
-
-
-https://digibuo.uniovi.es/dspace/bitstream/handle/10651/73779/reflexion.pdf?sequence=3&isAllowed=y
-
-Fases de la evolución del sonido en Japón
+## Fases de la evolución del sonido en Japón
 
 • Era de 8 bits y 16 bits (Años 80 - Principios de los 90): Limitada por chips de sonido de canales reducidos (como el chip PSG o el chip de FM de Yamaha en sistemas como la NES, MSX o Mega Drive/Genesis). Compositores como Koji Kondo (en Super Mario o The Legend of Zelda) y Nobuo Uematsu (en Final Fantasy) crearon melodías altamente pegajosas que definieron la identidad del chip chiptune debido a las restricciones técnicas de la memoria.
 
@@ -67,8 +67,8 @@ Fases de la evolución del sonido en Japón
 
 Era moderna y el sonido interactivo (Siglo XXI - Presente): La música y los efectos dejaron de ser simples archivos lineales para volverse adaptativos y dinámicos, reaccionando en tiempo real a las acciones del jugador, la exploración o el combate. Además, géneros como el jazz, la música electrónica y fusiones culturales pasaron a ser sellos distintivos en sagas como Persona o Sonic the Hedgehog.
 
+https://digibuo.uniovi.es/dspace/bitstream/handle/10651/73779/reflexion.pdf?sequence=3&isAllowed=y
 
-https://www.youtube.com/watch?v=v8Z2ft8XTHk
 
 
 ## lectura
