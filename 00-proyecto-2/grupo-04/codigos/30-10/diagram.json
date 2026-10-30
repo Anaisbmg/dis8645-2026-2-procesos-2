@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcdTexto",
+      "top": -230,
+      "left": 250,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnBorrar",
+      "top": -150,
+      "left": -200,
+      "attrs": { "color": "red", "xray": "1" }
+    },
+    { "type": "wokwi-potentiometer", "id": "potCursor", "top": -70, "left": -230, "attrs": {} },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcdSelector",
+      "top": 200,
+      "left": 250,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnSelector",
+      "top": 190,
+      "left": -200,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-potentiometer", "id": "potSelector", "top": 270, "left": -230, "attrs": {} }
+  ],
+  "connections": [
+    [ "lcdTexto:GND", "pico:GND.8", "black", [ "h-90.8", "v229.95" ] ],
+    [ "lcdTexto:VCC", "pico:VBUS", "red", [ "h-148.4", "v188.5", "h-33.6" ] ],
+    [ "lcdTexto:SDA", "pico:GP4", "limegreen", [ "h-292.4", "v239.75" ] ],
+    [ "lcdTexto:SCL", "pico:GP5", "yellow", [ "h-273.2", "v239.85" ] ],
+    [ "lcdSelector:GND", "pico:GND.7", "black", [ "h-71.6", "v-152.05" ] ],
+    [ "lcdSelector:VCC", "pico:VBUS", "red", [ "h-158", "v-222.3", "h-24" ] ],
+    [ "lcdSelector:SDA", "pico:GP6", "limegreen", [ "h-292.4", "v-161.45" ] ],
+    [ "lcdSelector:SCL", "pico:GP7", "yellow", [ "h-273.2", "v-161.35" ] ],
+    [ "potSelector:SIG", "pico:GP26", "blue", [ "v26.3", "h306.2", "v-265.65" ] ],
+    [ "potSelector:VCC", "pico:3V3", "red", [ "v93.5", "h344.2", "v-380.85" ] ],
+    [ "potSelector:GND", "pico:GND.3", "black", [ "v45.5", "h95.4", "v-256.05" ] ],
+    [ "potCursor:SIG", "pico:GP27", "blue", [ "v39.9", "h306.2", "v51.15" ] ],
+    [ "potCursor:VCC", "pico:3V3", "red", [ "v49.5", "h253" ] ],
+    [ "potCursor:GND", "pico:GND.4", "black", [ "h133.8", "v183.9", "h73.2" ] ],
+    [ "btnBorrar:1.l", "pico:GP20", "violet", [ "v-141.4", "h334.4", "v425.55" ] ],
+    [ "btnBorrar:2.l", "pico:GND.5", "black", [ "v31.6", "h401.6", "v262.35" ] ],
+    [ "btnSelector:1.l", "pico:GP21", "violet", [ "v-49.4", "h272" ] ],
+    [ "btnSelector:2.l", "pico:GND.6", "black", [ "v66", "h344", "v-160.05" ] ]
+  ],
+  "dependencies": {}
+}
