@@ -186,10 +186,11 @@ Wikipedia. Macintosh 128K. Wikipedia, la enciclopedia libre.<https://es.wikipedi
 Acá logramos observar el Macintosh por dentro, descubriendo los componentes y la arquitectura que hicieron posible su funcionamiento.
 
 <p align="center">
-  <img src="RUTA_O_URL_IMAGEN_1" alt="refe" width="500">
+  <img src="imagenes/refe.png" alt="refe" width="500">
   <br>
   <em>Interior del Macintosh original.</em>
 </p>
+
 
 > **Fuente:** [iFixit – Evertiq](https://evertiq.com/news/33666) · 24 de enero de 2014.
 
@@ -198,7 +199,7 @@ Acá logramos observar el Macintosh por dentro, descubriendo los componentes y l
 Susan Kare fue la diseñadora gráfica responsable de crear gran parte de los elementos visuales de la interfaz del Apple Macintosh. Su trabajo incluyó íconos, tipografías y símbolos que ayudaron a construir un lenguaje gráfico simple, reconocible y cercano para los usuarios.
 
 <p align="center">
-  <img src="RUTA_O_URL_IMAGEN_2" alt="refesusankare" width="500">
+  <img src="imagenes/refesusankare.png" alt="refesusankare" width="500">
   <br>
   <em>Íconos creados por Susan Kare para el Macintosh.</em>
 </p>
