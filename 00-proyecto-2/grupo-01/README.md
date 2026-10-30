@@ -186,26 +186,28 @@ Cuando el anterior **o** el actual cambien de estado, el `modoSwitch` lo hará
 
 ### class Lucecita
 
-La clase lucecita nos va ayudar a identificar de forma visual los sonidos. 
-
-es la forma grafica y amigable para que el usuario pueda identificar el sonido, o indicaciones de prendido y apagado.
+La clase lucecita nos va ayudar a identificar de forma visual los sonidos, es la forma grafica y amigable para que el usuario pueda identificar el sonido, o indicaciones de prendido y apagado.
 
 Método constructor Lucecita():
 
-Recibir el número del pin.
-Configurar el pin como salida.
-Inicializar la luz apagada.
-Método prender():
+-Recibir el número del pin.
+-Configurar el pin como salida.
+-Inicializar la luz apagada.
 
-Cambiar el estado de la luz a encendida.
-Activar el pin para encender la luz.
-Método apagar():
+**Método prender():**
 
-Cambiar el estado de la luz a apagada.
-Desactivar el pin para apagar la luz.
+-Cambiar el estado de la luz a encendida.
+-Activar el pin para encender la luz.
 
-para no ocupar sleep_ms(500)
-agregar Metodo parpadeo(): 
+**Método apagar():**
+
+-Cambiar el estado de la luz a apagada.
+-Desactivar el pin para apagar la luz.
+
+**Metodo parpadeo():** 
+para no ocupar sleep_ms(500) agregar el Metodo parpadeo(): 
+
+
 
 ### class Audio
 
